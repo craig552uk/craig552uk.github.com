@@ -3,7 +3,7 @@ layout: post
 title: Site Move from Wordpress to GitHub
 ---
 
-I've nothing against [Wordpress][7], I've used it for years and over that time it's developed from a fairly simple blogging platform to the complrehensive CMS it is today. For me, however, there'it has too much going on, so I'm leaving.
+I've nothing against [Wordpress][7], I've used it for years and over that time it's developed from a fairly simple blogging platform to the comprehensive CMS it is today. For me, however, it has too much going on. So I'm leaving.
 
 I've been scoping around for a new blogging platform. One that appeals to myself as a coder, that is simple to work with, light weight and as cheap as possible to run. For a while I toyed with buiilding my own platform using [Sinatra][1] hosted on [Heroku][2]. While this would allow me to write my posts in [markdown][3], version my site in Git and most importantly cost nothing. It didn't seem right to have Sinatra sat there as little more than a markdown interpreter.
 
