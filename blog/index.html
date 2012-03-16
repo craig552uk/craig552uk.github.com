@@ -1,0 +1,11 @@
+---
+title: Craig Russell - Blog
+layout: default
+---
+
+{% for post in site.posts %}
+<div class="post-item">
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <a href="{{ post.url }}" class="post-link" rel="bookmark">{{ post.title }}</a>
+</div>
+{% endfor %}
