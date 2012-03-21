@@ -85,4 +85,4 @@ You also have to researt the Kindle fully (<em>[MENU] Settings [MENU] Restart</e
 
 Have fun!
 
-<strong>Edit:</strong> <a href="http://www.craig-russell.co.uk/downloads/Kindle4OriginalScreensavers.zip">Here's the original Kindle 4 Screen Savers</a>.
+<strong>Edit:</strong> <a href="http://dl.dropbox.com/u/40327200/web/downloads/Kindle4OriginalScreensavers.zip">Here's the original Kindle 4 Screen Savers</a>.
