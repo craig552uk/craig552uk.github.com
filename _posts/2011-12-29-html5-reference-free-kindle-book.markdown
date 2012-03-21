@@ -19,4 +19,4 @@ So I made one.
 
 It's not in the Amazon store, but you can download and copy it to you Kindle over USB.
 
-<a href="http://www.craig-russell.co.uk/downloads/HTML5_Reference.mobi">Download HTML5 Reference here</a>.
+<a href="http://dl.dropbox.com/u/40327200/web/downloads/HTML5_Reference.mobi">Download HTML5 Reference here</a>.
