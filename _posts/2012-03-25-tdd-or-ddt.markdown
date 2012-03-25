@@ -1,0 +1,21 @@
+---
+title: TDD or DDT?
+layout: post
+---
+Loads of people rave about Test Driven Development (TDD) but I'm not so sure. That's not to say that unit tests are a bad idea, unit tests are essential, but TDD isn't necessarily the best way to create them.
+
+TDD is a three step process to write code supported by unit tests. First you write a test, describing how you want your program to behave. Then you run the test and watch it fail. Finally, write code to pass the test. Rinse. Repeat.
+
+The trouble is you may not know how your program is going to be structured until you've played around with the code for a bit. And if you don't know that, how can you write a unit test for it?
+
+> Should that be one model or two?
+
+> Would those methods be more appropriate in this class or that one?
+
+An alternative to writing code to fit the tests, might be to write tests to fit the code. You'd start by coding up a feature, until it works as you want. Once you're happy with it, write a test to describe the feature. Run all your tests, to make sure the new test passes and that you've not broken anything else. Then check that your new test fails appropriately by crippling the new bit of code, say with a comment, then running the new test (not forgetting to uncripple it afterwards).
+
+This approach puts the focus on writing the code rather than the tests. It allows you the freedom to play around with code unitl you've found a solution your happy with. Only then do you write the test, effectively locking it in place.
+
+Given that this way of working is the reverse of TDD, you could call it development driven testing, [but I wouldn't][1].
+
+[1]: http://en.wikipedia.org/wiki/DDT
