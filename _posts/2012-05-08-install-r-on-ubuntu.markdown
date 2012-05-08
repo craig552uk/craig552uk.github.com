@@ -3,7 +3,9 @@ layout: post
 title: Installing R on Ubuntu
 ---
 
-The statistical analysis and data mining package [R][1] is a frustratingly difficult piece of software to find help for in Google (it reminds me of trying to find [this band][2] on Napster back in the day). Once I finally found it, the [installation instructions for Ubuntu][3] are less than direct. So, here's how I installed R on Ubuntu 12.04.
+The statistical analysis and data mining package [R][1] is a frustratingly difficult piece of software to find help for in Google (it reminds me of trying to find [this band][2] on Napster back in the day). 
+
+Once I finally found it, the [installation instructions for Ubuntu][3] are less than direct. So, here's how I installed R on Ubuntu 12.04.
 
 Firstly get the repository SSL key and import it in to apt.
 
@@ -14,11 +16,11 @@ Next edit your sources list...
 
     gksudo gedit /etc/apt/sources.list
 
-... and add the repository to the bottom ([other sources are available][4]). 
+...and add the repository to the bottom. [Other sources are available][4]. 
 
     deb http://cran.ma.imperial.ac.uk/bin/linux/ubuntu precise/
 
-Then install a R.
+Then install R.
 
     sudo apt-get update
     sudo apt-get install r-base
