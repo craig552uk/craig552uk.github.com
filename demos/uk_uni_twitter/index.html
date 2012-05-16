@@ -1,0 +1,123 @@
+---
+title: UK University Twitter Accounts
+layout: demo
+---
+<style type="text/css">
+  .demos {
+    margin-top: 50px;
+  }
+  #sort_by {
+    margin: 10px 0 10px 80px;
+  }
+</style>
+
+<div id="sort_by">
+  <strong>Sort By: </strong>
+  <a href="#" id="followers_count">Followers</a> | 
+  <a href="#" id="friends_count">Friends</a> | 
+  <a href="#" id="statuses_count">Statuses</a> | 
+  <a href="#" id="listed_count">Listed</a>
+</div>
+
+<div id="viz"></div>
+
+<script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
+
+<script type="text/javascript">
+  
+  // Data file URL
+  var data_url = "uk_uni_twitter.json";
+
+  // Global variables
+  var data, viz;
+
+  /*
+   * Dynamic sort function
+   * Credit: http://stackoverflow.com/a/4760279/352785
+   */
+  function by(prop){
+    return function(a,b){
+      return (a[prop] < b[prop]) ? 1 : (a[prop] > b[prop]) ? -1 : 0;
+    }
+  }
+
+  /*
+   * Draw everything
+   */
+  function draw(){
+
+    // A group for each account
+    viz.selectAll('image').data(data)
+      .enter().append('g')
+        .attr('transform', function(d,i){ return 'translate(10,' + i*50 + ')'; });
+
+    // Twitter Avatar
+    viz.selectAll('g')
+      .append('image')
+        .attr('width', 48)
+        .attr('height', 48)
+        .attr('xlink:href', function(d){ return d.profile_image_url; })
+      .append('title')
+        .text(function(d){ return d.name; });
+
+    // Some text info (boring but fine for now)
+    viz.selectAll('g')
+      .append('text')
+        .attr('x', 70)
+        .attr('y', 20)
+        .text(function(d){ 
+          str =  '@' + d.screen_name;
+          str += ' - ' + d.name;
+          str += ' - Followers Count: ' + d.followers_count;
+          str += ' - Friends Count: ' + d.friends_count;
+          str += ' - Statuses Count: ' + d.statuses_count;
+          str += ' - Listed Count: ' + d.listed_count;
+          return str;
+        })
+  }
+
+  /*
+   * Redraw after data re-sort
+   */
+  function redraw(){
+    viz.selectAll('g')
+      .transition()
+        .duration(1000)
+        .attr('transform', function(d,i){
+          return 'translate(10,' + i*50 + ')'; 
+        });
+  }
+
+  // Fetch JSON data and draw
+  d3.json(data_url, function(json) { 
+    data = json;
+    viz = d3.select('#viz')
+      .append('svg')
+        .attr('width', 1200)
+        .attr('height', 50 * data.length);
+    draw();
+  });
+
+  // Click events
+
+  d3.select('#followers_count').on('click', function(){
+    viz.selectAll('g').sort(by('followers_count'));
+    redraw();
+  })
+
+  d3.select('#friends_count').on('click', function(){
+    viz.selectAll('g').sort(by('friends_count'));
+    redraw();
+  })
+
+  d3.select('#statuses_count').on('click', function(){
+    viz.selectAll('g').sort(by('statuses_count'));
+    redraw();
+  })
+
+  d3.select('#listed_count').on('click', function(){
+    viz.selectAll('g').sort(by('listed_count'));
+    redraw();
+  })
+
+</script>

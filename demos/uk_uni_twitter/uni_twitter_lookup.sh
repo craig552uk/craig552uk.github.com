@@ -1,0 +1,7 @@
+#!/bin/bash
+
+SCREEN_NAME='Cambridge_Uni,uniofoxford,univofstandrews,uclnews,warwickuni,LancasterUni,durham_uni,lborouniversity,imperialcollege,uniofexeter,SOASFeed,UniOfBath,uniofleicester,uniofeastanglia,UniofNottingham,uniofsurrey,GlasgowUni,CityUniLondon,unikent,HeriotWattUni,unisouthampton,unistrathclyde,kingscollegelon,NewUniPress,unirdg_news,sheffielduni,astonuniversity,QMUL,universityleeds,RobertGordonUni,Uni_of_Essex,AdmissionsUoM,bournemouthuni,oxford_brookes,StirUni,ucfalmouth,AberUni,queensubelfast,EdinburghNapier,HuddersfieldUni,KeeleUniversity,QMUniversity,unilincoln,chiuni,uwebristol,TeessideUni,uniofglos,GoldsmithsUOL,covcampus,UniNorthants,BathSpaUni,trentuni,uniglam,ucfalmouth,cardiffmet,uniofbrighton,CaledonianNews,StaffsUni,edgehill,BangorUni,uochester,westlondonguru,bruneluni,YourStMarys,LeedsTrinity,portsmouthuni,BradfordUni,UniWestminster,CumbriaUni,MyBCU,angliaruskin,dmuleicester,SwanseaUni,Yorkstjohn,newman_uni,unigreenwich,lsbu,trinitystdavid,uniofbeds,glyndwruni,leedsmet,worcester_uni,AbertayUni,canterburyccuni,ucpmarjon,SalfordUni,LJMU,bucksnewuni,solentofficial,newportuni,uel_news,BoltonUni,UCS_NEWS,UniWestScotland,londonmetuni'
+
+URL='http://api.twitter.com/1/users/lookup.json?screen_name='$SCREEN_NAME
+
+curl $URL > 'uk_uni_twitter.json'
