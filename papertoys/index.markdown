@@ -1,6 +1,6 @@
 ---
 title: Craig Russell - Paper Toys
-layout: default
+layout: page
 ---
 
 ## Woadkill Wabbit ##
