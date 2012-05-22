@@ -6,26 +6,63 @@ layout: demo
   .demos {
     margin-top: 50px;
   }
-  #sort_by {
-    margin: 10px 0 10px 80px;
-  }
+
   #viz{
     width: 820px;
     margin: auto;
   }
+
+  svg {
+    margin-top: 10px;
+  }
+
+  #sort_by {
+    margin-left: 250px;
+    list-style-type: none;
+  }
+  #sort_by li {
+    float: left;
+    margin: 10px 4px 0 0;
+    font-size: 14px;
+  }
+  #sort_by li a {
+    float: left;
+    padding: 4px 12px;
+    text-decoration: none;
+    color: #fff;
+    background: #bbb;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    }
+  #sort_by li a:hover,
+  #sort_by li a:focus {
+    background: #999;
+    }
+  #sort_by li a:active {
+    background: #888;
+    }
+  #sort_by li a.active {
+    color: #fff;
+    background: #666;
+    }       
 </style>
 
 
 
 <div id="viz">
-  <div id="sort_by">
-    <strong>Sort By: </strong>
-    <a href="#" class="sorter" id="followers_count">Followers</a> | 
-    <a href="#" class="sorter" id="friends_count">Friends</a> | 
-    <a href="#" class="sorter" id="statuses_count">Statuses</a> | 
-    <a href="#" class="sorter" id="listed_count">Listed</a>
-  </div>
+  <ul id="sort_by">
+    <li><a href="#" class="sorter" id="followers_count">Followers</a></li>
+    <li><a href="#" class="sorter" id="friends_count">Friends</a></li>
+    <li><a href="#" class="sorter" id="statuses_count">Statuses</a></li>
+    <li><a href="#" class="sorter" id="listed_count">Listed</a></li>
+  </ul>
 </div>
+
+<p style="text-align: center; font-size: 0.8em;">
+  Data collected 22-05-2012 via twitter API - 
+  <a href="https://github.com/craig552uk/craig552uk.github.com/tree/master/demos/uk_uni_twitter">src</a>
+</p>
 
 <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
 
@@ -46,6 +83,15 @@ layout: demo
       };
 
   /*
+   * Sort Viz by property
+   */
+  function sort(prop){
+    toggle(prop);
+    viz.selectAll('g').sort(by(prop));
+    redraw(prop);
+  }
+
+  /*
    * Dynamic sort function
    * Credit: http://stackoverflow.com/a/4760279/352785
    */
@@ -56,11 +102,27 @@ layout: demo
   }
 
   /*
-   * Sort Viz by property
+   * Toggle selected class on sort_by links
    */
-  function sort(prop){
-    viz.selectAll('g').sort(by(prop));
-    redraw(prop);
+  function toggle(prop){
+    d3.selectAll('.sorter').classed('active', false);
+    d3.select('#'+prop).classed('active', true);
+  }
+
+  /*
+   * Generate scale functions for each sortable
+   * Store in sortables object
+   */
+  function setScales(){
+    for (var k in sortable){
+      var max = d3.max(data, function(i){ return i[k]; });
+      sortable[k].width = d3.scale.linear()
+                            .domain([0, max])
+                            .range(['0px', '500px'])
+      sortable[k].x     = d3.scale.linear()
+                            .domain([0, max])
+                            .range(['250px', '750px'])
+    }
   }
 
   /*
@@ -147,28 +209,11 @@ layout: demo
   });
 
   /*
-   * Generate scale functions for each sortable
-   * Store in sortables object
-   */
-  function setScales(){
-    for (var k in sortable){
-      var max = d3.max(data, function(i){ return i[k]; });
-      sortable[k].width = d3.scale.linear()
-                            .domain([0, max])
-                            .range(['0px', '500px'])
-      sortable[k].x     = d3.scale.linear()
-                            .domain([0, max])
-                            .range(['250px', '750px'])
-    }
-  }
-
-
-  /*
    * Click events
    */
-  d3.select('#followers_count').on('click', function(){ sort('followers_count'); })
-  d3.select('#friends_count').on('click',   function(){ sort('friends_count'); })
-  d3.select('#statuses_count').on('click',  function(){ sort('statuses_count'); })
-  d3.select('#listed_count').on('click',    function(){ sort('listed_count'); })
+  d3.select('#followers_count').on('click', function(x){ sort('followers_count'); });
+  d3.select('#friends_count')  .on('click', function(x){ sort('friends_count'); });
+  d3.select('#statuses_count') .on('click', function(x){ sort('statuses_count'); });
+  d3.select('#listed_count')   .on('click', function(x){ sort('listed_count'); });
 
 </script>
