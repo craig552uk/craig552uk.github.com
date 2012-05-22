@@ -9,17 +9,23 @@ layout: demo
   #sort_by {
     margin: 10px 0 10px 80px;
   }
+  #viz{
+    width: 820px;
+    margin: auto;
+  }
 </style>
 
-<div id="sort_by">
-  <strong>Sort By: </strong>
-  <a href="#" id="followers_count">Followers</a> | 
-  <a href="#" id="friends_count">Friends</a> | 
-  <a href="#" id="statuses_count">Statuses</a> | 
-  <a href="#" id="listed_count">Listed</a>
-</div>
 
-<div id="viz"></div>
+
+<div id="viz">
+  <div id="sort_by">
+    <strong>Sort By: </strong>
+    <a href="#" class="sorter" id="followers_count">Followers</a> | 
+    <a href="#" class="sorter" id="friends_count">Friends</a> | 
+    <a href="#" class="sorter" id="statuses_count">Statuses</a> | 
+    <a href="#" class="sorter" id="listed_count">Listed</a>
+  </div>
+</div>
 
 <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
 
@@ -30,6 +36,14 @@ layout: demo
 
   // Global variables
   var data, viz;
+
+  // Holds information about the sortable attributes
+  var sortable = { 
+        'followers_count':{ fill: 'royalblue' },
+        'friends_count'  :{ fill: 'deeppink' },
+        'statuses_count' :{ fill: 'limegreen' },
+        'listed_count'   :{ fill: 'gold' }
+      };
 
   /*
    * Dynamic sort function
@@ -42,6 +56,14 @@ layout: demo
   }
 
   /*
+   * Sort Viz by property
+   */
+  function sort(prop){
+    viz.selectAll('g').sort(by(prop));
+    redraw(prop);
+  }
+
+  /*
    * Draw everything
    */
   function draw(){
@@ -49,6 +71,7 @@ layout: demo
     // A group for each account
     viz.selectAll('image').data(data)
       .enter().append('g')
+        .style('opacity', 0) // start hidden
         .attr('transform', function(d,i){ return 'translate(10,' + i*50 + ')'; });
 
     // Twitter Avatar
@@ -60,64 +83,92 @@ layout: demo
       .append('title')
         .text(function(d){ return d.name; });
 
-    // Some text info (boring but fine for now)
+    // Account name
     viz.selectAll('g')
       .append('text')
         .attr('x', 70)
-        .attr('y', 20)
-        .text(function(d){ 
-          str =  '@' + d.screen_name;
-          str += ' - ' + d.name;
-          str += ' - Followers Count: ' + d.followers_count;
-          str += ' - Friends Count: ' + d.friends_count;
-          str += ' - Statuses Count: ' + d.statuses_count;
-          str += ' - Listed Count: ' + d.listed_count;
-          return str;
-        })
+        .attr('y', 30)
+        .text(function(d){ return '@' + d.screen_name; });
+
+    // Bar
+    viz.selectAll('g')
+      .append('rect')
+        .attr('x', 240)
+        .attr('y', 10)
+        .attr('height', 30)
+        .attr('fill', 'white');
+
+    // Bar Value label
+    viz.selectAll('g')
+      .append('text')
+        .attr('class', 'value')
+        .attr('y', 30);
   }
 
   /*
    * Redraw after data re-sort
    */
-  function redraw(){
+  function redraw(prop){
+    // Animation duration
+    var t = 1000;
+
+    // Move groups vertically
     viz.selectAll('g')
-      .transition()
-        .duration(1000)
-        .attr('transform', function(d,i){
-          return 'translate(10,' + i*50 + ')'; 
-        });
+      .transition().duration(t)
+        .style('opacity', 1) // fade in initially
+        .attr('transform', function(d,i){ return 'translate(10,' + i*50 + ')'; });
+
+    // Rescale bars
+    viz.selectAll('rect')
+      .transition().duration(t)
+        .attr('width', function(d){ return sortable[prop].width(d[prop]); })
+        .attr('fill',  sortable[prop].fill);
+
+    // Move bar value labels
+    viz.selectAll('.value')
+      .transition().duration(t)
+        .text(function(d){ return d[prop]; })
+        .attr('x', function(d){ return sortable[prop].x(d[prop]); })
   }
 
-  // Fetch JSON data and draw
+  /*
+   * Fetch JSON data and draw
+   */
   d3.json(data_url, function(json) { 
     data = json;
+    data.sort(by('followers_count'));
+    setScales();
     viz = d3.select('#viz')
       .append('svg')
-        .attr('width', 1200)
+        .attr('width', 820)
         .attr('height', 50 * data.length);
     draw();
+    sort('followers_count');
   });
 
-  // Click events
+  /*
+   * Generate scale functions for each sortable
+   * Store in sortables object
+   */
+  function setScales(){
+    for (var k in sortable){
+      var max = d3.max(data, function(i){ return i[k]; });
+      sortable[k].width = d3.scale.linear()
+                            .domain([0, max])
+                            .range(['0px', '500px'])
+      sortable[k].x     = d3.scale.linear()
+                            .domain([0, max])
+                            .range(['250px', '750px'])
+    }
+  }
 
-  d3.select('#followers_count').on('click', function(){
-    viz.selectAll('g').sort(by('followers_count'));
-    redraw();
-  })
 
-  d3.select('#friends_count').on('click', function(){
-    viz.selectAll('g').sort(by('friends_count'));
-    redraw();
-  })
-
-  d3.select('#statuses_count').on('click', function(){
-    viz.selectAll('g').sort(by('statuses_count'));
-    redraw();
-  })
-
-  d3.select('#listed_count').on('click', function(){
-    viz.selectAll('g').sort(by('listed_count'));
-    redraw();
-  })
+  /*
+   * Click events
+   */
+  d3.select('#followers_count').on('click', function(){ sort('followers_count'); })
+  d3.select('#friends_count').on('click',   function(){ sort('friends_count'); })
+  d3.select('#statuses_count').on('click',  function(){ sort('statuses_count'); })
+  d3.select('#listed_count').on('click',    function(){ sort('listed_count'); })
 
 </script>
