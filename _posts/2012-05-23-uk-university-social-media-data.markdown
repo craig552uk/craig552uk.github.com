@@ -20,7 +20,7 @@ And finally, after all that I did get to play around with D3. I ended up buildin
 
 
 [1]: /demos/uk_uni_twitter/
-[2]: https://docs.google.com/spreadsheet/ccc?key=0AvmGs2D9eZgxdFVfWmFQZ2dNcjhBa2h5aXF2aUtyYWc#gid=0
+[2]: https://docs.google.com/spreadsheet/ccc?key=0AvmGs2D9eZgxdFVfWmFQZ2dNcjhBa2h5aXF2aUtyYWc
 [3]: http://d3js.org/
 [4]: http://le.ac.uk/
 [5]: http://twitter.com/uniofleicester
