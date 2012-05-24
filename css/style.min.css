@@ -229,4 +229,4 @@ footer p {color: #999; font-size: 0.85em;}
 .demos {margin-top: 40px;}
 .demos header { margin: 0; padding: 0; background-color: #e5e5e5; position: fixed; width: 100%; top: 0; -webkit-box-shadow: 0px 0px 4px 0px #000; box-shadow: 0px 0px 4px 0px #000;}
 .demos h1 { display: inline; padding-left: 10px;}
-.demos .share { display: inline; float: right; margin-top: 5px;}
+.demos .share { display: inline; float: right; margin-top: 3px; width: 250px;}
