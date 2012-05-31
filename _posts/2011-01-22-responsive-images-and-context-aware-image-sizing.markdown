@@ -45,4 +45,4 @@ It goes without saying that the image data need not be stored in an array, a dat
 
 Also, while I've use a relative scaling measure (0-100) the same affect would be achieved when using absolute width measurements. There's pros and cons to each approach, I'll leave you to judge.
 
-An <a href="http://craig-russell.co.uk/examples/getimage/demo.html">demo page is set up here</a> and the source is up on <a href="https://github.com/craig552uk/getImage">GitHub</a>. This is far from polished, so any comments, criticisms or suggestions are more than welcome.
+A <del>demo page is set up here</del> and the source is up on <a href="https://github.com/craig552uk/getImage">GitHub</a>. This is far from polished, so any comments, criticisms or suggestions are more than welcome. <strong>EDIT:</strong> Since <a href="http://craig-russell.co.uk/2012/03/22/site-back.html#.T8cygbRYsak">swapping hosts</a>, the demo no longer works - sorry.
