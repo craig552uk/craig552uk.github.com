@@ -55,7 +55,7 @@ layout: demo
         arc_angle = document.getElementById('arc_angle');
     
     // Scale ratio between circles
-    var scale_ratio = 0.5 * ( ( length_b - length_a ) / length_a );
+    var scale_ratio = (0.5 * length_a) / ( 0.5 * (length_b - length_a) );
     console.log( 'Scale Ratio: ' + scale_ratio );
 
     // Small triangle sides
@@ -71,7 +71,7 @@ layout: demo
     radius_r2.innerHTML = round(r2);
 
     // Arc Ratio is arc length / circumference
-    var arc_ratio = (Math.PI * r1) / (Math.PI * length_a);
+    var arc_ratio = (Math.PI * length_a) / (Math.PI * r1 * 2);
     console.log('Arc Ratio: ' + arc_ratio);
 
     // Arc Angle in degrees
