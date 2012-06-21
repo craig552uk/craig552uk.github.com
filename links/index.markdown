@@ -23,9 +23,11 @@ layout: page
 
 [BuzzData](http://buzzdata.com/)
 
-[D3](http://d3js.org/)
+[D3 JS](http://d3js.org/) JavaScript visualisation library
 
-[R](http://www.r-project.org/)
+[Raphael JS](http://raphaeljs.com/) JavaScript visualisation library
+
+[R](http://www.r-project.org/) R statistical analysis language
 
 ## HTML ##
 
