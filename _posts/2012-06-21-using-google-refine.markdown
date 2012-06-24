@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Using Google Refine to Clean a Data Set
+description: Google Refine is a cracking tool for tidying up data sets. It's got oodles of features that make light work of massively messy data. Here I want to show, from start to finish, how to tidy a public data set and prepare it to be consumed by some other process.
 ---
 
 [Google Refine][2] is a cracking tool for tidying up data sets. It's got oodles of features that make light work of massively messy data. Here I want to show, from start to finish, how to tidy a public data set and prepare it to be consumed by some other process. We want to structure it with one record per row, with clear headings and consistent and useful data.
