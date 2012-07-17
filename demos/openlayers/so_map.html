@@ -1,0 +1,10 @@
+<!DOCTYPE HTML>
+<title>OpenLayers Coordinates Example</title>
+<div id="demoMap" style="height:600px; width: 800px; margin: auto;"></div>
+<script src="http://openlayers.org/dev/OpenLayers.js"></script>
+<script>
+    var center  = new OpenLayers.LonLat(-125089.1967713, 6915601.9146245);
+    var map     = new OpenLayers.Map("demoMap");
+    map.addLayer(new OpenLayers.Layer.OSM());
+    map.setCenter(center, 12);
+</script>
