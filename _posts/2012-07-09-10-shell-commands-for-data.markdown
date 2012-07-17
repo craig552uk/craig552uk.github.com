@@ -5,7 +5,7 @@ description:
 ---
 There is a glut of tools out there for cleaning up and exploring data sets. But 
 time and time again I find myself coming back to the good old command line. 
-Here's my top 5 shell commands for working with data files. If you have your own 
+Here are my top 5 shell commands for working with data files. If you have your own 
 favourites, please do drop a comment below.
 
 ##Cut##
@@ -60,7 +60,7 @@ count the number of occurrences of each entry with the `-c` switch.
 
 ##Sed##
 
-`sed` is the find-and-replace of the command line. At it's simplest you can use it 
+`sed` is the find-and-replace of the command line. At its simplest you can use it 
 to clean up field encodings, but with [regular expressions][1] you can do so much more...
 
 **e.g.** Replace every instance of `female` with `F`.
@@ -78,10 +78,10 @@ to clean up field encodings, but with [regular expressions][1] you can do so muc
 
 ##Split##
 
-`split` will break up a single file in to many. Handy if your data file is too big 
+`split` will break up a single file into many. Handy if your data file is too big 
 to process in one go.
 
-**e.g.** Split `datafile.csv` in to files with 1000 lines each, called 
+**e.g.** Split `datafile.csv` into files with 1000 lines each, called 
 `datafile.part.00`, `datafile.part.01` etc...
 
     split -d -l 1000 datafile.csv datafile.part.
@@ -96,7 +96,7 @@ Also, this is *by no means* a complete list of useful shell commands. These are
 the few that I find myself coming back to often. If you have your own favourites, 
 please do drop a comment.
 
-Finally, a work on Awk. I decided to omit it from this list, because, while I do 
+Finally, a word on Awk. I decided to omit it from this list, because, while I do 
 use it often, Awk blurs the boundary between command a programming language. It 
 is enormously powerful and well worth learning. But I felt it was a bit too 
 advanced for this list.
