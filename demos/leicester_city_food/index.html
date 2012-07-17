@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<title>OpenLayers Simplest Example</title>
+<style>
+  html, body {height: 100%; margin: 0; padding: 0;}
+</style>
+<div id="demoMap" style="height:100%; width: 100%;"></div>
+<script src="http://openlayers.org/dev/OpenLayers.js"></script>
+<script>
+    var coor_from = new OpenLayers.Projection("EPSG:4326");
+    var coor_to   = new OpenLayers.Projection("EPSG:900913");
+    var center    = new OpenLayers.LonLat(-1.142578125, 52.63973017532399);
+    var map       = new OpenLayers.Map("demoMap");
+    var size      = new OpenLayers.Size(22,22);
+    var offset    = new OpenLayers.Pixel(-(size.w/2), -size.h);
+    var icons     = [];
+    var layers    = [];
+
+    icons[0]      = new OpenLayers.Icon('img/icon5.png', size, offset);
+    icons[1]      = new OpenLayers.Icon('img/icon4.png', size, offset);
+    icons[2]      = new OpenLayers.Icon('img/icon3.png', size, offset);
+    icons[3]      = new OpenLayers.Icon('img/icon3.png', size, offset);
+    icons[4]      = new OpenLayers.Icon('img/icon2.png', size, offset);
+    icons[5]      = new OpenLayers.Icon('img/icon1.png', size, offset);
+
+    center.transform(coor_from, coor_to);
+
+    map.addLayer(new OpenLayers.Layer.OSM());
+    map.addControl(new OpenLayers.Control.LayerSwitcher({'ascending':false}));
+    map.setCenter(center, 13);
+
+    OpenLayers.Request.GET({
+      url: "LeicesterCityFSA.json",
+      callback: function(a){
+        var data = JSON.parse(a.responseText);
+        for (type in data){
+          var layer = new OpenLayers.Layer.Markers(type);
+          for(i=0; i<data[type].length; i++){
+            place = data[type][i];
+            if(place.lat == '' && place.lng == ''){
+              console.log('Cannot add "' + place.name + '" - No Geolocation data');
+            }else{
+              point = new OpenLayers.LonLat(place.lat, place.lng);
+              point.transform(coor_from, coor_to);
+              if (place.rating >= 0 && place.rating < 6){
+                marker = new OpenLayers.Marker(point, icons[place.rating].clone());
+                marker.data = place;
+                marker.setOpacity(0.9);
+                marker.events.register('mousedown', marker, function(e){
+                  var str =  this.data.name + '\n';
+                      str += this.data.type + '\n';
+                      str += 'Hygiene Rating: ' + this.data.rating + '/5 \n\n';
+                      str += this.data.address1 + '\n';
+                      str += this.data.address2 + '\n';
+                      str += this.data.postcode + '\n';
+                  alert(str);
+                  console.log(this.data);
+                });
+                console.log('Added "' + place.name + '"');
+                layer.addMarker(marker);
+              }else{
+                console.log('Cannot add "' + place.name + '" - No Rating data');
+              }
+            }
+          }
+          layers.push(layer);
+        }
+        map.addLayers(layers);
+      }
+    });
+
+</script>
