@@ -1,0 +1,57 @@
+body { 
+  margin: 0; 
+  padding: 0; 
+  font-family: sans-serif; 
+  background-image: url('skelatal_weave.png');
+}
+#wrapper { 
+  margin: auto; 
+  width: 1020px;
+}
+
+.header {
+  text-align: center; 
+  padding-bottom: 10px; 
+  color: #393939;
+}
+
+h1 {
+  font-size: 6em; 
+  margin: 0;
+}
+
+.day {
+  font-size: 2.5em; 
+}
+
+.links {
+  margin-top: 10px;
+}
+
+.big-number { 
+  font-size: 3em; 
+  font-weight: bold; 
+  display: inline-block; 
+  width: 180px; 
+  margin-bottom: 20px; 
+  color: #393939; 
+}
+
+.number-desc { 
+  display: inline-block; 
+  width: 320px;
+}
+
+.up { color: green; font-weight: bold;}
+.down {color: red; font-weight: bold;}
+
+hr {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #eee;
+}
+
+.chart {text-align: center}
+
+footer { color: #595959;}
