@@ -1,2 +1,2 @@
 markdown: rdiscount
-exclude: deploy.sh, disqus-urls
+exclude: deploy.sh, disqus-urls, craig552uk.github.com.sublime-project, craig552uk.github.com.sublime-workspace
