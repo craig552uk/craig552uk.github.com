@@ -26,7 +26,7 @@ lineChart = function(id, data_source){
         bMax = d3.max(this.data_source[id].pts_2012, function(d){ return d[1]; }),
         yMin = (aMin < bMin) ? aMin : bMin,
         yMax = (aMax > bMax) ? aMax : bMax,
-        nDays = 18; // Number of days for horizontal scale
+        nDays = 22; // Number of days for horizontal scale
 
     // Return scales for data
     return {
