@@ -1,0 +1,32 @@
+---
+layout: post
+title: UCAS Clearing Data 2008 to 2012
+---
+I've recently built an [interactive visualisation][3] comparing clearing 2012 to 2011.
+
+With that ticked off the [to do list][1], I've been able to do something else that I've wanted to do for some time; aggregate [all historic UCAS clearing data in to a single spreadsheet][4].
+
+Throughout the clearing period, UCAS publish daily (ish) updates of the clearing process with comparison figures from the previous year. They've made this information available since 2009, but never in a [structured data][2] format. In response to this, I've brought all available data in to a [single spreadsheet][4].
+
+I'm not sure why, but I noticed that some of the reported figures are different from one reporting cycle to the next, even though they describe the same year. For example, in 2012 the total number of applicants on 18/08/11 was 682,415. Yet, the previous year the total number of applicants *for the same date* was given as 681,593.
+
+I'm not sure why this is the case. If anyone knows, please drop a comment below. Regardless, to account for this anomaly, I have taken the most recent available figures for all dates. The exact sources for each year's figures are given in the [spreadsheet][4].
+
+Days are comparable by the day relative to A-level results day (from day 0), not by date.
+
+Notice that figures are not available for every day of the clearing period. Figures are not published on weekends or bank holidays.
+There is also a gap in 2009, when UCAS had a ["technical fault"][5].
+Be mindful of these gaps when working with this data.
+
+The Google spreadsheet is both publicly visible and published to the web.
+So it can be queried [pragmatically][6].
+
+Please let me know of any errors, problems or discrepancies.
+
+
+[1]: https://github.com/aziz/PlainTasks
+[2]: http://5stardata.info/
+[3]: /demos/clearing2012/
+[4]: https://docs.google.com/spreadsheet/ccc?key=0AvmGs2D9eZgxdHpQSHI3amlGUlZYMzVzTXFiZDkxc2c
+[5]: http://www.ucas.com/about_us/media_enquiries/media_releases/2009/app_stats09/appsta080909
+[6]: http://misoproject.com/dataset/tutorials/googlespreadsheets
