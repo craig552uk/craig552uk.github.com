@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Quote</title>
+    <title>Daily Quote</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -25,6 +25,7 @@
         left: 20%;
         right: 20%;
         margin-top: -25%;
+        display: none;
       }
       p {
         font-size: 2.8em;
@@ -55,6 +56,7 @@
         success : function(tweets){
           $('blockquote p').html(tweets[0].text);
           $('blockquote cite').html('&#8211; '+tweets[0].user.name);
+          $('blockquote').fadeIn(2000);
         }
       });
     </script>
