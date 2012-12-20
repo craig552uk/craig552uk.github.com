@@ -48,7 +48,7 @@ Structured data is also much easier to link with external data sources. Joining 
 
 ## - ##
 
-Separating content from presentation, putting search at the heart of the system and structuring your content data, vastly expands the scope of the possible. Giving you the power and flexibility to connect with your audience on their terms.
+Separating content storage from presentation, putting search at the heart of the system and structuring your content data, vastly expands the scope of the possible. Giving you the power and flexibility to connect with your audience on their terms.
 
 Systems built in this way are already in use at the BBC, The Guardian and other large publishers - which is mainly where I learned about them. The actual implementation of these systems requires a great deal of careful thought, consideration and attention to detail, which may not be obvious from this simplified list.
 
