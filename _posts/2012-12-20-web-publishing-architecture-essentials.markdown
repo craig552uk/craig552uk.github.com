@@ -46,7 +46,7 @@ As the information in the content store becomes more structured, the content bec
 
 Structured data is also much easier to link with external data sources. Joining your content with public knowledge multiplies the value even further, making it more accessible and more relevant.
 
-## Who's Doing this Now? ##
+## - ##
 
 Separating content from presentation, putting search at the heart of the system and structuring your content data, vastly expands the scope of the possible. Giving you the power and flexibility to connect with your audience on their terms.
 
