@@ -4,9 +4,15 @@ title: Craig Russell - Blog
 description: The personal blog of Craig Russell, web developer at The University of Leicester
 ---
 
-{% for post in site.posts %}
-<div class="post-item">
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-    <a href="{{ post.url }}" class="post-link" rel="bookmark">{{ post.title }}</a>
+<div class="container-skinny">
+  {% for post in site.posts %}
+    <div class="row-fluid">
+      <div class="span3">
+        <span>{{ post.date | date_to_string }}</span>
+      </div>
+      <div class="span9">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </div>
+    </div>
+  {% endfor %}
 </div>
-{% endfor %}

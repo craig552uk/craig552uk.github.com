@@ -3,33 +3,90 @@ title: Craig Russell - Paper Toys
 layout: page
 ---
 
-## Woadkill Wabbit ##
+<h1>Papertoys</h1>
 
-[![Woadkill Wabbit - Click to Download](http://dl.dropbox.com/u/40327200/web/papertoys/woadkill_wabbit.png)][1]
+<p>I created these papertoys some years ago. I haven't created any new toys in a while, but these still recieve a fair amount of interest so I leave them here.</p>
 
-## Paolo the Whale ##
+<p>Enjoy!</p>
 
-[![Paolo the Whale - Click to Download](http://dl.dropbox.com/u/40327200/web/papertoys/paolo_whale.png)][2]
+<div class="row-fluid">
+  <div class="span6">
+    <h3>Woadkill Wabbit</h3>
+    <p>
+      <a href="http://dl.dropbox.com/u/40327200/web/papertoys/woadkill_wabbit.zip">
+        <img src="http://dl.dropbox.com/u/40327200/web/papertoys/woadkill_wabbit.png"
+             alt="Woadkill Wabbit">
+        <br>
+        Click to Download
+      </a>
+    </p>
+  </div>
+  <div class="span6">
+    <h3>Paolo the Whale</h3>
+    <p>
+      <a href="http://dl.dropbox.com/u/40327200/web/papertoys/paolo_whale.zip">
+        <img src="http://dl.dropbox.com/u/40327200/web/papertoys/paolo_whale.png"
+             alt="Paolo the Whale">
+        <br>
+        Click to Download
+      </a>
+    </p>
+  </div>
+</div>
 
-## Paper Pope ##
+<div class="row-fluid">
+  <div class="span6">
+    <h3>Paper Pope</h3>
+    <p>
+      <a href="http://dl.dropbox.com/u/40327200/web/papertoys/paper_pope.zip">
+        <img src="http://dl.dropbox.com/u/40327200/web/papertoys/paper_pope.png"
+             alt="Paper Pope">
+        <br>
+        Click to Download
+      </a>
+    </p>
+  </div>
+  <div class="span6">
+    <h3>Endangered Panda</h3>
+    <p>
+      <a href="http://dl.dropbox.com/u/40327200/web/papertoys/endangered_panda.zip">
+        <img src="http://dl.dropbox.com/u/40327200/web/papertoys/endangered_panda.png"
+             alt="Endangered Panda">
+        <br>
+        Click to Download
+      </a>
+    </p>
+  </div>
+</div>
 
-[![Paper Pope - Click to Download](http://dl.dropbox.com/u/40327200/web/papertoys/paper_pope.png)][3]
 
-## Endangered Species - Panda ##
 
-[![Endangered Species - Panda - Click to Download](http://dl.dropbox.com/u/40327200/web/papertoys/endangered_panda.png)][4]
+<div class="row-fluid">
+  <div class="span6">
+    <h3>Endangered Tiger</h3>
+    <p>
+      <a href="http://dl.dropbox.com/u/40327200/web/papertoys/endangered_tiger.zip">
+        <img src="http://dl.dropbox.com/u/40327200/web/papertoys/endangered_tiger.png"
+             alt="Endangered Tiger">
+        <br>
+        Click to Download
+      </a>
+    </p>
+  </div>
+  <div class="span6">
+    <h3>Endangered Polar Bear</h3>
+    <p>
+      <a href="http://dl.dropbox.com/u/40327200/web/papertoys/endangered_polar.zip">
+        <img src="http://dl.dropbox.com/u/40327200/web/papertoys/endangered_polar.png"
+             alt="Endangered Polar Bear">
+        <br>
+        Click to Download
+      </a>
+    </p>
+  </div>
+</div
 
-## Endangered Species - Tiger ##
 
-[![Endangered Species - Tiger - Click to Download](http://dl.dropbox.com/u/40327200/web/papertoys/endangered_tiger.png)][5]
 
-## Endangered Species - Polar Bear ##
 
-[![Endangered Species - Polar Bear - Click to Download](http://dl.dropbox.com/u/40327200/web/papertoys/endangered_polar.png)][6]
 
-[1]: http://dl.dropbox.com/u/40327200/web/papertoys/woadkill_wabbit.zip
-[2]: http://dl.dropbox.com/u/40327200/web/papertoys/paolo_whale.zip
-[3]: http://dl.dropbox.com/u/40327200/web/papertoys/paper_pope.zip
-[4]: http://dl.dropbox.com/u/40327200/web/papertoys/endangered_panda.zip
-[5]: http://dl.dropbox.com/u/40327200/web/papertoys/endangered_tiger.zip
-[6]: http://dl.dropbox.com/u/40327200/web/papertoys/endangered_polar.zip

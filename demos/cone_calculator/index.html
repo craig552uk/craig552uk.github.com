@@ -1,6 +1,6 @@
 ---
 title: Flat Cone Template Calculator
-layout: demo
+layout: page
 ---
 <style type="text/css">
   .diagram       { float: right; }
@@ -9,7 +9,7 @@ layout: demo
   .output_fields { float: left; margin-top: 100px; }
 </style>
 
-<section id="wrapper" style="margin-top: 60px;">
+<section id="wrapper">
 
   <p>Calculates the measurements for the pattern to construct a flat top cone.</p>
 
@@ -53,14 +53,14 @@ layout: demo
     var radius_r1 = document.getElementById('radius_r1'),
         radius_r2 = document.getElementById('radius_r2'),
         arc_angle = document.getElementById('arc_angle');
-    
+
     // Scale ratio between circles
     var scale_ratio = (0.5 * length_a) / ( 0.5 * (length_b - length_a) );
     console.log( 'Scale Ratio: ' + scale_ratio );
 
     // Small triangle sides
     var a = length_c,
-        o = 0.5 * ( length_b - length_a ) 
+        o = 0.5 * ( length_b - length_a )
         h = Math.sqrt( a*a + o*o );
     console.log( 'Side O: ' + o + ' Side A: ' + a + ' Side H: ' + h );
 

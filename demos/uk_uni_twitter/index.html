@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: header
 title: UK University Twitter Accounts
 description: An interactive showing the followers, friends, favourites and statuses of UK University twitter accounts.
 ---
@@ -46,7 +46,7 @@ description: An interactive showing the followers, friends, favourites and statu
   #sort_by li a.active {
     color: #fff;
     background: #666;
-    }       
+    }
 </style>
 
 
@@ -61,14 +61,14 @@ description: An interactive showing the followers, friends, favourites and statu
 </div>
 
 <p style="text-align: center; font-size: 0.8em;">
-  Data last updated 14-06-2012 via twitter API - 
+  Data last updated 14-06-2012 via twitter API -
   <a href="https://github.com/craig552uk/craig552uk.github.com/tree/master/demos/uk_uni_twitter">src</a>
 </p>
 
 <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
 
 <script type="text/javascript">
-  
+
   // Data file URL
   var data_url = "uk_uni_twitter.json";
 
@@ -76,7 +76,7 @@ description: An interactive showing the followers, friends, favourites and statu
   var data, viz;
 
   // Holds information about the sortable attributes
-  var sortable = { 
+  var sortable = {
         'followers_count':{ fill: 'royalblue' },
         'friends_count'  :{ fill: 'deeppink' },
         'statuses_count' :{ fill: 'limegreen' },
@@ -197,7 +197,7 @@ description: An interactive showing the followers, friends, favourites and statu
   /*
    * Fetch JSON data and draw
    */
-  d3.json(data_url, function(json) { 
+  d3.json(data_url, function(json) {
     data = json;
     data.sort(by('followers_count'));
     setScales();

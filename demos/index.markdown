@@ -13,3 +13,5 @@ Demos
 [Leicester City Food Hygiene](/demos/leicester_city_food/)
 
 [Clearing 2012](/demos/clearing2012/)
+
+[Logistic Map](/demos/logistic_map/)
