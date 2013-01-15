@@ -40,11 +40,11 @@ The [initial search query][7] POSTs the `selWeeklyListRange`, `searchType` and `
 
 The [number of pages and results][8] are extracted from the results page.
 
-The results are also extracted, [formatted as CSV and saved to file][10].
+The results are extracted, [formatted as CSV and saved to file][10].
 
 If the results are paginated, [more requests are made][9] for the subsequent pages.
 
-Any [exceptions in the response processing are caught][11], usually this are because no results are returned.
+Any [exceptions in the response processing are caught][11], usually this is because no results are returned.
 
 The full source for the scraper is [available on GitHub][12].
 
