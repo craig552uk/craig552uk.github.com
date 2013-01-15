@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Scraping Planning Application
+title: Scraping Planning Applications
 description: Here I explain how I wrote a scraper for the Hammersmith & Fulham planning applications site
 ---
 
