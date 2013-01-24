@@ -6,7 +6,7 @@ description: A little function I wrote to plot the distribution of records on ST
 Here's a little function I wrote to plot the distribution of values passed in through a pipe.
 
     function dist(){
-      awk '{ t[$0]++ }END{ for(i in t){ b=""; for(j=0;j<t[i];j++){ b=b"#" } print i,"\t",b,t[i] } }'
+      sort |  uniq -c | awk '{ b=""; for(i=0;i<$1;i++){ b=b"#"}; v=$1; $1=""; print $0,"\t",b,v }'
     }
 
 Pipe in a list of values, it will tally up the results and present a nice little bar chart.
