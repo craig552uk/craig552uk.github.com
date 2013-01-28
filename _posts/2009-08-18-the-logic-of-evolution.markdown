@@ -1,14 +1,15 @@
---- 
+---
 layout: post
 title: The Logic of Evolution
-tags: 
+tags:
 - Atheism
 - Evolution
 - Science
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   _edit_last: "2"
   dsq_thread_id: "262028480"
 ---

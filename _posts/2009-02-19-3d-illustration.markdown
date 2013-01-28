@@ -1,12 +1,13 @@
---- 
+---
 layout: post
 title: 3D Illustration
-tags: 
+tags:
 - Sculpture
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   _edit_last: "2"
   dsq_thread_id: "299623350"
 ---

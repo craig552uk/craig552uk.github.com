@@ -1,13 +1,14 @@
---- 
+---
 layout: post
 title: MyLineup Festival Band Tracker for Android
-tags: 
+tags:
 - Android
 - Software
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   _edit_last: "2"
   dsq_thread_id: "251905147"
 ---

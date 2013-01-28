@@ -1,12 +1,13 @@
---- 
+---
 layout: post
 title: "New Paper Toy: Paper Pope"
-tags: 
+tags:
 - Papercraft
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   _edit_last: "2"
   _wp_old_slug: ""
   dsq_thread_id: "218971988"

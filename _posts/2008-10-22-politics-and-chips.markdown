@@ -1,12 +1,13 @@
---- 
+---
 layout: post
 title: Politics and Chips
-tags: 
+tags:
 - WebApps
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   _edit_last: "2"
   dsq_thread_id: "368872306"
 ---

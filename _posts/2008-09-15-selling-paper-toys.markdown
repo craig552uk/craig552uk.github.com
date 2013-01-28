@@ -1,12 +1,13 @@
---- 
+---
 layout: post
 title: Selling Paper Toys?
-tags: 
+tags:
 - Papercraft
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   _edit_last: "2"
   dsq_thread_id: "221756385"
 ---

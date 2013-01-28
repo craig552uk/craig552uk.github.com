@@ -1,12 +1,13 @@
---- 
+---
 layout: post
 title: Pop-up Castle in the Clouds
-tags: 
+tags:
 - Papercraft
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   _edit_last: "2"
   dsq_thread_id: "217841303"
 ---

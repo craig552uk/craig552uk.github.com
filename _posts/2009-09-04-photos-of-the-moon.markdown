@@ -1,13 +1,14 @@
---- 
+---
 layout: post
 title: Photos of the Moon
-tags: 
+tags:
 - Astronomy
 - Photos
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   _edit_last: "2"
   aktt_notify_twitter: "yes"
   dsq_thread_id: "257800988"

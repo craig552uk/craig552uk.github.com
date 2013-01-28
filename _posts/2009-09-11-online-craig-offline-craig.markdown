@@ -1,13 +1,14 @@
---- 
+---
 layout: post
 title: Online Craig != Offline Craig
-tags: 
+tags:
 - Internet
 - Questions
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   _edit_last: "2"
   dsq_thread_id: "217841376"
 ---

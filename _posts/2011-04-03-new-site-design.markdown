@@ -1,13 +1,14 @@
---- 
+---
 layout: post
 title: New Site Design
-tags: 
+tags:
 - Programming
 - Software
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   dsq_thread_id: "269979292"
   _edit_last: "2"
 ---

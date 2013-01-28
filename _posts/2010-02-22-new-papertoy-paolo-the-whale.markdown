@@ -1,12 +1,13 @@
---- 
+---
 layout: post
 title: New Papertoy - Paolo the Whale
-tags: 
+tags:
 - Papercraft
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   _edit_last: "2"
   aktt_notify_twitter: "yes"
   aktt_tweeted: "1"

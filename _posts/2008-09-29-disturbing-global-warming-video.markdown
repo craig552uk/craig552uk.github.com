@@ -1,12 +1,13 @@
---- 
+---
 layout: post
 title: Disturbing Global Warming Video
-tags: 
+tags:
 - Environment
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   _edit_last: "2"
   dsq_thread_id: "403550854"
 ---

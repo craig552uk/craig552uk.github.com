@@ -1,12 +1,13 @@
---- 
+---
 layout: post
 title: Here's One We All Made Earlier
-tags: 
+tags:
 - Comment
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   _edit_last: "2"
   dsq_thread_id: "290327527"
 ---

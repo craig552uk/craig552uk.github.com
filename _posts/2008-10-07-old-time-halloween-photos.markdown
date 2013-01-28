@@ -1,13 +1,14 @@
---- 
+---
 layout: post
 title: Old Time Halloween Photos
-tags: 
+tags:
 - Comment
 - Photos
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   _edit_last: "2"
   dsq_thread_id: "288358403"
 ---

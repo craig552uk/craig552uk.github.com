@@ -1,12 +1,13 @@
---- 
+---
 layout: post
 title: In from the printers...
-tags: 
+tags:
 - Papercraft
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   _edit_last: "2"
   aktt_notify_twitter: "yes"
   dsq_thread_id: "286370913"

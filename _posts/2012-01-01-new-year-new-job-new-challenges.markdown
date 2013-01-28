@@ -1,12 +1,13 @@
---- 
+---
 layout: post
 title: New Year, New Job, New Challenges
-tags: 
+tags:
 - Comment
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   _edit_last: "2"
   dsq_thread_id: "522870074"
 ---

@@ -1,13 +1,14 @@
---- 
+---
 layout: post
 title: "Jeff Rudell: His Career as a Papercrafter"
-tags: 
+tags:
 - Comment
 - Papercraft
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   _edit_last: "2"
   dsq_thread_id: "217841277"
 ---

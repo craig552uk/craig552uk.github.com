@@ -1,13 +1,14 @@
---- 
+---
 layout: post
 title: Atheist Bus Campaign - Stickers!
-tags: 
+tags:
 - Atheism
 - Comment
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   _edit_last: "2"
   dsq_thread_id: "220425237"
 ---

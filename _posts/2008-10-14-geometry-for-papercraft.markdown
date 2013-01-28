@@ -1,13 +1,14 @@
---- 
+---
 layout: post
 title: Geometry For Papercraft
-tags: 
+tags:
 - Papercraft
 - Papercraft Maths
 status: draft
 type: post
 published: false
-meta: 
+archived: true
+meta:
   _edit_last: "2"
 ---
 When I'm building my models and I need to work out how to get one piece to exactly fit against another, I used to guess and make do with an aproximation, which sometimes works fine, but other times, really doesn't. So I went back to my old collage text books, and started poking around to see if I could actually calculate the sizes I needed. Now I've got a few methods which I rely on quite often, and I thought I'd share them with you. I'll go through a few common maths concepts for starters, stuff you'll use quite often, and then I'll run through a few examples. <!--more-->

@@ -1,12 +1,13 @@
---- 
+---
 layout: post
 title: MP's Expenses Still Subject to FOI
-tags: 
+tags:
 - Government
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   _edit_last: "2"
 ---
 A few days back I heard about the governments plans to exempt MP's expenses from freedom of informatioin requests. They announced it last Thursday, sneakily hidden under the Heathrow third runway announcement.

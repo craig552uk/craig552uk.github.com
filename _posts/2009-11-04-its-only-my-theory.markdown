@@ -1,14 +1,15 @@
---- 
+---
 layout: post
 title: It's Only My Theory
-tags: 
+tags:
 - Psychology
 - Questions
 - Science
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   _edit_last: "2"
   dsq_thread_id: "228249404"
 ---

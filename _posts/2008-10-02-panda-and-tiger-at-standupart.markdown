@@ -1,12 +1,13 @@
---- 
+---
 layout: post
 title: Panda and Tiger at StandUpArt!
-tags: 
+tags:
 - Papercraft
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   _edit_last: "2"
   dsq_thread_id: "226990788"
 ---

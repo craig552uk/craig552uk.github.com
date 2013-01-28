@@ -1,13 +1,14 @@
---- 
+---
 layout: post
 title: Paper On The Brain
-tags: 
+tags:
 - Papercraft
 - Psychology
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   _edit_last: "2"
   dsq_thread_id: "217860683"
 ---

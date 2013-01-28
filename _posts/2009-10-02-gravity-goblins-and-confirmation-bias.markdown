@@ -1,7 +1,7 @@
---- 
+---
 layout: post
 title: Gravity Goblins and Confirmation Bias
-tags: 
+tags:
 - Atheism
 - Comment
 - Psychology
@@ -9,7 +9,8 @@ tags:
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   _edit_last: "2"
   dsq_thread_id: "245970345"
 ---

@@ -1,20 +1,21 @@
---- 
+---
 layout: post
 title: Review - British Gas Android App
-tags: 
+tags:
 - Android
 - Comment
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   _edit_last: "2"
   dsq_thread_id: "376071135"
 ---
 It's not often I write reviews, but the new <a href="https://market.android.com/details?id=com.centrica.android.britishgas&feature=search_result">British Gas app for Android</a> has prompted me to do so. The app offers a curious mix of genuinely clever ideas and some glaring oversights. It's a beta release, so I'm writing this mainly to help the development team on their way. I'll keep this brief, because I hate long reviews.
 
 <h2>The Good</h2>
-The simple fact that this app now exists is the best thing about it. Submitting meter readings is a pain in the arse, made less painful and less arsey with this app. It's also (largely) easy to use, if you're already registered for on-line billing, just log in with your account details and that's it. Your account history, meter reading submission and all the other bells and whistles are there for you. Being able to compare your energy usage against the average for your area is a great idea and the information is displayed very nicely. Making people competitive about their energy use can only be a good thing. 
+The simple fact that this app now exists is the best thing about it. Submitting meter readings is a pain in the arse, made less painful and less arsey with this app. It's also (largely) easy to use, if you're already registered for on-line billing, just log in with your account details and that's it. Your account history, meter reading submission and all the other bells and whistles are there for you. Being able to compare your energy usage against the average for your area is a great idea and the information is displayed very nicely. Making people competitive about their energy use can only be a good thing.
 
 Access to support is great, you can fire off an email (expect a reply in 24 hour apparently) and important contact numbers are all easily accessible. Also, using the camera flash as a torch on the meter readings page is a wonderfully clever idea.
 

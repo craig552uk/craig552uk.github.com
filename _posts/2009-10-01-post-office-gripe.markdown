@@ -1,12 +1,13 @@
---- 
+---
 layout: post
 title: Post Office Gripe
-tags: 
+tags:
 - Comment
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   _edit_last: "2"
   aktt_notify_twitter: "yes"
   dsq_thread_id: "217841385"

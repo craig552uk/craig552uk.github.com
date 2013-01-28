@@ -1,14 +1,15 @@
---- 
+---
 layout: post
 title: "Change is Coming\xE2\x80\xA6 Syntax Highlighted Change"
-tags: 
+tags:
 - Comment
 - Programming
 - WebApps
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   _wp_old_slug: ""
   aktt_tweeted: "1"
   aktt_notify_twitter: "yes"

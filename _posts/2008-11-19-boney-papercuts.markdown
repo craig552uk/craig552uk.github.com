@@ -1,12 +1,13 @@
---- 
+---
 layout: post
 title: Boney Papercuts
-tags: 
+tags:
 - Papercraft
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   _edit_last: "2"
   dsq_thread_id: "243890473"
 ---

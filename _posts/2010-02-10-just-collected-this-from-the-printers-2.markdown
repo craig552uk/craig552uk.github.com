@@ -1,12 +1,13 @@
---- 
+---
 layout: post
 title: Just Collected this from the Printers!
-tags: 
+tags:
 - Papercraft
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   _edit_last: "2"
   dsq_thread_id: "273088050"
   aktt_notify_twitter: "yes"

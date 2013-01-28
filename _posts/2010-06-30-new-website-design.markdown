@@ -1,14 +1,15 @@
---- 
+---
 layout: post
 title: New Website Design
-tags: 
+tags:
 - Comment
 - Programming
 - WebApps
 status: publish
 type: post
 published: true
-meta: 
+archived: true
+meta:
   aktt_notify_twitter: "yes"
   _edit_last: "2"
   aktt_tweeted: "1"

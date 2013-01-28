@@ -1,12 +1,13 @@
---- 
+---
 layout: post
 title: DIY Smartphone Telescope Microscope Adapter
-tags: 
+tags:
 - Tutorials
 status: draft
 type: post
 published: false
-meta: 
+archived: true
+meta:
   _edit_last: "2"
 ---
 I read on Mashable recently about the <a href="http://mashable.com/2012/01/05/skylight/" target="_blank">SkyLight</a>, a Smartphone adapter for a Microscope. I don't own a microscope, but I do have a telescope and I couldn't resist making one myself. Here's how I did it.
