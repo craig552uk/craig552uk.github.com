@@ -3,7 +3,7 @@ layout: post
 title: Using Persistent Cookies in Sinatra
 description: How to use persistent cookies in sinatra
 ---
-I'm making a not of this here, because using persistent cookies in [Sinatra][1] doesn't seem to be very well documented anywhere else.
+I'm making a note of this here, because using persistent cookies in [Sinatra][1] doesn't seem to be very well documented anywhere else.
 
 Session cookies can be used in Sinara by setting them against the response object, and getting them from the request.
 
