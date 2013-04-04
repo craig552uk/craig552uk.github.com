@@ -81,3 +81,11 @@ footer {
     margin-left: -20px;
   }
 }
+
+.dl-horizontal dt{
+  width: 120px;
+  font-weight: normal;
+}
+.dl-horizontal dd {
+  margin-left: 130px;
+}
