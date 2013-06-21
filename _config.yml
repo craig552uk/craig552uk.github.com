@@ -1,5 +1,5 @@
 markdown: rdiscount
-paginate: 15
+paginate: 10
 paginate_path: "/blog/page:num"
 exclude: 
   - deploy.sh

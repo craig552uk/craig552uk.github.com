@@ -6,16 +6,15 @@ description: The personal blog of Craig Russell, web developer at The University
 
 <div class="container-skinny">
 
-  {% for post in paginator.posts %}
-    <div class="row-fluid">
-      <div class="span3">
-        <span>{{ post.date | date_to_string }}</span>
+  <div class="post-list">
+    {% for post in paginator.posts %}
+      <div class="post">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <span class="date">{{ post.date | date_to_string }}</span>
+        <div>{{ post.excerpt }}</div>
       </div>
-      <div class="span9">
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </div>
-    </div>
-  {% endfor %}
+    {% endfor %}
+  </div>
 
   <!-- Pagination links -->
   <div class="pagination pagination-centered">

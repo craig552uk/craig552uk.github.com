@@ -49,9 +49,21 @@ footer {
   max-width: 500px;
 }
 
-.post-date {
-  display: inline-block;
-  width: 100px;
+.post {
+  margin: 10px 0 20px 0;
+}
+
+.post h2 {
+  font-size: 22px;
+  line-height: 24px;
+  margin: 0 0 5px 0;
+}
+
+.post .date {
+  display: block;
+  color: #a9a9a9;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 .masthead{
