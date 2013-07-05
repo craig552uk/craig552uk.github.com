@@ -4,7 +4,7 @@ title: We Need a Longer View of the Content Lifecycle
 description: We should plan for web content to last for centuries not years...
 ---
 
-Recently I've been trying to understand different content management strategies and the implications these have for the underlying technology. Most of what I've read fails to consider the long-term utility of content, considering only the newest to be useful. We need to develop a longer view of the life of web content. We should plan for content live, not for years, but centuries.
+Recently I've been trying to understand different content management strategies and the implications these have for the underlying technology. Most of what I've read fails to consider the long-term utility of content, considering only the newest to be useful. We need to develop a longer view of the life of web content. We should plan for content to live, not for years, but centuries.
 
 There are [no shortage of opinions][1] about how you *should* be managing your web content. Most models of the content life-cycle focus on the generation and optimisation of web content. Typically this process focusses on the newest content, while older content is forgotten and allowed to sink in to obscurity. Unvalued and unloved, the effort put in to managing content is squandered in the first few weeks of it's life.
 
