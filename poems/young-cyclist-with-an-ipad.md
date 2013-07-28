@@ -22,6 +22,6 @@ She waits a minute or two for the first few replies.
 
 Briefly deflated, she cradles her cherished by her side.
 
-With her sermon transmitted, she remounts her seat,
+Now, with her sermon transmitted, she remounts her seat,
 
 and rides on, awaiting praise, glory and re-tweets.
