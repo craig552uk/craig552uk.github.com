@@ -66,6 +66,15 @@ footer {
   line-height: 18px;
 }
 
+.poem {
+  font-size: 22px;
+  line-height: 36px;
+}
+
+.poem h1 {
+  margin-bottom: 22px;
+}
+
 .masthead{
   background-color: #ebebeb;
   background-color: rgba(0,0,0,0.05);
