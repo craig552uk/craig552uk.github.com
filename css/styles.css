@@ -95,6 +95,11 @@ footer {
   padding: 24px 0;
 }
 
+.gist {
+  font-size: 12px;
+  line-height: 18px;
+}
+
 @media (max-width: 767px) {
 
   .navbar, footer{
