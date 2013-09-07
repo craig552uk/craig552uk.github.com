@@ -16,7 +16,7 @@ extending her finger to meet it.
 While she grinned at the wind  
 in her face and in her hair and in her ears.
 
-Glowing admirers obit around her.  
+Glowing admirers orbit around her.  
 Shining encouraging eyes.  
 Warming tender words.
 
