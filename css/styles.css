@@ -75,6 +75,12 @@ footer {
   margin-bottom: 22px;
 }
 
+.poem .licence {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 48px;
+}
+
 .masthead{
   background-color: #ebebeb;
   background-color: rgba(0,0,0,0.05);
