@@ -5,6 +5,7 @@ title: Poems
 
 # Poems
 
-Ok, poem, not *poems* (for now (perhaps)).
+Some terrible poems I've written.
 
-- [A Young Cyclist with an iPad](young-cyclist-with-an-ipad.html)
+- [10 Months Old](10-months-old.html) - About my niece
+- [A Young Cyclist with an iPad](young-cyclist-with-an-ipad.html) - About a hipster I saw in Kendal
