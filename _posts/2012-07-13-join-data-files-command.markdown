@@ -59,7 +59,7 @@ But there's more.
 
 Notice that the rabbits are missing from the output? This is because there is no species information for `RABBIT` in `species.dat`. By default `join` excludes any non-matching rows. To include non-matching rows from the first file use the `-a` switch.
 
-    >join -1 3 -a 1 household.s.dat species.dat 
+    >join -1 3 -a 1 household.dat.sorted species.dat 
     CAT 03 Puddle 4-legs fur small
     CAT 06 Ollie 4-legs fur small
     DOG 01 Woody 4-legs fur big
@@ -75,7 +75,7 @@ Also notice that `join` has formatted each row with the joining field at the sta
 
 For this we can use the `-o` switch to format the output.
 
-    >join -1 3 -a 1 -o '1.1 1.2 1.3 2.2 2.3 2.4' household.s.dat species.dat 
+    >join -1 3 -a 1 -o '1.1 1.2 1.3 2.2 2.3 2.4' household.dat.sorted species.dat 
     03 Puddle CAT 4-legs fur small
     06 Ollie CAT 4-legs fur small
     01 Woody DOG 4-legs fur big
@@ -89,7 +89,7 @@ The parameter for the `-o` switch is a little strange. It specifies the order th
 
 Finally we want to sort the output by the unique id, so we pipe the output through `sort`.
 
-    >join -1 3 -a 1 -o '1.1 1.2 1.3 2.2 2.3 2.4' household.s.dat species.dat | sort
+    >join -1 3 -a 1 -o '1.1 1.2 1.3 2.2 2.3 2.4' household.dat.sorted species.dat | sort
     01 Woody DOG 4-legs fur big
     02 Vicky HUMAN 2-legs hair big
     03 Masie DOG 4-legs fur big
