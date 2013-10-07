@@ -31,7 +31,7 @@ Save them in a folder and open a command line there.
 
 You can see that `household.dat` contains a list of all the people and animals in my house (yes, we really do have that many pets). Each has an id number, a name and a species. In `species.dat` there is supplementary information about each of the species types. We are going to join these data files together in to a single file.
 
-To work properly, `join` requires both files to be sorted alphabetically by the joining field. You can see that `species.dat` is ok, but `household.dat` needs some work. So before we can join, we need to sort. This command sorts `household.dat` by the 3rd field and saves the result in `household.s.dat`. 
+To work properly, `join` requires both files to be sorted alphabetically by the joining field. You can see that `species.dat` is ok, but `household.dat` needs some work. So before we can join, we need to sort. This command sorts `household.dat` by the 3rd field and saves the result in `household.dat.sorted`. 
 
     > sort -k 3 household.dat > household.dat.sorted
 
@@ -41,9 +41,9 @@ By default sort assumes that fields are space separated, if they're not you can 
 
 Now we have our data files both sorted by the joining field we can join them together.
 
-By default `join` assumes that the joining identifier is in the first column of both files, as this is not the case for `household.s.dat` we need to specify the **3rd** field of the **1st** file as the joining field.
+By default `join` assumes that the joining identifier is in the first column of both files, as this is not the case for `household.dat.sorted` we need to specify the **3rd** field of the **1st** file as the joining field.
 
-    > join -1 3 household.s.dat species.dat
+    > join -1 3 household.dat.sorted species.dat
     CAT 03 Puddle 4-legs fur small
     CAT 06 Ollie 4-legs fur small
     DOG 01 Woody 4-legs fur big
