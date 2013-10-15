@@ -68,4 +68,4 @@ So this only returns explicitly defined elements (including `a[2]`) and ignores 
 ---
 
 At first glance it may seem weird that these iterators can behave so differently (especially to developers coming to JS from other languages).
-But when we understand the nature of non-sequential indices in Arrays, how variables can be created with `undefined` values and type-casting of `undefined` values to `Boolean`, the necessity of these different techniques becomes clear.
+But when we understand the nature of non-sequential indices in Arrays, how variables can be created with `undefined` values and type-casting of `undefined` values to `Boolean`, the necessity of these different techniques becomes clear. And we realise that there is no "correct" way to iterate JavaScript Arrays.
