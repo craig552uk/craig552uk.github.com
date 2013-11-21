@@ -1,8 +1,11 @@
 ---
 layout: post
 title: API Keys with Git Stash
-description:
+description: Working with API keys in git repositories can be a pain, especially if you need multiple versions of keys. Using the git stash command we can simplify this problem.
 ---
+Working with API keys in git repositories can be a pain. You need the keys to test your project, but you don't want to publish them to the world.
+This gets even more confusing when you have multiple versions of the keys that you are working with.
+The `stash` command in git is a great tool for solving this problem.
 
 The first step is to keep your API keys in a seperate file from the rest of your code. How you do this will be different depending what language, framework, envirenment &c. you use. For this demonstration I'll use python.
 
