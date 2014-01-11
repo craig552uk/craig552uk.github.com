@@ -13,7 +13,7 @@ you can see exactly what's missing with `git fsck`.
     Checking objects: 100% (137/137), done.
     missing blob 2d31815dd6357b5c7573a4eebc6792b168b4d6a4
 
-We need to find which file theblob refers to.
+We need to find which file the blob refers to.
 
     > git ls-tree -r HEAD | g 2d31815dd6357b5c7573a4eebc6792b168b4d6a4
     100644 blob 2d31815dd6357b5c7573a4eebc6792b168b4d6a4  lib/oauth2client/crypt.py
