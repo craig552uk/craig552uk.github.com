@@ -10,16 +10,18 @@ However, it is possible to get the fully featured OWA on Chrome, with a few exte
 First off install the [User-Agent Switcher for Chrome][2]. This tool will let you make Chrome lie to OWA, making it think your using Chrome on Windows, which is supported.
 
 After installing, go to the Options for the extension.
-* Click **Custom User Agents** from the left-hand menu
-* Create a new User Agent config like this:
-  * New User-agent name: **on Windows**
-  * New User-Agent String: [any Chrome UA string for "Windows"][3]
-  * Group: **Chrome**
-  * Append? **Append**
-  * Indicator Flag: **Win**
-* Click **Add**
+
+- Click **Custom User Agents** from the left-hand menu
+- Create a new User Agent config like this:
+  - New User-agent name: **on Windows**
+  - New User-Agent String: [any Chrome UA string for "Windows"][3]
+  - Group: **Chrome**
+  - Append? **Append**
+  - Indicator Flag: **Win**
+- Click **Add**
 
 You should see your new option listed under **Chrome**. Next we'll make Chrome always use this User Agent string when we use OWA.
+
 * Click **Permanent Spoof list** from the left-hand menu
 * Create a new rule like this:
   * Domain: Your OWA domain e.g. `email.example.com`
