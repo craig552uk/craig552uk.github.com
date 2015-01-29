@@ -26,28 +26,28 @@ class getArgs {
         // Set defaults
         Integer i = 0;
         Double  d = 0.0;
-        String  s = "";
+        String  s = &quot;&quot;;
 
         // Get input arguments from command line
-        for(int j=0; j<args.length; j++){
+        for(int j=0; j&lt;args.length; j++){
             try{
-                if ( args[j].equals("-i") ) i  = Integer.parseInt(args[j+1]);
-                if ( args[j].equals("-d") ) d  = Double.parseDouble(args[j+1]);
-                if ( args[j].equals("-s") ) s  = args[j+1];
+                if ( args[j].equals(&quot;-i&quot;) ) i  = Integer.parseInt(args[j+1]);
+                if ( args[j].equals(&quot;-d&quot;) ) d  = Double.parseDouble(args[j+1]);
+                if ( args[j].equals(&quot;-s&quot;) ) s  = args[j+1];
             }catch(Exception e){
-                System.out.println("Usage: getArgs <options>");
-                System.out.println("Options:");
-                System.out.println(" -i  An Integer Value");
-                System.out.println(" -d  A Double Value");
-                System.out.println(" -s  A String Value");
+                System.out.println(&quot;Usage: getArgs &lt;options&gt;&quot;);
+                System.out.println(&quot;Options:&quot;);
+                System.out.println(&quot; -i  An Integer Value&quot;);
+                System.out.println(&quot; -d  A Double Value&quot;);
+                System.out.println(&quot; -s  A String Value&quot;);
                 System.exit(1); // Exit with error code 1
             }
         }
 
         // Print arguments
-        System.out.println("Integer " + i.toString());
-        System.out.println("Double  " + d.toString());
-        System.out.println("String  " + s);
+        System.out.println(&quot;Integer &quot; + i.toString());
+        System.out.println(&quot;Double  &quot; + d.toString());
+        System.out.println(&quot;String  &quot; + s);
 
     }
 
