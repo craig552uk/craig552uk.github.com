@@ -6,12 +6,10 @@ layout: page
 Demos
 =====
 
-[UK University Twitter Accounts](/demos/uk_uni_twitter/)
+[Clearing 2012](/demos/clearing2012/)
 
 [Flat Cone Template Calculator](/demos/cone_calculator/)
 
-[Leicester City Food Hygiene](/demos/leicester_city_food/)
-
-[Clearing 2012](/demos/clearing2012/)
+[UK University Twitter Accounts](/demos/uk_uni_twitter/)
 
 [Logistic Map](/demos/logistic_map/)
