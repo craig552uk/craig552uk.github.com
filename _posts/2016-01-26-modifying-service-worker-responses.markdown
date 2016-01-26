@@ -1,5 +1,5 @@
 ---
-type: post
+layout: post
 title: Modifying responses in Service Worker requests
 description: How to modify a response payload using JavaScript Service Workers
 ---
