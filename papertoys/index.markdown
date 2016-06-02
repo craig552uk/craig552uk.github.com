@@ -59,8 +59,6 @@ layout: page
   </div>
 </div>
 
-
-
 <div class="row-fluid">
   <div class="span6">
     <h3>Endangered Tiger</h3>
