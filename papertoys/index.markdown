@@ -82,7 +82,7 @@ layout: page
       </a>
     </p>
   </div>
-</div
+</div>
 
 
 
