@@ -1,8 +1,0 @@
-markdown: rdiscount
-paginate: 10
-paginate_path: "/blog/page:num"
-exclude: 
-  - deploy.sh
-  - disqus-urls
-  - craig552uk.github.com.sublime-project
-  - craig552uk.github.com.sublime-workspace
