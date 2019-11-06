@@ -60,3 +60,8 @@ p {
     margin: 0 5px;
     color: #313B72;
 }
+
+.heart {
+    height: 22px;
+    fill: #fe57a1;
+}
