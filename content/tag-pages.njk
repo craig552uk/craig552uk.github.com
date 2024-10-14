@@ -17,9 +17,19 @@ const eleventyComputed = {
 	}
 };
 ---
-<h1>Tagged “{{ tag }}”</h1>
+<div>
+	<h1 class="text-4xl font-bold mb-8">Posts tagged "{{ tag }}"</h1>
 
-{% set postslist = collections[ tag ] %}
-{% include "postslist.njk" %}
-
-<p>See <a href="tags.njk">all tags</a>.</p>
+	<div class="border-t">
+		<div class="divide-y">
+			{% for post in collections[tag] | reverse %}
+				<div class="py-8">
+					<h2 class="text-2xl font-bold mb-2">
+						<a href="{{ post.url }}">{{ post.data.title }}</a>
+					</h2>
+					{{ post.data.description | safe }}
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>
