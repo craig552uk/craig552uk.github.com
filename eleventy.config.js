@@ -1,16 +1,16 @@
-import { IdAttributePlugin, InputPathToUrlTransformPlugin, HtmlBasePlugin } from "@11ty/eleventy";
+import { HtmlBasePlugin, IdAttributePlugin, InputPathToUrlTransformPlugin } from "@11ty/eleventy";
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import pluginNavigation from "@11ty/eleventy-navigation";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
-import pluginNavigation from "@11ty/eleventy-navigation";
-import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 import pluginFilters from "./_config/filters.js";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
-export default async function(eleventyConfig) {
+export default async function (eleventyConfig) {
 	// Drafts, see also _data/eleventyDataSchema.js
 	eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
-		if(data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
+		if (data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
 			return false;
 		}
 	});
@@ -109,6 +109,16 @@ export default async function(eleventyConfig) {
 	// https://www.11ty.dev/docs/copy/#emulate-passthrough-copy-during-serve
 
 	// eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
+
+	// Tailwind CSS
+	eleventyConfig.addWatchTarget('./styles/tailwind.config.js')
+	eleventyConfig.addWatchTarget('./styles/tailwind.css')
+
+	eleventyConfig.addPassthroughCopy({ './_tmp/style.css': './style.css' })
+
+	eleventyConfig.addShortcode('version', function () {
+		return String(Date.now())
+	})
 };
 
 export const config = {
@@ -136,16 +146,16 @@ export const config = {
 		output: "_site"
 	},
 
-	// -----------------------------------------------------------------
-	// Optional items:
-	// -----------------------------------------------------------------
+// -----------------------------------------------------------------
+// Optional items:
+// -----------------------------------------------------------------
 
-	// If your site deploys to a subdirectory, change `pathPrefix`.
-	// Read more: https://www.11ty.dev/docs/config/#deploy-to-a-subdirectory-with-a-path-prefix
+// If your site deploys to a subdirectory, change `pathPrefix`.
+// Read more: https://www.11ty.dev/docs/config/#deploy-to-a-subdirectory-with-a-path-prefix
 
-	// When paired with the HTML <base> plugin https://www.11ty.dev/docs/plugins/html-base/
-	// it will transform any absolute URLs in your HTML to include this
-	// folder name and does **not** affect where things go in the output folder.
+// When paired with the HTML <base> plugin https://www.11ty.dev/docs/plugins/html-base/
+// it will transform any absolute URLs in your HTML to include this
+// folder name and does **not** affect where things go in the output folder.
 
-	// pathPrefix: "/",
+// pathPrefix: "/",
 };

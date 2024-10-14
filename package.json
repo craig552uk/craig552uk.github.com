@@ -4,10 +4,10 @@
 	"description": "A starter repository for a blog web site using the Eleventy site generator.",
 	"type": "module",
 	"scripts": {
-		"build": "npx @11ty/eleventy",
+		"build": "npx @11ty/eleventy && NODE_ENV=production npx tailwindcss -i styles/style.css -o _site/style.css --minify",
 		"build-nocolor": "cross-env NODE_DISABLE_COLORS=1 npx @11ty/eleventy",
 		"build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",
-		"start": "npx @11ty/eleventy --serve --quiet",
+		"start": "npx @11ty/eleventy --serve --quiet & npx tailwindcss -i styles/style.css -o _site/style.css --watch",
 		"start-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/ --serve --quiet",
 		"debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
 		"debugstart": "cross-env DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
@@ -42,6 +42,7 @@
 		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
 		"cross-env": "^7.0.3",
 		"luxon": "^3.5.0",
+		"tailwindcss": "^3.4.13",
 		"zod": "^3.23.8",
 		"zod-validation-error": "^3.3.1"
 	},
