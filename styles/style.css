@@ -56,6 +56,10 @@
   .sepia-50 {
     filter: sepia(20%);
   }
+
+  .social-icon {
+    @apply border align-middle text-center rounded-lg leading-8 p-1 bg-stone-200 hover:bg-stone-300;
+  }
 }
 
 
