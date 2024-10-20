@@ -47,32 +47,8 @@ const numberOfLatestPostsToShow = 3;
 </div>
 
 <div>
-	{% for post in collections.posts | reverse %}
+	{# Show latest 5 on home page #}
+	{% for post in collections.posts | head(-5) | reverse %}
 		{% include "postcard.njk" %}
 	{% endfor %}
-
-	{# {% set postsCount = collections.posts | length %}
-	{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-
-	<h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}
-	</h1>
-
-	{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
-	{% set postslistCounter = postsCount %}
-	{% include "postslist.njk" %}
-
-	{% set morePosts = postsCount - numberOfLatestPostsToShow %}
-	{% if morePosts > 0 %}
-	{% endif %} #}
-
-	{# List every content page in the project #}
-	{# <ul>
-		{%- for entry in collections.posts %}
-			<li>
-				<a href="{{ entry.url }}">
-					<code>{{ entry.url }}</code>
-				</a>
-			</li>
-		{%- endfor %}
-	</ul> #}
 </div>
