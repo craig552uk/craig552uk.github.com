@@ -13,7 +13,9 @@ layout: layouts/base.njk
 		{%- endfor %}
 	</div>
 
-	<div class="post-content *:mb-4">
+	<img src="{{ image }}" alt="{{ title }}" class="mb-4 sepia-50">
+
+	<div class="post-content *:mb-4 *:leading-relaxed">
 		{{ content | safe }}
 	</div>
 

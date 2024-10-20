@@ -10,19 +10,19 @@
   }
 
   .post-content h2 {
-    @apply text-3xl font-bold;
-  }
-
-  .post-content h3 {
     @apply text-2xl font-bold;
   }
 
-  .post-content h4 {
+  .post-content h3 {
     @apply text-xl font-bold;
   }
 
-  .post-content h5 {
+  .post-content h4 {
     @apply text-lg font-bold;
+  }
+
+  .post-content h5 {
+    @apply text-base font-bold;
   }
 
   .post-content h6 {
@@ -43,6 +43,18 @@
 
   .post-content ol {
     @apply list-decimal list-inside;
+  }
+
+  .post-content blockquote {
+    @apply border-l-4 border-gray-300 text-gray-500 pl-4 italic;
+  }
+
+  .post-content blockquote p {
+    @apply mb-4 leading-loose;
+  }
+
+  .sepia-50 {
+    filter: sepia(20%);
   }
 }
 
