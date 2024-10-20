@@ -6,27 +6,24 @@
     <img src="input_shape.png" alt="Input diagram"/>
     <form class="ml-4 pt-8">
       <div class="mb-4">
-        <label for="length_a">Length A</label>
-        <input type="text" class="border rounded p-1" name="length_a" id="length_a" value="30"/>
-        <small>(mm)</small>
+        <label for="length_a">Length A (mm)</label>
+        <input type="text" class="border border-gray-300 rounded ml-2 p-1" name="length_a" id="length_a" value="30"/>
       </div>
       <div class="mb-4">
-        <label for="length_b">Length B</label>
-        <input type="text" class="border rounded p-1" name="length_b" id="length_b" value="50"/>
-        <small>(mm)</small>
+        <label for="length_b">Length B (mm)</label>
+        <input type="text" class="border border-gray-300 rounded ml-2 p-1" name="length_b" id="length_b" value="50"/>
       </div>
       <div class="mb-4">
-        <label for="length_c">Length C</label>
-        <input type="text" class="border rounded p-1" name="length_c" id="length_c" value="50"/>
-        <small>(mm)</small>
+        <label for="length_c">Length C (mm)</label>
+        <input type="text" class="border border-gray-300 rounded ml-2 p-1" name="length_c" id="length_c" value="50"/>
       </div>
-      <div>
-        <input type="button" class="border rounded py-1 px-2 bg-gray-100 hover:bg-gray-200 cursor-pointer" value="Calculate" onclick="doCalculation()"/>
+      <div class="text-right">
+        <input type="button" class="border rounded py-1 px-4 border-gray-300 bg-gray-100 hover:bg-gray-200 cursor-pointer" value="Calculate" onclick="doCalculation()"/>
       </div>
     </form>
   </div>
 
-  <div class="flex">
+  <div class="flex mb-8">
     <img src="output_shape.png" alt="Output diagram"/>
     <div class="pt-8">
       <div class="mb-4">
@@ -43,6 +40,8 @@
       </div>
     </div>
   </div>
+
+  {% include "authorcard.njk" %}
 
   <script type="text/javascript">
 
