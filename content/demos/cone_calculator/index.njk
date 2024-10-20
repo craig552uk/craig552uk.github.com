@@ -1,0 +1,99 @@
+<div>
+  <h1 class="text-4xl font-bold mb-4">Flat Top Cone Calculator</h1>
+  <div class="mb-8">Calculates the measurements for the pattern to construct a flat top cone.</div>
+
+  <div class="flex mb-8">
+    <img src="input_shape.png" alt="Input diagram"/>
+    <form class="ml-4 pt-8">
+      <div class="mb-4">
+        <label for="length_a">Length A</label>
+        <input type="text" class="border rounded p-1" name="length_a" id="length_a" value="30"/>
+        <small>(mm)</small>
+      </div>
+      <div class="mb-4">
+        <label for="length_b">Length B</label>
+        <input type="text" class="border rounded p-1" name="length_b" id="length_b" value="50"/>
+        <small>(mm)</small>
+      </div>
+      <div class="mb-4">
+        <label for="length_c">Length C</label>
+        <input type="text" class="border rounded p-1" name="length_c" id="length_c" value="50"/>
+        <small>(mm)</small>
+      </div>
+      <div>
+        <input type="button" class="border rounded py-1 px-2 bg-gray-100 hover:bg-gray-200 cursor-pointer" value="Calculate" onclick="doCalculation()"/>
+      </div>
+    </form>
+  </div>
+
+  <div class="flex">
+    <img src="output_shape.png" alt="Output diagram"/>
+    <div class="pt-8">
+      <div class="mb-4">
+        <strong class="label">Arc Angle</strong> = <span class="value" id="arc_angle">_</span>
+        <small>(degrees)</small>
+      </div>
+      <div class="mb-4">
+        <strong class="label">Radius R1</strong> = <span class="value" id="radius_r1">_</span>
+        <small>(mm)</small>
+      </div>
+      <div class="mb-4">
+        <strong class="label">Radius R2</strong> = <span class="value" id="radius_r2">_</span>
+        <small>(mm)</small>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+
+    // Form submit handler
+    function doCalculation() {
+
+      // Inputs
+      const length_a = document
+        .getElementById('length_a')
+        .value;
+      const length_b = document
+        .getElementById('length_b')
+        .value;
+      const length_c = document
+        .getElementById('length_c')
+        .value;
+      console.log('Length A: ' + length_a);
+      console.log('Length B: ' + length_b);
+      console.log('Length C: ' + length_c);
+
+      // Outputs
+      const radius_r1 = document.getElementById('radius_r1');
+      const radius_r2 = document.getElementById('radius_r2');
+      const arc_angle = document.getElementById('arc_angle');
+
+      // Scale ratio between circles
+      const scale_ratio = (0.5 * length_a) / (0.5 * (length_b - length_a));
+      console.log('Scale Ratio: ' + scale_ratio);
+
+      // Small triangle sides
+      const a = length_c;
+      const o = 0.5 * (length_b - length_a);
+      const h = Math.sqrt(a * a + o * o);
+      console.log('Side O: ' + o + ' Side A: ' + a + ' Side H: ' + h);
+
+      // Circle Radii
+      const r1 = h * scale_ratio;
+      const r2 = h + (h * scale_ratio);
+      radius_r1.innerHTML = round(r1);
+      radius_r2.innerHTML = round(r2);
+
+      // Arc Ratio is arc length / circumference
+      const arc_ratio = (Math.PI * length_a) / (Math.PI * r1 * 2);
+      console.log('Arc Ratio: ' + arc_ratio);
+
+      // Arc Angle in degrees
+      arc_angle.innerHTML = round(arc_ratio * 360);
+    }
+
+    function round(n) {
+      return Math.round(n * Math.pow(10, 2)) / Math.pow(10, 2);
+    }
+  </script>
+</div>
