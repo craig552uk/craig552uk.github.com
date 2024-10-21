@@ -70,6 +70,7 @@ const numberOfLatestPostsToShow = 3;
 
 <div>
 	{# Show latest 5 on home page #}
+	<h2 class="text-3xl font-bold mb-4">Latest Posts</h2>
 	{% for post in collections.posts | head(-5) | reverse %}
 		{% include "postcard.njk" %}
 	{% endfor %}
