@@ -1,9 +1,10 @@
 <div>
-	<div class="border-t">
-		<div class="divide-y">
-			{% for post in collections.posts | reverse %}
-				{% include "postcard.njk" %}
-			{% endfor %}
-		</div>
+	<div class="mb-8">
+		{% include "mailingListForm.njk" %}
+	</div>
+	<div class="divide-y">
+		{% for post in collections.posts | reverse %}
+			{% include "postcard.njk" %}
+		{% endfor %}
 	</div>
 </div>
