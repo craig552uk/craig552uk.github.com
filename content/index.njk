@@ -66,6 +66,8 @@ const numberOfLatestPostsToShow = 3;
 	</div>
 </div>
 
+{% include "mailingListForm.njk" %}
+
 <div>
 	{# Show latest 5 on home page #}
 	{% for post in collections.posts | head(-5) | reverse %}

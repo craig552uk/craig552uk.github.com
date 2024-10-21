@@ -2,7 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Fix MailerLite Styles */
+.ml-form-align-center {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
 
+.ml-form-embedBody {
+  padding: 1rem 1rem 0 1rem !important;
+}
 
 @layer base {
   .post-content h1 {
