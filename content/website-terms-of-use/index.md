@@ -3,7 +3,7 @@ title: Website Terms of Use
 layout: layouts/page.njk
 ---
 
-Effective Date: 5 April 2024
+Effective Date: 21 October 2024
 
 ## Our Terms
 

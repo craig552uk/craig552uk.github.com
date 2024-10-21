@@ -3,7 +3,7 @@ title: Cookie Policy
 layout: layouts/page.njk
 ---
 
-Effective Date: 5 April 2024
+Effective Date: 21 October 2024
 
 This Cookie Policy (“Cookie Policy”) describes how CM Russell Limited (“we,” “our,” “us”) collects, processes, uses, and discloses certain information obtained through your use of our website (the “Site”), which is available at <http://craig-russell.co.uk>. To learn more about our privacy practices in general, please review our [Privacy Notice](/privacy-notice).
 

@@ -3,7 +3,7 @@ title: Privacy Notice
 layout: layouts/page.njk
 ---
 
-Effective Date: 5 April 2024
+Effective Date: 21 October 2024
 
 This Privacy Notice (“Notice”) describes how CM Russell Limited (“we,” “our,” or “us”) collects, processes, uses, and discloses personal information obtained through your use of our website (the “Site”), which is available at <http://craig-russell.co.uk>, as well as our subscription service, ImpactGo (the “Subscription Service”) made available to you through the Site (collectively, the “Services”).
 
