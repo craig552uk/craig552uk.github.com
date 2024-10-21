@@ -10,6 +10,12 @@
 			}
 			gtag('js', new Date());
 			gtag('config', 'G-KD7MWD7BBF');
+			gtag('consent', 'default', {
+				'ad_storage': 'denied',
+				'ad_user_data': 'denied',
+				'ad_personalization': 'denied',
+				'analytics_storage': 'denied'
+			});
 		</script>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -50,7 +56,44 @@
 				&copy; 2024 CM Russell Limited
 				- <a href="/website-terms-of-use">Terms</a>
 			</footer>
-
 		</div>
+
+		<div id="cookie-consent" class="sticky bottom-4 max-w-3xl mx-auto px-8">
+			<div class="py-2 px-4 bg-amber-100 rounded" role="alert">
+				<div class="text-sm flex justify-between">
+					<span class="py-2">
+						This site uses cookies to enhance user experience. 
+						See <a href="/cookie-policy" class="underline">Cookie policy</a>
+					</span>
+					<span>
+						<button 
+							class="border rounded p-2 bg-sky-500 hover:bg-sky-400 text-white shadow-sm pointer" 
+							onClick="acceptCookies()">
+							Allow cookies
+						</button>
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			const cookieConsent = document.querySelector('#cookie-consent');
+			// Remove cookie consent banner if cookie present
+			if (document.cookie.indexOf('cookie_consent=true') > -1 && cookieConsent) {
+				cookieConsent.remove();
+			}
+
+			// Set cookie on button click
+			function acceptCookies() {
+				document.cookie = 'cookie_consent=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/';
+				gtag('consent', 'update', {
+					'ad_storage': 'granted',
+					'ad_user_data': 'granted',
+					'ad_personalization': 'granted',
+					'analytics_storage': 'granted'
+				});
+				cookieConsent.remove();
+			}
+		</script>
 	</body>
 </html>
