@@ -72,21 +72,21 @@ export default async function (eleventyConfig) {
 	});
 
 	// Image optimization: https://www.11ty.dev/docs/plugins/image/#eleventy-transform
-	// eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-	// 	// File extensions to process in _site folder
-	// 	extensions: "html",
+	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+		// File extensions to process in _site folder
+		extensions: "html",
 
-	// 	// Output formats for each image.
-	// 	formats: ["avif", "webp", "auto"],
+		// Output formats for each image.
+		formats: ["avif", "webp", "auto"],
 
-	// 	// widths: ["auto"],
+		// widths: ["auto"],
 
-	// 	defaultAttributes: {
-	// 		// e.g. <img loading decoding> assigned on the HTML tag will override these values.
-	// 		loading: "lazy",
-	// 		decoding: "async",
-	// 	}
-	// });
+		defaultAttributes: {
+			// e.g. <img loading decoding> assigned on the HTML tag will override these values.
+			loading: "lazy",
+			decoding: "async",
+		}
+	});
 
 	// Filters
 	eleventyConfig.addPlugin(pluginFilters);
