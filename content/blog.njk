@@ -1,0 +1,11 @@
+<div>
+	<div class="mb-8">
+		{% include "mailingListForm.njk" %}
+	</div>
+	<div>
+		<h1 class="text-3xl font-bold mb-4">All Posts</h1>
+		{% for post in collections.posts | reverse %}
+			{% include "postcard.njk" %}
+		{% endfor %}
+	</div>
+</div>
