@@ -3,7 +3,7 @@ export default {
 	subtitle: "Software Engineer & Writer",
 	url: "https://craig-russell.co.uk/",
 	language: "en",
-	description: "Craig Russell - Software Engineer & Writer",
+	description: "Software Engineer & Writer",
 	author: {
 		name: "Craig Russell",
 		email: "craig@craig-russell.co.uk",
