@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Google tag (gtag.js) -->
+		<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-KD7MWD7BBF"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+			gtag('config', 'G-KD7MWD7BBF');
+			gtag('consent', 'default', {
+				'ad_storage': 'denied',
+				'ad_user_data': 'denied',
+				'ad_personalization': 'denied',
+				'analytics_storage': 'denied'
+			});
+		</script>
+
+		<!-- MailerLite Universal -->
+		<script>
+			(function (w, d, e, u, f, l, n) {
+				w[f] = w[f] || function () {
+					(w[f].q = w[f].q || []).push(arguments);
+				},
+				l = d.createElement(e),
+				l.async = 1,
+				l.src = u,
+				n = d.getElementsByTagName(e)[0],
+				n
+					.parentNode
+					.insertBefore(l, n);
+			})(window, document, 'script', 'https://assets.mailerlite.com/js/universal.js', 'ml');
+			ml('account', '1154565');
+		</script>
+
+		<!-- Metadata -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Craig Russell</title>
+		<meta name="description" content="Craig Russell - Software Engineer &amp; Writer">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Craig Russell">
+		<link rel="stylesheet" href="/eleventy-base-blog/style.css?v=1729608663014">
+
+		<!-- Social Media Meta -->
+		<meta property="og:title" content="Craig Russell">
+		<meta property="og:type" content="article">
+		<meta property="og:description" content="Craig Russell - Software Engineer &amp; Writer">
+		<meta property="og:image" content="https://craig-russell.co.uk/img/og-image-default.png">
+		<meta property="og:url" content="https://craig-russell.co.uk/demos/cone_calculator/">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta property="og:site_name" content="Craig Russell">
+	</head>
+	<body>
+		<a href="#skip" class="invisible">Skip to main content</a>
+
+		<div class="container mx-auto max-w-3xl px-8">
+
+			<header class="flex justify-between pb-12">
+				<div>
+					<div class="text-3xl font-bold">
+						<a href="/eleventy-base-blog/" class="hover:underline">Craig Russell</a>
+					</div>
+					<div class="text-xl">Software Engineer &amp; Writer</div>
+				</div>
+				<ul class="flex flex-col md:flex-row *:ml-4 *:mb-2 text-lg">
+					<li>
+						<a href="/eleventy-base-blog/" class="hover:underline">Home</a>
+					</li>
+					<li>
+						<a href="/eleventy-base-blog/blog" class="hover:underline">Blog</a>
+					</li>
+				</ul>
+			</header>
+
+			<main id="skip" class="space-y-12">
+				
+					
+<div>
+  <h1 class="text-4xl font-bold mb-4" id="flat-top-cone-calculator">Flat Top Cone Calculator</h1>
+  <div class="mb-8">Calculates the measurements for the pattern to construct a flat top cone.</div>
+
+  <div class="flex mb-8">
+    <picture><source type="image/avif" srcset="/eleventy-base-blog/demos/cone_calculator/D9x9nOw6lC-345.avif 345w"><source type="image/webp" srcset="/eleventy-base-blog/demos/cone_calculator/D9x9nOw6lC-345.webp 345w"><img loading="lazy" decoding="async" src="/eleventy-base-blog/demos/cone_calculator/D9x9nOw6lC-345.png" alt="Input diagram" width="345" height="280"></picture>
+    <form class="ml-4 pt-8">
+      <div class="mb-4">
+        <label for="length_a">Length A (mm)</label>
+        <input type="text" class="border border-gray-300 rounded ml-2 p-1" name="length_a" id="length_a" value="30">
+      </div>
+      <div class="mb-4">
+        <label for="length_b">Length B (mm)</label>
+        <input type="text" class="border border-gray-300 rounded ml-2 p-1" name="length_b" id="length_b" value="50">
+      </div>
+      <div class="mb-4">
+        <label for="length_c">Length C (mm)</label>
+        <input type="text" class="border border-gray-300 rounded ml-2 p-1" name="length_c" id="length_c" value="50">
+      </div>
+      <div class="text-right">
+        <input type="button" class="border rounded py-1 px-4 border-gray-300 bg-gray-100 hover:bg-gray-200 cursor-pointer" value="Calculate" onclick="doCalculation()">
+      </div>
+    </form>
+  </div>
+
+  <div class="flex mb-8">
+    <picture><source type="image/avif" srcset="/eleventy-base-blog/demos/cone_calculator/e4UUQXallc-350.avif 350w"><source type="image/webp" srcset="/eleventy-base-blog/demos/cone_calculator/e4UUQXallc-350.webp 350w"><img loading="lazy" decoding="async" src="/eleventy-base-blog/demos/cone_calculator/e4UUQXallc-350.png" alt="Output diagram" width="350" height="490"></picture>
+    <div class="pt-8">
+      <div class="mb-4">
+        <strong class="label">Arc Angle</strong> = <span class="value" id="arc_angle">_</span>
+        <small>(degrees)</small>
+      </div>
+      <div class="mb-4">
+        <strong class="label">Radius R1</strong> = <span class="value" id="radius_r1">_</span>
+        <small>(mm)</small>
+      </div>
+      <div class="mb-4">
+        <strong class="label">Radius R2</strong> = <span class="value" id="radius_r2">_</span>
+        <small>(mm)</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="mb-8">
+    <div class="border rounded bg-amber-50 border-amber-100 shadow-md">
+  <h2 class="ml-4 mt-4 text-xl" id="join-my-newsletter-to-keep-updated">Join my newsletter to keep updated! 💌</h2>
+  <div class="ml-embedded" data-form="vWAoAy"></div>
+</div>
+  </div>
+
+  <div class="flex justify-between border rounded p-4 md:p-8 md:space-x-8 space-x-4">
+  <div class="flex-none flex flex-col">
+    <picture><source type="image/avif" srcset="/eleventy-base-blog/img/RrtoCut7lh-700.avif 700w"><source type="image/webp" srcset="/eleventy-base-blog/img/RrtoCut7lh-700.webp 700w"><img loading="lazy" decoding="async" src="/eleventy-base-blog/img/RrtoCut7lh-700.jpeg" alt="Avatar" class="rounded-full md:w-36 md:h-36 w-24 h-24" width="700" height="700"></picture>
+    <div class="hidden md:flex justify-center gap-4 pt-4">
+      <a class="social-icon w-8 h-8" href="https://www.threads.net/@cmrussell.writes/" target="_blank">
+        <picture><source type="image/avif" srcset="/eleventy-base-blog/img/HrrQZVn-Bf-300.avif 300w"><source type="image/webp" srcset="/eleventy-base-blog/img/HrrQZVn-Bf-300.webp 300w"><img loading="lazy" decoding="async" src="/eleventy-base-blog/img/HrrQZVn-Bf-300.png" alt="Threads" width="300" height="300"></picture>
+      </a>
+      
+      <a class="social-icon w-8 h-8" href="https://bsky.app/profile/cmrussell.bsky.social" target="_blank">
+        <picture><source type="image/avif" srcset="/eleventy-base-blog/img/J1TSYHn3_6-500.avif 500w"><source type="image/webp" srcset="/eleventy-base-blog/img/J1TSYHn3_6-500.webp 500w"><img loading="lazy" decoding="async" src="/eleventy-base-blog/img/J1TSYHn3_6-500.png" alt="BlueSky" width="500" height="500"></picture>
+      </a>
+      <a class="social-icon w-8 h-8" href="https://www.linkedin.com/in/craigrussell1983/" target="_blank">
+        <picture><source type="image/avif" srcset="/eleventy-base-blog/img/I6EJQWYx2d-512.avif 512w"><source type="image/webp" srcset="/eleventy-base-blog/img/I6EJQWYx2d-512.webp 512w"><img loading="lazy" decoding="async" src="/eleventy-base-blog/img/I6EJQWYx2d-512.png" alt="LinkedIn" width="512" height="512"></picture>
+      </a>
+    </div>
+  </div>
+
+  <div class="flex-1 space-y-2 text-base">
+    <div>Hello, I'm Craig 👋</div>
+    <div>I write software, with special expertise in identity management.<br>
+      Connect on <a href="https://www.linkedin.com/in/craigrussell1983/" target="_blank" class="font-bold hover:underline">LinkedIn</a> 
+      if you need help with your project.
+    </div>
+    <div>By night I write optimistic, apocalyptic, humanistic sci-fi.<br>
+      My current book is <a href="/eleventy-base-blog/ageless" class="font-bold hover:underline">AGELESS</a>.
+    </div>
+    <div>I also run <a href="https://impactgo.uk" target="_blank" class="font-bold hover:underline">ImpactGo</a>, 
+      for charities and social enterprises to measure the impact of their work.
+    </div>
+  </div>
+</div>
+
+  <script type="text/javascript">
+
+    // Form submit handler
+    function doCalculation() {
+
+      // Inputs
+      const length_a = document
+        .getElementById('length_a')
+        .value;
+      const length_b = document
+        .getElementById('length_b')
+        .value;
+      const length_c = document
+        .getElementById('length_c')
+        .value;
+      console.log('Length A: ' + length_a);
+      console.log('Length B: ' + length_b);
+      console.log('Length C: ' + length_c);
+
+      // Outputs
+      const radius_r1 = document.getElementById('radius_r1');
+      const radius_r2 = document.getElementById('radius_r2');
+      const arc_angle = document.getElementById('arc_angle');
+
+      // Scale ratio between circles
+      const scale_ratio = (0.5 * length_a) / (0.5 * (length_b - length_a));
+      console.log('Scale Ratio: ' + scale_ratio);
+
+      // Small triangle sides
+      const a = length_c;
+      const o = 0.5 * (length_b - length_a);
+      const h = Math.sqrt(a * a + o * o);
+      console.log('Side O: ' + o + ' Side A: ' + a + ' Side H: ' + h);
+
+      // Circle Radii
+      const r1 = h * scale_ratio;
+      const r2 = h + (h * scale_ratio);
+      radius_r1.innerHTML = round(r1);
+      radius_r2.innerHTML = round(r2);
+
+      // Arc Ratio is arc length / circumference
+      const arc_ratio = (Math.PI * length_a) / (Math.PI * r1 * 2);
+      console.log('Arc Ratio: ' + arc_ratio);
+
+      // Arc Angle in degrees
+      arc_angle.innerHTML = round(arc_ratio * 360);
+    }
+
+    function round(n) {
+      return Math.round(n * Math.pow(10, 2)) / Math.pow(10, 2);
+    }
+  </script>
+</div>
+				
+			</main>
+
+			<footer class="text-center text-gray-400 text-sm py-12">
+				&copy; 2024 CM Russell Limited
+				- <a href="/eleventy-base-blog/website-terms-of-use">Terms</a>
+			</footer>
+		</div>
+
+		<div id="cookie-consent" class="sticky bottom-4 max-w-3xl mx-auto px-8">
+			<div class="py-2 px-4 bg-amber-100 rounded shadow-md" role="alert">
+				<div class="text-sm flex justify-between">
+					<span class="py-2">
+						This site uses cookies to enhance user experience. 
+						See <a href="/eleventy-base-blog/cookie-policy" class="underline">Cookie policy</a>
+					</span>
+					<span>
+						<button class="border rounded p-2 bg-sky-500 hover:bg-sky-400 text-white shadow-sm pointer" onClick="acceptCookies()">
+							Allow cookies
+						</button>
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			const cookieConsent = document.querySelector('#cookie-consent');
+			// Remove cookie consent banner if cookie present
+			if (document.cookie.indexOf('cookie_consent=true') > -1 && cookieConsent) {
+				cookieConsent.remove();
+			}
+
+			// Set cookie on button click
+			function acceptCookies() {
+				document.cookie = 'cookie_consent=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/';
+				gtag('consent', 'update', {
+					'ad_storage': 'granted',
+					'ad_user_data': 'granted',
+					'ad_personalization': 'granted',
+					'analytics_storage': 'granted'
+				});
+				cookieConsent.remove();
+			}
+		</script>
+	</body>
+</html>
