@@ -3,18 +3,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <title>Blog Title</title>
   <subtitle>This is a longer description about your blog.</subtitle>
-  <link href="https://example.com/eleventy-base-blog/feed/feed.xml" rel="self" />
-  <link href="https://example.com/eleventy-base-blog/" />
+  <link href="https://example.com/feed/feed.xml" rel="self" />
+  <link href="https://example.com/" />
   <updated>2024-10-22T00:00:00Z</updated>
-  <id>https://example.com/eleventy-base-blog/</id>
+  <id>https://example.com/</id>
   <author>
     <name>Your Name</name>
   </author>
   <entry>
     <title>Near-Future World Building</title>
-    <link href="https://example.com/eleventy-base-blog/blog/2024-10-22-near-future-worldbuilding/" />
+    <link href="https://example.com/blog/2024-10-22-near-future-worldbuilding/" />
     <updated>2024-10-22T00:00:00Z</updated>
-    <id>https://example.com/eleventy-base-blog/blog/2024-10-22-near-future-worldbuilding/</id>
+    <id>https://example.com/blog/2024-10-22-near-future-worldbuilding/</id>
     <content type="html">&lt;p&gt;World building is, for me, one of the most enjoyable parts of writing fiction. Creating a world inside my head and exploring it through my characters is a lot of fun!&lt;/p&gt;
 &lt;p&gt;When a fictional world is set in the near future, I may want it to feel familiar and yet otherworldly. To do this, I begin by thinking about the world as it exists today, and imagining what our future might look like as a springboard into creating a fictional world. But I don&#39;t need to rely on my imagination alone.&lt;/p&gt;
 &lt;p&gt;There are many forecasts available to learn what the world might be like in the future. If you&#39;re looking to bake some plausibility into your world-building (and it&#39;s fine if you&#39;re not!) then you may find these resources useful.&lt;/p&gt;
@@ -27,8 +27,8 @@
 &lt;blockquote&gt;
 &lt;p&gt;There are many examples — across broad areas of development — that suggest that, on average, living standards are higher in urban populations than in rural ones.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/eleventy-base-blog/blog/2024-10-22-near-future-worldbuilding/575aea6fDI-13083.avif 13083w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/eleventy-base-blog/blog/2024-10-22-near-future-worldbuilding/575aea6fDI-13083.webp 13083w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/eleventy-base-blog/blog/2024-10-22-near-future-worldbuilding/575aea6fDI-13083.png&quot; alt=&quot;World population growth, 1700-2100&quot; width=&quot;13083&quot; height=&quot;9584&quot;&gt;&lt;/picture&gt;
-&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/eleventy-base-blog/blog/2024-10-22-near-future-worldbuilding/iWekXYzlvH-3400.avif 3400w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/eleventy-base-blog/blog/2024-10-22-near-future-worldbuilding/iWekXYzlvH-3400.webp 3400w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/eleventy-base-blog/blog/2024-10-22-near-future-worldbuilding/iWekXYzlvH-3400.png&quot; alt=&quot;Population by world region, 1800-2100&quot; width=&quot;3400&quot; height=&quot;2706&quot;&gt;&lt;/picture&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/blog/2024-10-22-near-future-worldbuilding/575aea6fDI-13083.avif 13083w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/blog/2024-10-22-near-future-worldbuilding/575aea6fDI-13083.webp 13083w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/blog/2024-10-22-near-future-worldbuilding/575aea6fDI-13083.png&quot; alt=&quot;World population growth, 1700-2100&quot; width=&quot;13083&quot; height=&quot;9584&quot;&gt;&lt;/picture&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/blog/2024-10-22-near-future-worldbuilding/iWekXYzlvH-3400.avif 3400w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/blog/2024-10-22-near-future-worldbuilding/iWekXYzlvH-3400.webp 3400w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/blog/2024-10-22-near-future-worldbuilding/iWekXYzlvH-3400.png&quot; alt=&quot;Population by world region, 1800-2100&quot; width=&quot;3400&quot; height=&quot;2706&quot;&gt;&lt;/picture&gt;
 &lt;p&gt;&lt;strong&gt;Resources:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://ourworldindata.org/grapher/population-regions-with-projections&quot;&gt;Our World In Data: Population by Region Chart&lt;/a&gt;&lt;/li&gt;
@@ -39,8 +39,8 @@
 &lt;h2 id=&quot;age-demographics&quot;&gt;Age Demographics&lt;/h2&gt;
 &lt;p&gt;Through the rest of the century life expectancy will continue to rise. Most people can expect to live longer, but this does not mean that the population as a whole will be older.&lt;/p&gt;
 &lt;p&gt;Right now there are relatively few people of working age compared to those who are not (the so-called &amp;quot;ageing population&amp;quot; crisis). But due to shifts in the demographic make-up, the working age share of the population is expected to begin rising by 2040, and continue to rise through the end of the century.&lt;/p&gt;
-&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/eleventy-base-blog/blog/2024-10-22-near-future-worldbuilding/KP8Ww6WxiO-3000.avif 3000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/eleventy-base-blog/blog/2024-10-22-near-future-worldbuilding/KP8Ww6WxiO-3000.webp 3000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/eleventy-base-blog/blog/2024-10-22-near-future-worldbuilding/KP8Ww6WxiO-3000.png&quot; alt=&quot;Population pyramid, 1950-2100&quot; width=&quot;3000&quot; height=&quot;2082&quot;&gt;&lt;/picture&gt;
-&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/eleventy-base-blog/blog/2024-10-22-near-future-worldbuilding/RQGtJ7ILqm-3400.avif 3400w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/eleventy-base-blog/blog/2024-10-22-near-future-worldbuilding/RQGtJ7ILqm-3400.webp 3400w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/eleventy-base-blog/blog/2024-10-22-near-future-worldbuilding/RQGtJ7ILqm-3400.png&quot; alt=&quot;Age dependency ration 1950-2100&quot; width=&quot;3400&quot; height=&quot;2400&quot;&gt;&lt;/picture&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/blog/2024-10-22-near-future-worldbuilding/KP8Ww6WxiO-3000.avif 3000w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/blog/2024-10-22-near-future-worldbuilding/KP8Ww6WxiO-3000.webp 3000w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/blog/2024-10-22-near-future-worldbuilding/KP8Ww6WxiO-3000.png&quot; alt=&quot;Population pyramid, 1950-2100&quot; width=&quot;3000&quot; height=&quot;2082&quot;&gt;&lt;/picture&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/blog/2024-10-22-near-future-worldbuilding/RQGtJ7ILqm-3400.avif 3400w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/blog/2024-10-22-near-future-worldbuilding/RQGtJ7ILqm-3400.webp 3400w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/blog/2024-10-22-near-future-worldbuilding/RQGtJ7ILqm-3400.png&quot; alt=&quot;Age dependency ration 1950-2100&quot; width=&quot;3400&quot; height=&quot;2400&quot;&gt;&lt;/picture&gt;
 &lt;p&gt;&lt;strong&gt;Resources:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://ourworldindata.org/age-structure&quot;&gt;Our World in Data: Age Structure&lt;/a&gt;&lt;/li&gt;
@@ -51,7 +51,7 @@
 &lt;p&gt;The big gainer will be Africa, whose share in GWP will rise from 5% in 2020 to 39% in 2100. Within Africa, the growth in the global share will be slowest in Northern and Southern Africa, with their combined regional share falling from 49% in 2020 to 14% in 2100. The fastest growth will be in Eastern Africa, whose regional share will rise from 17% in 2020 to 35% in 2100.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Relatedly, the share of people living in extreme poverty worldwide is expected fall below 2% in 2050, down from 8% in 2023. The World Bank defines extreme poverty as living on less than $2.15 a day.&lt;/p&gt;
-&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/eleventy-base-blog/blog/2024-10-22-near-future-worldbuilding/coHeJf5Uv_-1076.avif 1076w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/eleventy-base-blog/blog/2024-10-22-near-future-worldbuilding/coHeJf5Uv_-1076.webp 1076w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/eleventy-base-blog/blog/2024-10-22-near-future-worldbuilding/coHeJf5Uv_-1076.png&quot; alt=&quot;GDP of world regions 2020-2100&quot; width=&quot;1076&quot; height=&quot;788&quot;&gt;&lt;/picture&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/blog/2024-10-22-near-future-worldbuilding/coHeJf5Uv_-1076.avif 1076w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/blog/2024-10-22-near-future-worldbuilding/coHeJf5Uv_-1076.webp 1076w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/blog/2024-10-22-near-future-worldbuilding/coHeJf5Uv_-1076.png&quot; alt=&quot;GDP of world regions 2020-2100&quot; width=&quot;1076&quot; height=&quot;788&quot;&gt;&lt;/picture&gt;
 &lt;p&gt;&lt;strong&gt;Resources:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.ubss.edu.au/articles/2022/july/what-will-the-world-economy-look-like-in-2100/&quot;&gt;What will the world economy look like in 2100?&lt;/a&gt;&lt;/li&gt;
@@ -60,7 +60,7 @@
 &lt;h2 id=&quot;climate-change&quot;&gt;Climate Change&lt;/h2&gt;
 &lt;p&gt;It&#39;s not possible to forecast the near-future, without considering the effects of climate change. Forecast scenarios vary, and are heavily dependent on action taken today, but it is clear that the world will be warmer, and sea levels will be higher.&lt;/p&gt;
 &lt;p&gt;Tools like the &lt;a href=&quot;https://sealevel.nasa.gov/ipcc-ar6-sea-level-projection-tool&quot;&gt;NASA Sea Level Projection Tool&lt;/a&gt; and &lt;a href=&quot;https://www.floodmap.net&quot;&gt;World Flood Map&lt;/a&gt; can be used to visualise the effects of climate change on sea levels and coastal communities.&lt;/p&gt;
-&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/eleventy-base-blog/blog/2024-10-22-near-future-worldbuilding/qKpJOYvX8r-1348.avif 1348w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/eleventy-base-blog/blog/2024-10-22-near-future-worldbuilding/qKpJOYvX8r-1348.webp 1348w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/eleventy-base-blog/blog/2024-10-22-near-future-worldbuilding/qKpJOYvX8r-1348.png&quot; alt=&quot;Global surface temperature and September Arctic sea ice, 1950-2100&quot; width=&quot;1348&quot; height=&quot;1400&quot;&gt;&lt;/picture&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/blog/2024-10-22-near-future-worldbuilding/qKpJOYvX8r-1348.avif 1348w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/blog/2024-10-22-near-future-worldbuilding/qKpJOYvX8r-1348.webp 1348w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/blog/2024-10-22-near-future-worldbuilding/qKpJOYvX8r-1348.png&quot; alt=&quot;Global surface temperature and September Arctic sea ice, 1950-2100&quot; width=&quot;1348&quot; height=&quot;1400&quot;&gt;&lt;/picture&gt;
 &lt;p&gt;&lt;strong&gt;Resources:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf&quot;&gt;IPCC Summary for Policy Makers&lt;/a&gt;&lt;/li&gt;
@@ -78,9 +78,9 @@
   </entry>
   <entry>
     <title>Why I Started Writing Late in My Life</title>
-    <link href="https://example.com/eleventy-base-blog/blog/2024-10-18-late-life-writing/" />
+    <link href="https://example.com/blog/2024-10-18-late-life-writing/" />
     <updated>2024-10-18T00:00:00Z</updated>
-    <id>https://example.com/eleventy-base-blog/blog/2024-10-18-late-life-writing/</id>
+    <id>https://example.com/blog/2024-10-18-late-life-writing/</id>
     <content type="html">&lt;p&gt;I came to writing late in life. It had to wait until I was happy.&lt;/p&gt;
 &lt;p&gt;There&#39;s a common archetype of the tortured artist, the writer who writes driven by daemons and trauma. I am not that writer, as least not directly. I could not write while I was unhappy. While I was unhappy I struggled to create anything at all.&lt;/p&gt;
 &lt;p&gt;My childhood was a happy one. I was blessed with a loving home, full of fun and creativity. My imagination found outlets in painting, drawing, arts and craft - all encouraged by my parents. But as I grew older, I lost this. I no longer found joy in creating.&lt;/p&gt;
