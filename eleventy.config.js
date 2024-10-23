@@ -86,6 +86,13 @@ export default async function (eleventyConfig) {
 			// e.g. <img loading decoding> assigned on the HTML tag will override these values.
 			loading: "lazy",
 			decoding: "async",
+		},
+
+		filenameFormat: (id, src, width, format, options) => {
+			const fileName = `${id}-${width}.${format}`;
+			// TODO: figure out how to copy to source file also
+			// console.log("filenameFormat", id, src, width, format, fileName);
+			return fileName;
 		}
 	});
 
