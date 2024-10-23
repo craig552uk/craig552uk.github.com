@@ -55,4 +55,9 @@
 		<loc>https://craig-russell.co.uk/feed/feed.xml</loc>
 		<lastmod>2024-10-23</lastmod>
 	</url>
+	
+	<url>
+		<loc>https://craig-russell.co.uk/blog/2024-10-24-optimistic-sci-fi/</loc>
+		<lastmod>2024-10-24</lastmod>
+	</url>
 </urlset>
