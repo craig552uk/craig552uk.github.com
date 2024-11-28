@@ -12,7 +12,7 @@ I've been a software developer for over two decades, I've written a lot of softw
 
 As a creative writer, I can't say the same. In working on my novel, I've used a range of "specialist" tools, some free, others cost money, and I'm always left wanting. Some give more than others, but eventually I find that there's always something that irritates me enough to take me out of the flow when I'm writing.
 
-Recently I was writing a post for this blog, which I write in VSCode, and I thought "Why don't I use the same for me novel?". So I ported my WIP into VSCode and honestly it's the best thing ever.
+Recently I was writing a post for this blog, which I write in VSCode, and I thought "Why don't I use the same for my novel?". So I ported my WIP into VSCode and honestly it's the best thing ever.
 
 ## What is Visual Studio Code?
 
