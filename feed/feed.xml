@@ -5,11 +5,55 @@
   <subtitle>This is a longer description about your blog.</subtitle>
   <link href="https://example.com/feed/feed.xml" rel="self" />
   <link href="https://example.com/" />
-  <updated>2024-10-24T00:00:00Z</updated>
+  <updated>2024-11-28T00:00:00Z</updated>
   <id>https://example.com/</id>
   <author>
     <name>Your Name</name>
   </author>
+  <entry>
+    <title>Creative Writing in Visual Studio Code</title>
+    <link href="https://example.com/blog/2024-11-28-vscode-for-writers/vscode-for-writers/" />
+    <updated>2024-11-28T00:00:00Z</updated>
+    <id>https://example.com/blog/2024-11-28-vscode-for-writers/vscode-for-writers/</id>
+    <content type="html">&lt;p&gt;While working on my novel, I&#39;ve become increasingly frustrated that the tools available for creative writing are not as good as the tools used for writing software.&lt;/p&gt;
+&lt;p&gt;I&#39;ve been a software developer for over two decades, I&#39;ve written a lot of software, using a lot of different tools, and I can tell you that software developers &lt;em&gt;hate&lt;/em&gt; crappy tools. The eco-system for software development never stands still, there are always new tools to try, and because we&#39;re spoiled for choice, software developers highly value quality tools that make their lives easier.&lt;/p&gt;
+&lt;p&gt;As a creative writer, I can&#39;t say the same. In working on my novel, I&#39;ve used a range of &amp;quot;specialist&amp;quot; tools, some free, others cost money, and I&#39;m always left wanting. Some give more than others, but eventually I find that there&#39;s always something that irritates me enough to take me out of the flow when I&#39;m writing.&lt;/p&gt;
+&lt;p&gt;Recently I was writing a post for this blog, which I write in VSCode, and I thought &amp;quot;Why don&#39;t I use the same for me novel?&amp;quot;. So I ported my WIP into VSCode and honestly it&#39;s the best thing ever.&lt;/p&gt;
+&lt;h2 id=&quot;what-is-visual-studio-code&quot;&gt;What is Visual Studio Code?&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://visualstudio.microsoft.com/#vscode-section&quot;&gt;Visual Studio Code (VSCode)&lt;/a&gt; is a software editor developed by Microsoft. It&#39;s free, and works on Mac, Windows, and Linux. It&#39;s lightweight, fast, heavily customisable and has become one of the most popular software development tools in use today.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://code.visualstudio.com/docs/getstarted/userinterface&quot;&gt;The layout&lt;/a&gt; of VSCode is highly configurable. Multiple editor tabs can be open at once, viewing different files of different types, and arrange these conveniently in panels. This is especially useful when having to refer to notes and reference documents.&lt;/p&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/blog/2024-11-28-vscode-for-writers/vscode-for-writers/6uIFcB_p7m-3776.avif 3776w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/blog/2024-11-28-vscode-for-writers/vscode-for-writers/6uIFcB_p7m-3776.webp 3776w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/blog/2024-11-28-vscode-for-writers/vscode-for-writers/6uIFcB_p7m-3776.png&quot; alt=&quot;VSCode showing multiple documents in the layout&quot; width=&quot;3776&quot; height=&quot;2322&quot;&gt;&lt;/picture&gt;
+&lt;p&gt;&lt;a href=&quot;https://code.visualstudio.com/docs/getstarted/userinterface#_explorer-view&quot;&gt;The explorer&lt;/a&gt; in VSCode (left-hand side) shows files and folders on your computer, there&#39;s no proprietary project format, and no danger of a &lt;em&gt;corrupted project&lt;/em&gt; to cry over. All the drag and drop, copy and paste, and file management you&#39;re used to works as expected, and you can use any backup solution you want to keep your work safe (iCloud, DropBox etc.)&lt;/p&gt;
+&lt;p&gt;VSCode has a &lt;a href=&quot;https://code.visualstudio.com/docs/getstarted/themes&quot;&gt;huge variety of themes&lt;/a&gt; and plugins to configure the editor to your liking. These can be installed from the marketplace, which is available from the plugins tab. There are &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=danspinola.vscode-for-writers&quot;&gt;several plugins designed for creative writers&lt;/a&gt; using VSCode including spell checkers, word count tools, random name generators and more.&lt;/p&gt;
+&lt;p&gt;VSCode has many other features that are useful for creative writing. There&#39;s the &lt;a href=&quot;https://code.visualstudio.com/docs/getstarted/userinterface#_minimap&quot;&gt;Minimap&lt;/a&gt;, which shows a zoomed-out view of documents alongside the scroll bar. &lt;a href=&quot;https://code.visualstudio.com/docs/editor/codebasics#_multiple-selections-multicursor&quot;&gt;Multiple cursors&lt;/a&gt;, which are so useful you&#39;ll wonder how you ever lived without them. It has a powerful &lt;a href=&quot;https://code.visualstudio.com/docs/editor/codebasics#_find-and-replace&quot;&gt;find &amp;amp; replace&lt;/a&gt;, &lt;a href=&quot;https://code.visualstudio.com/docs/getstarted/userinterface#_zen-mode&quot;&gt;Zen mode&lt;/a&gt; for focussed writing, and loads of handy &lt;a href=&quot;https://code.visualstudio.com/docs/getstarted/keybindings&quot;&gt;keyboard shortcuts&lt;/a&gt; for moving around and editing text. Most of the functionality is configurable so you can really streamline your workflow.&lt;/p&gt;
+&lt;h2 id=&quot;what-is-markdown&quot;&gt;What is Markdown?&lt;/h2&gt;
+&lt;p&gt;I write in &lt;a href=&quot;https://www.markdownguide.org/&quot;&gt;Markdown&lt;/a&gt; (one scene per file), which is a super simple way to add formatting to text without getting distracted with styling. Markdown files are plain text, with a few special characters to denote different formatting when the document is compiled. It looks like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Chapter 1
+
+This is a paragraph of text, with _italics_ and **bold**.
+
+&amp;gt; This is a quote
+
+&amp;quot;Dialogue goes in quotes&amp;quot;, said Sam
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Personally, I prefer to write in plain text, as I find there are fewer distractions. Also when I&#39;m pasting text from other documents or websites, I don&#39;t want to bring in any formatting that I then have to clean up.&lt;/p&gt;
+&lt;p&gt;However, I do like to visualise how my text might look when compiled, which I find easier for proofreading as I go. Helpfully VSCode has a built-in Markdown previewer, so I can see how my document will look when compiled. Like most things, this is easy to configure, I like mine to look like a printed page.&lt;/p&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/blog/2024-11-28-vscode-for-writers/vscode-for-writers/oJb2cCWHoX-3776.avif 3776w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/blog/2024-11-28-vscode-for-writers/vscode-for-writers/oJb2cCWHoX-3776.webp 3776w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/blog/2024-11-28-vscode-for-writers/vscode-for-writers/oJb2cCWHoX-3776.png&quot; alt=&quot;VSCode with markdown preview&quot; width=&quot;3776&quot; height=&quot;2322&quot;&gt;&lt;/picture&gt;
+&lt;h2 id=&quot;how-do-i-compile-my-manuscript-epub-pdf&quot;&gt;How Do I Compile My Manuscript/ePub/PDF?&lt;/h2&gt;
+&lt;p&gt;For compiling my manuscript I&#39;ve been using &lt;a href=&quot;https://pandoc.org/&quot;&gt;Pandoc&lt;/a&gt;, which is a tool to convert files between different formats. Pandoc takes in all my markdown files and builds them into documents formatted for print or digital distribution.&lt;/p&gt;
+&lt;p&gt;It&#39;s a very well established tool, and I suspect near-universal. I imagine most creative writing software uses Pandoc under-the-hood.&lt;/p&gt;
+&lt;p&gt;If you&#39;re technically minded, it&#39;s quite easy to get it set up to export all the file formats you want, styled as you want them to be. I&#39;m still figuring some of this out, but I&#39;ve got it working well enough for now, allowing me to read my novel on my kindle, which I prefer when reviewing my progress.&lt;/p&gt;
+&lt;h2 id=&quot;what-else&quot;&gt;What Else?&lt;/h2&gt;
+&lt;p&gt;Because my manuscript files are all plain text, it&#39;s really easy to perform analysis of my writing. I&#39;ve written a few scripts for myself to track my writing progress, show word count and common phrases. As I need more, I can create these for myself, without being limited by the software I&#39;m using.&lt;/p&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/blog/2024-11-28-vscode-for-writers/vscode-for-writers/kyTwnMm4Pc-3776.avif 3776w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/blog/2024-11-28-vscode-for-writers/vscode-for-writers/kyTwnMm4Pc-3776.webp 3776w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/blog/2024-11-28-vscode-for-writers/vscode-for-writers/kyTwnMm4Pc-3776.png&quot; alt=&quot;VSCode showing project stats&quot; width=&quot;3776&quot; height=&quot;2322&quot;&gt;&lt;/picture&gt;
+&lt;h2 id=&quot;sounds-great-how-do-i-get-started&quot;&gt;Sounds great, how do I get started?&lt;/h2&gt;
+&lt;p&gt;If you have some experience with software development tools, you&#39;ll have no trouble getting VSCode setup for creative writing. If not, it may take a little effort to learn a few new things along the way.&lt;/p&gt;
+&lt;p&gt;But if you value a powerful tool that can be configured to support your way of working, then I think it&#39;s worth the effort.&lt;/p&gt;
+&lt;p&gt;Download &lt;a href=&quot;https://visualstudio.microsoft.com/#vscode-section&quot;&gt;Visual Studio Code&lt;/a&gt;, and give it a try!&lt;/p&gt;
+&lt;p&gt;Let me know how you get on!&lt;/p&gt;
+&lt;p&gt;❤️&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>We Need More Optimistic Science Fiction</title>
     <link href="https://example.com/blog/2024-10-24-optimistic-sci-fi/" />
