@@ -1,0 +1,50 @@
+body {
+	background-color: white;
+	color: black;
+	font-family: ui-sans-serif, system-ui, sans-serif;
+	font-feature-settings: normal;
+	font-size: 13pt;
+	font-variation-settings: normal;
+	line-height: 1.6;
+	margin: 30px auto;
+	max-width: 680px;
+	tab-size: 4;
+	text-align: justify;
+	text-size-adjust: 100%;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+hr {
+	border: 0;
+	margin: 2em 30%;
+	height: 2px;
+	background-color: #333;
+}
+
+blockquote {
+	background-color: inherit;
+	border: none;
+	font-style: italic;
+	border-left: 4px solid #ccc;
+	padding-left: 20px;
+	color: rgb(107 114 128);
+}
+
+blockquote p {
+	text-indent: 0;
+	margin-bottom: 15px;
+}
+
+code,
+pre {
+	font-family: inherit;
+	background-color: yellow;
+	color: #333;
+	padding: 5px;
+	display: inline;
+}
