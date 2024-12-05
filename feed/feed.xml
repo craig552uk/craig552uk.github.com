@@ -5,11 +5,95 @@
   <subtitle>This is a longer description about your blog.</subtitle>
   <link href="https://example.com/feed/feed.xml" rel="self" />
   <link href="https://example.com/" />
-  <updated>2024-11-28T00:00:00Z</updated>
+  <updated>2024-12-05T00:00:00Z</updated>
   <id>https://example.com/</id>
   <author>
     <name>Your Name</name>
   </author>
+  <entry>
+    <title>Can AI Help Writers?</title>
+    <link href="https://example.com/blog/2024-12-05-ai-for-writers/" />
+    <updated>2024-12-05T00:00:00Z</updated>
+    <id>https://example.com/blog/2024-12-05-ai-for-writers/</id>
+    <content type="html">&lt;p&gt;There&#39;s a lot of discussion about the consequences of Generative AI on creators. This is important, but I&#39;m this post I want to look at how GenAI might be used to support writers, rather than compete with them. Certainly we don&#39;t want AI writing for us, but can these tools help us and provide useful insights into our work?&lt;/p&gt;
+&lt;p&gt;I can think of a few useful use cases for AI when we&#39;re writing. These intend to give us a view of our work that helps to us to maintain clarity and focus in the story we&#39;re telling.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Identifying cliches and over-used phrases&lt;/li&gt;
+&lt;li&gt;Highlighting the subject of each paragraph&lt;/li&gt;
+&lt;li&gt;Finding inconsistencies in character dialogue&lt;/li&gt;
+&lt;li&gt;Colourising text by speaker&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The last one looks to me to be a fairly simple task that current (non-AI) writing software cannot do and may be well suited to AI. So I ran a few experiments to find out how competent current AI models are at this task.&lt;/p&gt;
+&lt;p&gt;The aim is to identify dialogue in the text and for each line of dialogue identify the speaker from the context. With this information, the text should be marked up with the speakers name, which could be used as input to some writing software that could colourise the text by speaker. This would make it easy for the writer to scan text and quickly identify which characters are speaking.&lt;/p&gt;
+&lt;p&gt;I used &lt;a href=&quot;https://ollama.com&quot;&gt;Ollama&lt;/a&gt; to download an run various Large Language Models (LLM) on my laptop. For these tests I tried various models, but I found llama 3 to be the most successful.&lt;/p&gt;
+&lt;p&gt;This is the source text I asked the LLM to process (from &lt;a href=&quot;https://example.com/ageless&quot;&gt;my novel&lt;/a&gt;). I chose this as it contains a few complexities for the LLM to work with.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Not all lines are dialogue lines&lt;/li&gt;
+&lt;li&gt;Dialogue is sometimes broken up by dialogue tags&lt;/li&gt;
+&lt;li&gt;Some characters say the names of other characters&lt;/li&gt;
+&lt;li&gt;On one line a character (Kate) is speaking, but not referred to by name&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;“KIDS! DINNER!” Geoff bellowed out into the garden.
+
+“She said to call your kids in Geoff, not the all the kids in neighbourhood!” Alex ribbed his brother-in-law.
+
+“He’s so loud every time,” Kate rolled her eyes, “I don’t know what the neighbours think of us.”
+
+“Another beer Al?” Geoff presented an open bottle.
+
+The sound of children playing in the garden continued uninterrupted.
+
+“Thanks,” Alex took the bottle, “can I help with anything Kate?”
+
+Geoff, unfazed by the taunting, started to fiddle with the radio.
+
+“Yes, can you put the plates on the table for me?” She replied, then turned to her husband. “Geoff put your beer down and get the vegetables out of the oven. Don’t let our guests do all the work.”
+
+“Yes boss!” Geoff snapped to attention, sarcastically. “Where’s your wife gone Al?”
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I provided this text to the LLM with various prompts asking for the required output. Here&#39;s an example of one.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; Using the below text, wrap each line containing dialogue with `&amp;lt;span&amp;gt;` and add a `class` attribute equal to the character&#39;s name from that line. Provide no additional commentary. Preserve all original formatting and punctuation.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In all cases, the initial output was quite poor. The LLM required a lot of guidance to improve. Here&#39;s a sample of the follow-up prompts I used to refine the output.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; good. now include a class in each span tag with the name of the character
+&amp;gt;&amp;gt;&amp;gt; you have a non-dialogue line wrapped in span
+&amp;gt;&amp;gt;&amp;gt; correct &#39;she&#39; class to the name of the character
+&amp;gt;&amp;gt;&amp;gt; only correct the class name, not the character name in the text
+&amp;gt;&amp;gt;&amp;gt; the first is incorrect
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Even with this encouragement the LLM was unable to execute the task reliably, and often repeated mistakes after having previously been corrected.&lt;/p&gt;
+&lt;p&gt;Here&#39;s one of the better examples of output that I was able to achieve. In most cases the LLM was able to identify dialogue in the text, and identify the speaker. However the output was never without a few critical mistakes. Note in this example that some of the source text is lost, not all dialogue is correctly wrapped in &lt;code&gt;span&lt;/code&gt; tags, and the speaker is not always correctly identified.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;span class=&amp;quot;geoff&amp;quot;&amp;gt;“KIDS! DINNER!”&amp;lt;/span&amp;gt;
+
+&amp;lt;span class=&amp;quot;alex&amp;quot;&amp;gt;“She said to call your kids in Geoff, not the all the kids in neighbourhood!”&amp;lt;/span&amp;gt;
+
+&amp;lt;span class=&amp;quot;kate&amp;quot;&amp;gt;“He’s so loud every time,”&amp;lt;/span&amp;gt; Kate rolled her eyes, “I don’t know what the neighbours think of us.”
+
+&amp;lt;span class=&amp;quot;geoff&amp;quot;&amp;gt;“Another beer Al?”&amp;lt;/span&amp;gt;
+
+The sound of children playing in the garden continued uninterrupted.
+
+&amp;lt;span class=&amp;quot;alex&amp;quot;&amp;gt;“Thanks,”&amp;lt;/span&amp;gt; Alex took the bottle, “can I help with anything &amp;lt;span class=&amp;quot;kate&amp;quot;&amp;gt;Kate”&amp;lt;/span&amp;gt;?
+
+&amp;lt;span class=&amp;quot;she&amp;quot;&amp;gt;“Yes, can you put the plates on the table for me?”&amp;lt;/span&amp;gt; She replied, then turned to her husband. “&amp;lt;span class=&amp;quot;geoff&amp;quot;&amp;gt;Geoff put your beer down and get the vegetables out of the oven. Don’t let our guests do all the work.”&amp;lt;/span&amp;gt;
+
+&amp;lt;span class=&amp;quot;geoff&amp;quot;&amp;gt;“Yes boss!”&amp;lt;/span&amp;gt; Geoff snapped to attention, sarcastically. “Where’s your wife gone &amp;lt;span class=&amp;quot;alex&amp;quot;&amp;gt;Al”&amp;lt;/span&amp;gt;?
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After this back-and-forth, I asked the LLM to provide a prompt that summarised the process. It utterly failed to do so, showing that it had no sustained concept of what had been asked of it, providing (incorrect) regular expression instructions instead.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;gt;&amp;gt;&amp;gt; good. now give me a general purpose command to achieve this with any text
+
+Here is a general-purpose command to wrap each line of text in a `&amp;lt;span&amp;gt;` tag with the class name of the character:
+
+Find all occurrences of `(.+)` (which matches one or more characters, capturing them as group 1) and replace them with `&amp;lt;span class=&amp;quot;&#92;1&amp;quot;&amp;gt;` followed by the original matched text and ending with `&amp;lt;/span&amp;gt;`
+
+This command can be used with any text, not just this specific dialogue. The `&#92;1` refers to the captured group 1 (the character name), which is used as the value for the `class` attribute in the `&amp;lt;span&amp;gt;` tag.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Obviously, that the LLM was unable to preserve the original text is a critical issue. We certainly don&#39;t want our writing tools deleting our work. If it wasn&#39;t for this issue, the output, though flawed, might otherwise be useful, as even if it were only able to highlight some of the dialogue correctly, this may still be useful to a writer. But as it stands, the LLMs I tried are not yet competent enough to be useful for this task.&lt;/p&gt;
+&lt;p&gt;In another context it may be possible to leverage the capabilities of LLM to achieve this task more reliably. For example, by using traditional programming techniques to identify dialogue lines (a fairly easy task) then using an LLM to identify the speaking character of each line. This data could them be fed back to a formatter, preserving the original text and adding markup where required.&lt;/p&gt;
+&lt;p&gt;This was only a short experiment, and I&#39;m sure that with more time and effort, a more reliable solution could be found. While the issues raised by Generative AI for creators are important and must be addressed, I would encourage creatives to also explore how these tools might be used to usefully support their work.&lt;/p&gt;
+&lt;p&gt;If you have any ideas along these lines, I&#39;d love to hear them.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Creative Writing in Visual Studio Code</title>
     <link href="https://example.com/blog/2024-11-28-vscode-for-writers/vscode-for-writers/" />
@@ -51,6 +135,45 @@ This is a paragraph of text, with _italics_ and **bold**.
 &lt;p&gt;But if you value a powerful tool that can be configured to support your way of working, then I think it&#39;s worth the effort.&lt;/p&gt;
 &lt;p&gt;Download &lt;a href=&quot;https://visualstudio.microsoft.com/#vscode-section&quot;&gt;Visual Studio Code&lt;/a&gt;, and give it a try!&lt;/p&gt;
 &lt;p&gt;Let me know how you get on!&lt;/p&gt;
+&lt;p&gt;❤️&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>The Coming Utopian Crisis</title>
+    <link href="https://example.com/blog/2024-11-21-utopian-crisis/2024-11021-utopian-crisis/" />
+    <updated>2024-10-24T00:00:00Z</updated>
+    <id>https://example.com/blog/2024-11-21-utopian-crisis/2024-11021-utopian-crisis/</id>
+    <content type="html">&lt;p&gt;Before the end of this century the world will arrive at a crisis. I&#39;m not talking about the climate crisis, or the population crisis, while these are both real and pressing issues, I want to focus on another looming crisis, one that is not yet widely discussed. I want to talk about a crisis brought about by technology.&lt;/p&gt;
+&lt;p&gt;I want to focus on two rapidly advancing technologies, each of which are revolutionary in their own right, but together risk creating a crisis that could be the most transformative event in human history.&lt;/p&gt;
+&lt;p&gt;These two technologies are nuclear fusion power and humanoid robotics. Both are advancing at an accelerating rate, both are likely to become real-world viable in a matter of decades, and both have to potential to upend our world in ways that we are ill equipped to face.&lt;/p&gt;
+&lt;p&gt;If we arrive at this crisis point unprepared we risk catastrophe. However, if we have the will and imagination, this crisis could become the greatest opportunity our species has ever faced.&lt;/p&gt;
+&lt;p&gt;For the first time our history, humanity may be presented with an opportunity to create a &lt;em&gt;truly&lt;/em&gt; utopian society.&lt;/p&gt;
+&lt;h2 id=&quot;nuclear-fusion-power&quot;&gt;Nuclear Fusion Power&lt;/h2&gt;
+&lt;p&gt;Nuclear fusion is the process of forcing atoms to fuse together under huge pressures. This releases energy, a lot of energy. This process, which powers our sun, can be replicated in laboratories, and while this is not yet real-world viable, advances are being made. Year by year records are broken. Nuclear fusion promises us clean, cheap, abundant energy. Fuelled by hydrogen, one of the most abundant elements in the universe, it is estimated that the hydrogen in a glass of water could meet the energy needs of a large city for a year.&lt;/p&gt;
+&lt;p&gt;The science and engineering are advancing, we cannot say when it will have advanced far enough for the first commercial fusion power stations to come online, but it is all but guaranteed that this will occur, very likely before the end of the century.&lt;/p&gt;
+&lt;p&gt;This will arrive too late to rid us of our dependency on fossil fuels. Hopefully by this time our energy needs will be met mostly (or wholly) by renewable sources, and the climate crisis will cease escalating. But the arrival of nuclear fusion risks a new crisis on the world, or if we can be wise enough, and opportunity.&lt;/p&gt;
+&lt;h2 id=&quot;humanoid-robotics&quot;&gt;Humanoid Robotics&lt;/h2&gt;
+&lt;p&gt;Artificial intelligence has rocketed into the public conciousness in recent years, thanks to advances in generative AI. Products like ChatGPT and Midjourney have delighted and terrified us as they have begun to seep into our lives. Though it may feel like the age of AI has arrived suddenly and unexpectedly, the technological advancements have actually been far more incremental. while generative AI dominates much of the public debate about AI, it is not the subject of this essay.&lt;/p&gt;
+&lt;p&gt;As an active research field, AI is much more than solely generative AI, and it is AI applications to robotics and automation that I believe will be the most transformative for our world.&lt;/p&gt;
+&lt;p&gt;Robotics is a long established field of research and, arguably, has stagnated in recent years. Indeed, the Tesla robots shown off just this year are somewhat less impressive than Honda&#39;s ASIMO, which wowed us over twenty years ago.&lt;/p&gt;
+&lt;p&gt;However the promise of humanoid robotic workers, self-driving vehicles, and other robotic workers is advancing. As pours into AI research in the wake of the AI frenzy, some of this will deliver genuine breakthroughs which will drive the field forwards. We should think of when, not if, the robots will arrive.&lt;/p&gt;
+&lt;h2 id=&quot;economics&quot;&gt;Economics&lt;/h2&gt;
+&lt;p&gt;Now consider the three main components of our economics: energy, labour and resources. Currently our economics are based on the principle of scarcity. Scarce resources, in demand, command higher prices than abundant resources. This is why the cost of energy has risen as oil supplies run down.&lt;/p&gt;
+&lt;p&gt;The arrival of fusion power, a near zero-cost, near limitless energy source, flips the table of an economy built on the principle of scarcity. This is the first component of the coming crisis. It may be, likely even, that fusion power will be limited, creating an artificial scarcity to avoid economic shocks. We should certainly expect that incumbent energy providers would want to defend their profitable hold on the market as we have seen with the adoption of renewable energy sources. But in time the world will adapt, and low-cost abundant energy will become the norm.&lt;/p&gt;
+&lt;p&gt;Now imagine that into this world we introduce fully capable humanoid robots. I&#39;m sure that in reality, robotic workers will be designed to fulfil particular roles, with many not appearing humanoid at all, but for our thought experiment, imagine a robot that is physically capable of performing any physical task a human could do with at least the same ability.&lt;/p&gt;
+&lt;p&gt;Building these robots would require raw materials, (metal, plastic, etc), workers to build them and energy to drive them.&lt;/p&gt;
+&lt;p&gt;Power is no constraint, as it is now free and limitless. Workers may initially pose a constraint, but not for long, as robots would be manufactured to work production lines manufacturing more robots. The only limiting factor is the availability of raw materials, which must be mined, shipped and processed, also by a robotic workforce. But eventually these will be depleted. Raw materials would be available from recycling old products, while this is a labour-intensive process today, a robotic workforce removes this limitation.&lt;/p&gt;
+&lt;p&gt;We can imagine a vast fleet of robots, dismantling old robots to build new robots that will eventually dismantle the robots who built them. this cycle will continue until all physical labour is undertaken by a vast fleet of robots, with each generation more capable, and more recyclable, than the last. The cost of labour will plummet to effectively zero.&lt;/p&gt;
+&lt;h2 id=&quot;crisis-or-opportunity&quot;&gt;Crisis or Opportunity&lt;/h2&gt;
+&lt;p&gt;So now we find ourselves in a world where energy costs nothing, labour costs nothing, resources are recycled in an infinite feedback loop of progress. Finally we arrive at our crisis point with a question:&lt;/p&gt;
+&lt;p&gt;Who benefits from all this progress?&lt;/p&gt;
+&lt;p&gt;It&#39;s reasonable to expect that the powerful and wealthy will use these advancements to increase their wealth and power, leaving the rest of us to survive on the scraps of society. Based on our current economics, this would be the most plausible outcome.&lt;/p&gt;
+&lt;p&gt;A luddite would propose we protect the workers, save their jobs from the threat of automation. But this this too defends the existing economic system. Today&#39;s victory for the worker is tomorrows victory for the capitalist.&lt;/p&gt;
+&lt;p&gt;We need to think more broadly, not to continue to battle within the constraints of scarcity economics, but to break out of it. When we find ourselves in a world of free abundant energy and labour, we must be ready and prepared with new ideas to ensure all people benefit.&lt;/p&gt;
+&lt;p&gt;I&#39;m no academic. I&#39;m not an expert in economics, politics or social sciences. I don&#39;t have the knowledge or experience to develop ideas for this world, to stress-test them in anticipation of the day they&#39;re needed.&lt;/p&gt;
+&lt;p&gt;I&#39;m just a guy who thinks about the future and tells stories. All I can do is my part, to imagine what this world could be like and to share it with you. Perhaps you like the future I imagine, perhaps you don&#39;t. Either is okay.&lt;/p&gt;
+&lt;p&gt;Perhaps I&#39;ve given you something to think about. Maybe you have an idea. Maybe that idea will turn this coming crisis into the greatest opportunity our species has ever faced.&lt;/p&gt;
+&lt;p&gt;Thank you for reading.&lt;/p&gt;
 &lt;p&gt;❤️&lt;/p&gt;
 </content>
   </entry>

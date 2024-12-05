@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Google tag (gtag.js) -->
+		<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-KD7MWD7BBF"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+			gtag('config', 'G-KD7MWD7BBF');
+			gtag('consent', 'default', {
+				'ad_storage': 'denied',
+				'ad_user_data': 'denied',
+				'ad_personalization': 'denied',
+				'analytics_storage': 'denied'
+			});
+		</script>
+
+		<!-- MailerLite Universal -->
+		<script>
+			(function (w, d, e, u, f, l, n) {
+				w[f] = w[f] || function () {
+					(w[f].q = w[f].q || []).push(arguments);
+				},
+				l = d.createElement(e),
+				l.async = 1,
+				l.src = u,
+				n = d.getElementsByTagName(e)[0],
+				n
+					.parentNode
+					.insertBefore(l, n);
+			})(window, document, 'script', 'https://assets.mailerlite.com/js/universal.js', 'ml');
+			ml('account', '1154565');
+		</script>
+
+		<!-- Metadata -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Can AI Help Writers?</title>
+		<meta name="description" content="A small experiment to see if Generative AI can be used to help writers">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Craig Russell">
+		<link rel="stylesheet" href="/style.css?v=1733433122757">
+
+		<!-- Social Media Meta -->
+		<meta property="og:title" content="Can AI Help Writers?">
+		<meta property="og:type" content="article">
+		<meta property="og:description" content="A small experiment to see if Generative AI can be used to help writers">
+		<meta property="og:image" content="https://craig-russell.co.uk/img/banners/banner11.png">
+		<meta property="og:url" content="https://craig-russell.co.uk/blog/2024-12-05-ai-for-writers/">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta property="og:site_name" content="Craig Russell">
+	</head>
+	<body>
+		<a href="#skip" class="invisible">Skip to main content</a>
+
+		<div class="container mx-auto max-w-3xl px-8">
+
+			<header class="flex justify-between pb-12">
+				<div>
+					<div class="text-3xl font-bold">
+						<a href="/" class="hover:underline">Craig Russell</a>
+					</div>
+					<div class="text-xl">Software Engineer &amp; Writer</div>
+				</div>
+				<ul class="flex flex-col md:flex-row *:ml-4 *:mb-2 text-lg">
+					<li>
+						<a href="/" class="hover:underline">Home</a>
+					</li>
+					<li>
+						<a href="/blog" class="hover:underline">Blog</a>
+					</li>
+				</ul>
+			</header>
+
+			<main id="skip" class="space-y-12">
+				
+					
+<div>
+	<h1 class="text-4xl font-bold mb-0" id="can-ai-help-writers">Can AI Help Writers?</h1>
+	<div class="text-sm text-gray-500 mb-4">
+		<time datetime="2024-12-05">05 December 2024</time>
+			<a href="/tags/resources" class="font-bold hover:underline">resources</a>
+	</div>
+
+	<picture><source type="image/avif" srcset="/img/pVivdPab5x-704.avif 704w"><source type="image/webp" srcset="/img/pVivdPab5x-704.webp 704w"><img loading="lazy" decoding="async" src="/img/pVivdPab5x-704.png" alt="Can AI Help Writers?" class="mb-4 sepia-50" width="704" height="176"></picture>
+
+	<div class="post-content *:mb-4 *:leading-relaxed">
+		<p>There's a lot of discussion about the consequences of Generative AI on creators. This is important, but I'm this post I want to look at how GenAI might be used to support writers, rather than compete with them. Certainly we don't want AI writing for us, but can these tools help us and provide useful insights into our work?</p>
+<p>I can think of a few useful use cases for AI when we're writing. These intend to give us a view of our work that helps to us to maintain clarity and focus in the story we're telling.</p>
+<ul>
+<li>Identifying cliches and over-used phrases</li>
+<li>Highlighting the subject of each paragraph</li>
+<li>Finding inconsistencies in character dialogue</li>
+<li>Colourising text by speaker</li>
+</ul>
+<p>The last one looks to me to be a fairly simple task that current (non-AI) writing software cannot do and may be well suited to AI. So I ran a few experiments to find out how competent current AI models are at this task.</p>
+<p>The aim is to identify dialogue in the text and for each line of dialogue identify the speaker from the context. With this information, the text should be marked up with the speakers name, which could be used as input to some writing software that could colourise the text by speaker. This would make it easy for the writer to scan text and quickly identify which characters are speaking.</p>
+<p>I used <a href="https://ollama.com">Ollama</a> to download an run various Large Language Models (LLM) on my laptop. For these tests I tried various models, but I found llama 3 to be the most successful.</p>
+<p>This is the source text I asked the LLM to process (from <a href="/ageless">my novel</a>). I chose this as it contains a few complexities for the LLM to work with.</p>
+<ul>
+<li>Not all lines are dialogue lines</li>
+<li>Dialogue is sometimes broken up by dialogue tags</li>
+<li>Some characters say the names of other characters</li>
+<li>On one line a character (Kate) is speaking, but not referred to by name</li>
+</ul>
+<pre><code>“KIDS! DINNER!” Geoff bellowed out into the garden.
+
+“She said to call your kids in Geoff, not the all the kids in neighbourhood!” Alex ribbed his brother-in-law.
+
+“He’s so loud every time,” Kate rolled her eyes, “I don’t know what the neighbours think of us.”
+
+“Another beer Al?” Geoff presented an open bottle.
+
+The sound of children playing in the garden continued uninterrupted.
+
+“Thanks,” Alex took the bottle, “can I help with anything Kate?”
+
+Geoff, unfazed by the taunting, started to fiddle with the radio.
+
+“Yes, can you put the plates on the table for me?” She replied, then turned to her husband. “Geoff put your beer down and get the vegetables out of the oven. Don’t let our guests do all the work.”
+
+“Yes boss!” Geoff snapped to attention, sarcastically. “Where’s your wife gone Al?”
+</code></pre>
+<p>I provided this text to the LLM with various prompts asking for the required output. Here's an example of one.</p>
+<pre><code>&gt;&gt;&gt; Using the below text, wrap each line containing dialogue with `&lt;span&gt;` and add a `class` attribute equal to the character's name from that line. Provide no additional commentary. Preserve all original formatting and punctuation.
+</code></pre>
+<p>In all cases, the initial output was quite poor. The LLM required a lot of guidance to improve. Here's a sample of the follow-up prompts I used to refine the output.</p>
+<pre><code>&gt;&gt;&gt; good. now include a class in each span tag with the name of the character
+&gt;&gt;&gt; you have a non-dialogue line wrapped in span
+&gt;&gt;&gt; correct 'she' class to the name of the character
+&gt;&gt;&gt; only correct the class name, not the character name in the text
+&gt;&gt;&gt; the first is incorrect
+</code></pre>
+<p>Even with this encouragement the LLM was unable to execute the task reliably, and often repeated mistakes after having previously been corrected.</p>
+<p>Here's one of the better examples of output that I was able to achieve. In most cases the LLM was able to identify dialogue in the text, and identify the speaker. However the output was never without a few critical mistakes. Note in this example that some of the source text is lost, not all dialogue is correctly wrapped in <code>span</code> tags, and the speaker is not always correctly identified.</p>
+<pre><code>&lt;span class=&quot;geoff&quot;&gt;“KIDS! DINNER!”&lt;/span&gt;
+
+&lt;span class=&quot;alex&quot;&gt;“She said to call your kids in Geoff, not the all the kids in neighbourhood!”&lt;/span&gt;
+
+&lt;span class=&quot;kate&quot;&gt;“He’s so loud every time,”&lt;/span&gt; Kate rolled her eyes, “I don’t know what the neighbours think of us.”
+
+&lt;span class=&quot;geoff&quot;&gt;“Another beer Al?”&lt;/span&gt;
+
+The sound of children playing in the garden continued uninterrupted.
+
+&lt;span class=&quot;alex&quot;&gt;“Thanks,”&lt;/span&gt; Alex took the bottle, “can I help with anything &lt;span class=&quot;kate&quot;&gt;Kate”&lt;/span&gt;?
+
+&lt;span class=&quot;she&quot;&gt;“Yes, can you put the plates on the table for me?”&lt;/span&gt; She replied, then turned to her husband. “&lt;span class=&quot;geoff&quot;&gt;Geoff put your beer down and get the vegetables out of the oven. Don’t let our guests do all the work.”&lt;/span&gt;
+
+&lt;span class=&quot;geoff&quot;&gt;“Yes boss!”&lt;/span&gt; Geoff snapped to attention, sarcastically. “Where’s your wife gone &lt;span class=&quot;alex&quot;&gt;Al”&lt;/span&gt;?
+</code></pre>
+<p>After this back-and-forth, I asked the LLM to provide a prompt that summarised the process. It utterly failed to do so, showing that it had no sustained concept of what had been asked of it, providing (incorrect) regular expression instructions instead.</p>
+<pre><code>&gt;&gt;&gt; good. now give me a general purpose command to achieve this with any text
+
+Here is a general-purpose command to wrap each line of text in a `&lt;span&gt;` tag with the class name of the character:
+
+Find all occurrences of `(.+)` (which matches one or more characters, capturing them as group 1) and replace them with `&lt;span class=&quot;\1&quot;&gt;` followed by the original matched text and ending with `&lt;/span&gt;`
+
+This command can be used with any text, not just this specific dialogue. The `\1` refers to the captured group 1 (the character name), which is used as the value for the `class` attribute in the `&lt;span&gt;` tag.
+</code></pre>
+<p>Obviously, that the LLM was unable to preserve the original text is a critical issue. We certainly don't want our writing tools deleting our work. If it wasn't for this issue, the output, though flawed, might otherwise be useful, as even if it were only able to highlight some of the dialogue correctly, this may still be useful to a writer. But as it stands, the LLMs I tried are not yet competent enough to be useful for this task.</p>
+<p>In another context it may be possible to leverage the capabilities of LLM to achieve this task more reliably. For example, by using traditional programming techniques to identify dialogue lines (a fairly easy task) then using an LLM to identify the speaking character of each line. This data could them be fed back to a formatter, preserving the original text and adding markup where required.</p>
+<p>This was only a short experiment, and I'm sure that with more time and effort, a more reliable solution could be found. While the issues raised by Generative AI for creators are important and must be addressed, I would encourage creatives to also explore how these tools might be used to usefully support their work.</p>
+<p>If you have any ideas along these lines, I'd love to hear them.</p>
+
+	</div>
+
+</div>
+
+<div class="border rounded bg-amber-50 border-amber-100 shadow-md">
+  <h2 class="ml-4 mt-4 text-xl" id="join-my-newsletter-to-keep-updated">Join my newsletter to keep updated! 💌</h2>
+  <div class="ml-embedded" data-form="vWAoAy"></div>
+</div>
+
+<div class="md:flex justify-between border rounded p-4 md:p-8 md:space-x-8 space-x-4">
+  <div class="flex-none flex flex-col mb-4">
+    <div class="flex justify-center">
+      <picture><source type="image/avif" srcset="/img/RrtoCut7lh-700.avif 700w"><source type="image/webp" srcset="/img/RrtoCut7lh-700.webp 700w"><img loading="lazy" decoding="async" src="/img/RrtoCut7lh-700.jpeg" alt="Avatar" class="rounded-full w-36 h-36" width="700" height="700"></picture>
+    </div>
+    <div class="flex justify-center gap-4 pt-4">
+      <a class="social-icon w-8 h-8" href="https://www.threads.net/@cmrussell.writes/" target="_blank">
+        <picture><source type="image/avif" srcset="/img/HrrQZVn-Bf-300.avif 300w"><source type="image/webp" srcset="/img/HrrQZVn-Bf-300.webp 300w"><img loading="lazy" decoding="async" src="/img/HrrQZVn-Bf-300.png" alt="Threads" width="300" height="300"></picture>
+      </a>
+      
+      <a class="social-icon w-8 h-8" href="https://bsky.app/profile/cmrussell.bsky.social" target="_blank">
+        <picture><source type="image/avif" srcset="/img/J1TSYHn3_6-500.avif 500w"><source type="image/webp" srcset="/img/J1TSYHn3_6-500.webp 500w"><img loading="lazy" decoding="async" src="/img/J1TSYHn3_6-500.png" alt="BlueSky" width="500" height="500"></picture>
+      </a>
+      <a class="social-icon w-8 h-8" href="https://www.linkedin.com/in/craigrussell1983/" target="_blank">
+        <picture><source type="image/avif" srcset="/img/I6EJQWYx2d-512.avif 512w"><source type="image/webp" srcset="/img/I6EJQWYx2d-512.webp 512w"><img loading="lazy" decoding="async" src="/img/I6EJQWYx2d-512.png" alt="LinkedIn" width="512" height="512"></picture>
+      </a>
+    </div>
+  </div>
+
+  <div class="flex-1 space-y-2 text-base">
+    <div>Hello, I'm Craig 👋</div>
+    <div>I write software, with special expertise in identity management.<br>
+      Connect on <a href="https://www.linkedin.com/in/craigrussell1983/" target="_blank" class="font-bold hover:underline">LinkedIn</a> 
+      if you need help with your project.
+    </div>
+    <div>By night I write optimistic, apocalyptic, humanistic sci-fi.<br>
+      My current book is <a href="/ageless" class="font-bold hover:underline">AGELESS</a>.
+    </div>
+    <div>I also run <a href="https://impactgo.uk" target="_blank" class="font-bold hover:underline">ImpactGo</a>, 
+      for charities and social enterprises to measure the impact of their work.
+    </div>
+  </div>
+</div>
+				
+			</main>
+
+			<footer class="text-center text-gray-400 text-sm py-12">
+				&copy; 2024 CM Russell Limited
+				- <a href="/website-terms-of-use">Terms</a>
+			</footer>
+		</div>
+
+		<div id="cookie-consent" class="sticky bottom-4 max-w-3xl mx-auto px-8">
+			<div class="py-2 px-4 bg-amber-100 rounded shadow-md" role="alert">
+				<div class="text-sm flex justify-between">
+					<span class="py-2">
+						This site uses cookies to enhance user experience. 
+						See <a href="/cookie-policy" class="underline">Cookie policy</a>
+					</span>
+					<span>
+						<button class="border rounded p-2 bg-sky-500 hover:bg-sky-400 text-white shadow-sm pointer" onClick="acceptCookies()">
+							Allow cookies
+						</button>
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			const cookieConsent = document.querySelector('#cookie-consent');
+			// Remove cookie consent banner if cookie present
+			if (document.cookie.indexOf('cookie_consent=true') > -1 && cookieConsent) {
+				cookieConsent.remove();
+			}
+
+			// Set cookie on button click
+			function acceptCookies() {
+				document.cookie = 'cookie_consent=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/';
+				gtag('consent', 'update', {
+					'ad_storage': 'granted',
+					'ad_user_data': 'granted',
+					'ad_personalization': 'granted',
+					'analytics_storage': 'granted'
+				});
+				cookieConsent.remove();
+			}
+		</script>
+	</body>
+</html>
