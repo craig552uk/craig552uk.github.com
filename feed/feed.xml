@@ -5,11 +5,34 @@
   <subtitle>This is a longer description about your blog.</subtitle>
   <link href="https://example.com/feed/feed.xml" rel="self" />
   <link href="https://example.com/" />
-  <updated>2024-12-05T00:00:00Z</updated>
+  <updated>2025-01-27T00:00:00Z</updated>
   <id>https://example.com/</id>
   <author>
     <name>Your Name</name>
   </author>
+  <entry>
+    <title>Swearing in Fiction</title>
+    <link href="https://example.com/blog/2025-01-27-swearing/" />
+    <updated>2025-01-27T00:00:00Z</updated>
+    <id>https://example.com/blog/2025-01-27-swearing/</id>
+    <content type="html">&lt;p&gt;I like swearing. Swearing can be rude, funny, sexy and insulting. Day-to-day I swear a lot, but in my writing I don&#39;t.&lt;/p&gt;
+&lt;p&gt;When spoken, a well deployed swear word can be effective, but in writing profanity has lost it&#39;s power. We&#39;ve all seen so many of books with &lt;em&gt;F*ck&lt;/em&gt; in their title that it no longer delivery any shock value. The fashion brand &lt;em&gt;FCUK&lt;/em&gt; was once provocative, but not anymore. We&#39;ve seen it so much, that when we read a curse in a novel, it doesn&#39;t surprise us, it feels forced. Swearing takes the reader out of the story - the opposite of what we want to achieve.&lt;/p&gt;
+&lt;p&gt;Spoken swear words are incredibly versatile (the Polish &lt;em&gt;kurwa&lt;/em&gt; is truly gymnastic), but this versatility undermines their utility in fiction.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;Fuck!&amp;quot;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;What is this character saying? What do they feel? Are they angry, shocked, horny, in pain? Without context, we simply don&#39;t know. The swear word takes up space on the page and communicates nothing to the reader. If I find myself writing swear words, I try to replace them with an expression that better serves the scene.&lt;/p&gt;
+&lt;p&gt;When absent, profanity is not missed. No one ever finished a novel they enjoyed and complained that there were not any swear words. Also, some people don&#39;t like swearing. A reader may have enjoyed your book, but because it included swear words, they won&#39;t re-read it and they won&#39;t recommend it to their friends. You won&#39;t lose readers by omitting profanity, but you may lose them by including it.&lt;/p&gt;
+&lt;p&gt;There are exceptions of course. If you&#39;re writing erotica, using &lt;em&gt;fuck&lt;/em&gt;, &lt;em&gt;cunt&lt;/em&gt;, and &lt;em&gt;dick&lt;/em&gt; may be appropriate and in line with readers expectations. An unexpected curse from a character known for their propriety may emphasise their stress, but only if you&#39;ve set up the false-expectation.&lt;/p&gt;
+&lt;p&gt;If you need a swear word, consider censoring it. In &lt;em&gt;Mort&lt;/em&gt;, Terry Pratchett makes a joke that simply wouldn&#39;t work without the implied profanity.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Well, ----me,” he said. “A----ing wizard. I hate----ing wizards!”&lt;/p&gt;
+&lt;p&gt;“You shouldn’t----them, then,” muttered one of his henchmen, effortlessly pronouncing a row of dashes.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This is funny, but made funnier still with censorship.&lt;/p&gt;
+&lt;p&gt;I swear a lot. I like it. I enjoy it. If you meet me, expect it! But in my fiction writing, I don&#39;t. You may feel differently, and that&#39;s ok, but for me swear words rarely earn a place in my work.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Can AI Help Writers?</title>
     <link href="https://example.com/blog/2024-12-05-ai-for-writers/" />
