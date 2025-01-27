@@ -1,4 +1,10 @@
 {
 	"markdown.styles": [".vscode/markdown-styles.css"],
-	"editor.fontSize": 13
+	"editor.fontSize": 13,
+	"[markdown]": {
+		// https://github.com/iaolo/iA-Fonts
+		"editor.fontFamily": "\"iA Writer Duo S\", monospace",
+		"editor.wordWrap": "bounded",
+		"editor.wordWrapColumn": 80
+	  }
 }
