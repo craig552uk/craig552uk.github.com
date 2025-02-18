@@ -6,13 +6,13 @@ description: Books I've read, with a little review
 
 ## February 2025
 
-# Technofeudalism - Yanis Varoufakis
+### Technofeudalism - Yanis Varoufakis
 
 Varoufakis argues that capitalism is dead and has been replaced by a new feudal-like system built by big tech and finance, which he calls technofeudalism. The book is touchingly written in dialogue with his late father, and compellingly recasts a problem we all recognise in a new light. These are ideas that stick with you. 
 
 Read Platform Capitalism by Nick Srnicek as a companion. 
 
-# Living Better - Alastair Campbell
+### Living Better - Alastair Campbell
 
 A candid personal account of Alastair's struggle with depression. He shares practical advice for sufferers and their families. While this is certainly an interesting insight into the life and mind of the public figure, I do wish the book had gone further into the current medical understanding of depression, relying less on personal perspective.
 
