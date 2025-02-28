@@ -5,11 +5,38 @@
   <subtitle>This is a longer description about your blog.</subtitle>
   <link href="https://example.com/feed/feed.xml" rel="self" />
   <link href="https://example.com/" />
-  <updated>2025-01-27T00:00:00Z</updated>
+  <updated>2025-02-28T00:00:00Z</updated>
   <id>https://example.com/</id>
   <author>
     <name>Your Name</name>
   </author>
+  <entry>
+    <title>Naming Things is Hard</title>
+    <link href="https://example.com/blog/2025-02-28-naming-things/" />
+    <updated>2025-02-28T00:00:00Z</updated>
+    <id>https://example.com/blog/2025-02-28-naming-things/</id>
+    <content type="html">&lt;p&gt;In computer science we say that &lt;a href=&quot;https://martinfowler.com/bliki/TwoHardThings.html&quot;&gt;naming things is hard&lt;/a&gt;, and the same is true when writing fiction. While choosing names for characters is tough, it is also tough to choose names for technology in science fiction.&lt;/p&gt;
+&lt;p&gt;I&#39;ve been wrestling with the problem of what to call the robots in my novel &lt;a href=&quot;https://craig-russell.co.uk/ageless&quot;&gt;Ageless&lt;/a&gt;. The book features various types of robots: robot soldiers; robots prison guards; in-home robot servants. Choosing a word to describe them, which feels natural to the story has been difficult, but I think I&#39;ve found an solution.&lt;/p&gt;
+&lt;p&gt;While searching for this word I set myself a series of criteria.&lt;/p&gt;
+&lt;p&gt;I didn&#39;t want to rely on long descriptions of the robots for the reader to create the right mental images. The robots in my novel are not the main focus of the story, and where they do feature, I want the reader to recognise that there is a robot, and move on. Lingering too long on the description of a robot just to avoid explicitly calling it a &#39;robot&#39; is distracting, and takes the reader out of the story. For similar reasons, I didn&#39;t want to use an entirely novel word, or a word so obscure that it requires an explanation for the average reader.&lt;/p&gt;
+&lt;p&gt;The word will be mostly used as a compound noun (e.g. _robot soldier, _robot waiter), so I knew that I was looking for a single, one-syllable word, that is easy to read and comfortable to say. Words like &lt;em&gt;automaton&lt;/em&gt;, &lt;em&gt;mechanical&lt;/em&gt; and &lt;em&gt;android&lt;/em&gt; don&#39;t work.&lt;/p&gt;
+&lt;p&gt;In &lt;a href=&quot;https://craig-russell.co.uk/ageless&quot;&gt;Ageless&lt;/a&gt;, robots feature both as military hardware and as domestic servants, so the word must be suitable in both a menacing, confrontational context, but also familial, domestic scenes. &lt;em&gt;Steelskin&lt;/em&gt; and &lt;em&gt;doll&lt;/em&gt; are too far to either end of this spectrum.&lt;/p&gt;
+&lt;p&gt;The timeline of the book begins in the present day and moves out into the far future, so I needed a word that is contemporary, is associated with technological innovation, and has a sense that it&#39;s use is evolving. A word that has common understanding today, but that the reader will believe if used in speculative contexts.&lt;/p&gt;
+&lt;p&gt;Robots feature heavily in sci-fi and familiar terms are loaded with associations. The word &lt;em&gt;robot&lt;/em&gt; itself was coined by Karel Čapek in 1920, which gives it a 20th century modernist vibe. While &lt;em&gt;droid&lt;/em&gt; is dripping with franchise familiarity, and &lt;em&gt;mech&lt;/em&gt; is too evocative of Anime-style, which I don&#39;t write.&lt;/p&gt;
+&lt;p&gt;So to recap, here&#39;s the brief: The word needs to mean &lt;em&gt;robot&lt;/em&gt;. It needs to be a single, one-syllable word, in common understanding. It should feel contemporary, technological and suitably futuristic.&lt;/p&gt;
+&lt;p&gt;Before reading on, note down a few ideas of your own. It&#39;ll be fun to see if we find the same answer. Go on, I&#39;ll wait...&lt;/p&gt;
+&lt;p&gt;Finished? Good.&lt;/p&gt;
+&lt;p&gt;The word I chose has been in use as a noun for centuries, but took on a new meaning around 2010-2015. This use is widely held in reference to a modern technology that did not exist just a few decades ago, and is adapting as this technology evolves. It&#39;s a word that is used in both military and domestic contexts, and it is a single, one-syllable word often used in compound nouns.&lt;/p&gt;
+&lt;p&gt;The word I chose is &lt;em&gt;drone&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Before 2016-ish, the common noun meaning of &lt;em&gt;drone&lt;/em&gt; was for a bee&#39;s role in a colony, but since then we now mostly associate the word with small remote controlled flying machines. Both &lt;a href=&quot;https://books.google.com/ngrams/graph?content=drone&amp;amp;year_start=1800&amp;amp;year_end=2022&amp;amp;corpus=en&amp;amp;smoothing=3&quot;&gt;Google Books&lt;/a&gt; and &lt;a href=&quot;https://trends.google.co.uk/trends/explore?date=all&amp;amp;q=drone&amp;amp;hl=en-GB&quot;&gt;Google Trends&lt;/a&gt; show the use of the term increasing around this time, as the new meaning spread.&lt;/p&gt;
+&lt;p&gt;Drones are both military hardware and consumer products, so we can use the term to speak of a &lt;em&gt;drone strike&lt;/em&gt; and a &lt;em&gt;drone hobbyist&lt;/em&gt;, without conflict. We know that the technology is evolving, and so we&#39;re used to the word being used to describe new things, and understand, even if those things are speculative (e.g. &lt;em&gt;sea drone&lt;/em&gt;, &lt;em&gt;autonomous drone&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;However for my needs, there is a small issue. For most readers, the mental image of a drone is a small flying machine, and while some drones may be &lt;a href=&quot;https://robbreport.com/motors/aviation/aevum-ravn-x-largest-autonomous-drone-1234584898/&quot;&gt;neither small&lt;/a&gt;, &lt;a href=&quot;https://www.bbc.co.uk/news/world-europe-66373052&quot;&gt;nor flying&lt;/a&gt;, this is currently the perception mostly associated with the word. In my story, drones are small flying machines, but they are also humanoid walking robots. If I write about a &lt;em&gt;drone truck&lt;/em&gt; most readers will get what I mean, but a &lt;em&gt;drone waiter&lt;/em&gt; might not be understood correctly. Though I believe that with a little description, I can get the picture across.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The drone waiter walked up the steps carrying a tray of drinks.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Naming things is hard, naming technology in science fiction doubly-so. This is how I approached choosing &lt;em&gt;one&lt;/em&gt; word for my novel. Would you do similar? Let me know.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Swearing in Fiction</title>
     <link href="https://example.com/blog/2025-01-27-swearing/" />
