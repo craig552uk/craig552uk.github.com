@@ -125,8 +125,7 @@ These are books I've read at some point before I began keeping this list. I've i
 
 ### The Code Book - Simon Singh
 
-### The Dawn of Everything: A New History of Humanity - David Graeber & David 
-Wengrow
+### The Dawn of Everything: A New History of Humanity - David Graeber & David Wengrow
 
 ### The Hitchiker's Guide to the Galaxy - Douglass Adams
 
