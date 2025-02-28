@@ -68,3 +68,78 @@ The less well known quasi-prequel to the three-body problem series. A good, if a
 ### 1Q84
 
 An enticing mystery that deliberately fails to answer all the questions it poses. Assassins, blackmail, cult leaders and hitmen compete in a world that may, or may not, be ours. While at times the writing is repetitive, and there are problems with the writing of female characters, the book is fast paced and exciting throughout. Enjoyable, if flawed. 
+
+## Older Reads
+
+These are books I've read at some point before I began keeping this list. I've included them here because when people ask me for book recommendations these are usually the ones I'd suggest, as they've had the greatest influence on my own thinking. I'll add notes to this list as-and-when I get around to it.
+
+### 1984 - George Orwell
+
+### A Short History of Nearly Everything - Bill Bryson
+
+### After The Ice - Steven Mithen
+
+### Animal Farm - George Orwell
+
+### Capital in the Twenty-First Century - Thomas Piketty
+
+### Debt, The First 5000 Years - David Graeber
+
+### Dune - Frank Herbert
+
+### Einstein: His Life and Universe - Walter Isaacson
+
+### Factfulness - Hans Rosling
+
+### Facts Are Sacred - Simon Rogers
+
+### Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter
+
+### High Fidelity - Nick Hornby
+
+### How Migration Really Works - Hein de Haas
+
+### How Proust Can Change Your Life - Alain DeBotton
+
+### Information is Beautiful - David McCandless
+
+### Maus - Art Spiegelman
+
+### Metaphors We Live By - George Lakoff & Mark Johnson
+
+### Nod - Adrian Barnes
+
+### Other Minds - Peter Godfrey-Smith
+
+### Platform Capitalism - Nick Srnicek
+
+### Prisoners of Geography - Tim Marshall
+
+### Religion for Atheists - Alain DeBotton
+
+### Science a History - John Gribbin
+
+### Sustainable Growth in a Post-Scarcity World - Philip Sadler
+
+### The Blind Watchmaker - Richard Dawkins
+
+### The Code Book - Simon Singh
+
+### The Dawn of Everything: A New History of Humanity - David Graeber & David 
+Wengrow
+
+### The Hitchiker's Guide to the Galaxy - Douglass Adams
+
+### The Man Who Mistook His Wife for a Hat - Oliver Sacks
+
+### The Nation's Favourite Poems
+
+### The World Without Us - Alan Wiseman
+
+### Twenty Love poems - Pablo Neruda
+
+### Utopia for Realists - Rutger Bregman
+
+### Wardley Maps - Simon Wardley
+
+### World War Z - Max Brooks
