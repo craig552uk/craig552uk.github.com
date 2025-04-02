@@ -1,0 +1,24 @@
+---
+layout: layouts/base.njk
+title: C.M. Russell Links
+description: Links to top posts and other content
+---
+
+{% set links = [
+    {label: "Follow me on Threads", url:'https://www.threads.net/@cmrussell.writes'},
+    {label: "Also me, but on BlueSky", url:'https://bsky.app/profile/cmrussell.uk'},
+    {label: "The AGELESS Series", url:'/ageless'},
+    {label: "News, Announcements & Ramblings", url:'/blog'},
+    {label: "What I've been Reading Lately", url:'/books-read'}
+]
+%}
+
+{% include "authorcard.njk" %}
+
+{% for link in links %}
+    <a class="group block rounded border p-4 bg-emerald-600 hover:bg-emerald-400 border-emerald-600 text-lg text-white hover:text-black hover:shadow-md pointer" href="{{ link.url }}">
+        <div class="text-center">{{ link.label }}</div>
+    </a>
+{% endfor %}
+
+{% include "mailingListForm.njk" %}
