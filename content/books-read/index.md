@@ -4,7 +4,29 @@ title: Books I've Read
 description: Books I've read, with a little review
 ---
 
+## May 2025
+
+### Consider Phlebas - Iain M. Banks
+
+Ongoing...
+
+## April 2025
+
+### The Dawn of Everything: A New History of Humanity - David Graeber & David Wengrow
+
+Re-reading this gem of a book takes me a while as it's dense with fascinating ideas. The authors being by asking "what is the origin of inequality" before swifty dismissing it in favour of a more interesting questions - "how might people have lived in the past?" and "why do we find it so difficult to imagine a society different from our own?". Hard-going, but so very worth it. 
+
+## March 2025
+
+### Solaris - Stanisław Lem
+
+Masterful.
+
 ## February 2025
+
+### On Writing - Stephen King
+
+A first-class book on the craft of writing from a first-class writer.
 
 ### Technofeudalism - Yanis Varoufakis
 
@@ -75,25 +97,46 @@ These are books I've read at some point before I began keeping this list. I've i
 
 ### 1984 - George Orwell
 
+Not only is this the archetypal dystopian thriller but also a stunningly prescient forecast of surveillance society. You know that this book is a cultural touchstone, because you've already heard of it.
+
 ### A Short History of Nearly Everything - Bill Bryson
 
-### After The Ice - Steven Mithen
+"I want to learn about science, but don't know here to start", you ask. I answer with this. Bryson takes us on a comprehensive, but accessible, tour of modern scientific thinking. While now a little out of date, it's still a fantastic springboard into a vast range of topics. Start here and follow your curiosity.
+
+### After the Ice: A Global Human History, 20,000–5000 BC - Steven Mithen
+
+What were human lives like between the end of the last ice age (yes I know _technically_ we're still in an ice age but shush) and the start of recorded history. This is a fascinating and detailed account of a period of human history that we still know very little about.
 
 ### Animal Farm - George Orwell
 
+Orwell again. If you read 1984 and thought _this bloke is good_, go here next. Sharp, funny and biting, this satire of communism is a relevant today as ever. Read alongside The Communist Manifesto.
+
 ### Capital in the Twenty-First Century - Thomas Piketty
+
+Hard going, but if you want to understand inequality under capitalism, this is the place to start. Hugely influential, both in and out of established economics, this book brings rigour and evidence to the problem.
 
 ### Debt, The First 5000 Years - David Graeber
 
+This is one of my top desert-island books. Graeber takes an anthropologists eye to the history of money and debt, showing that our common beliefs about the nature of both are wrong. More than any other, I credit this book with giving me an understanding that our world can take (and may have taken) forms far more varied than we give ourselves permission to imagine. Masterful.
+
 ### Dune - Frank Herbert
 
-### Einstein: His Life and Universe - Walter Isaacson
+In my view, this is the bible of space opera. All others came from Dune. Not only is the world building beautiful, the character dynamics complex and the politics thrilling, but the ending is cataclysmic. You may have seen the films, do yourself a favour and visit Arrakis properly in the books 
+
 
 ### Factfulness - Hans Rosling
 
-### Facts Are Sacred - Simon Rogers
+Humans live much better today than at any time in our history. This is the message Rosling brings to us. With evidence and data he enthusiastically shows us that the world is a much better place than we may fear. He sadly died before the book was published, but see him in action in his [many TED talks](https://www.ted.com/playlists/474/the_best_hans_rosling_talks_yo). [Our World in Data](https://ourworldindata.org) is the spiritual successor to his work
 
 ### Gödel, Escher, Bach: An Eternal Golden Braid - Douglas R. Hofstadter
+
+Hofstadter's thesis is that self-awareness is a product of the mind's self-referential capability, what he calls "a strange loop". But this is no academic text book. The complex topic is explored with a series of allegories, building from first principles into a quasi-fantastical explanation of the human mind.
+
+### The World Without Us - Alan Wiseman
+
+If all us humans disappeared in an instant, what would we leave behind? And what would happen to the world? A fascinating read in it's own right, but also a valuable reference point for anyone who enjoys reading or writing (especially writing) post-apocalyptic fiction.
+
+### Einstein: His Life and Universe - Walter Isaacson
 
 ### High Fidelity - Nick Hornby
 
@@ -125,15 +168,13 @@ These are books I've read at some point before I began keeping this list. I've i
 
 ### The Code Book - Simon Singh
 
-### The Dawn of Everything: A New History of Humanity - David Graeber & David Wengrow
+### The Communist Manifesto - Karl Marx and Friedrich Engels
 
 ### The Hitchiker's Guide to the Galaxy - Douglass Adams
 
 ### The Man Who Mistook His Wife for a Hat - Oliver Sacks
 
 ### The Nation's Favourite Poems
-
-### The World Without Us - Alan Wiseman
 
 ### Twenty Love poems - Pablo Neruda
 
