@@ -18,10 +18,10 @@ description: Links to top posts and other content
 
 {% include "authorcard.njk" %}
 
+{% include "mailingListForm.njk" %}
+
 {% for link in links %}
-    <a class="group block rounded border p-4 bg-emerald-600 hover:bg-emerald-400 border-emerald-600 text-lg text-white hover:text-black hover:shadow-md pointer" href="{{ link.url }}">
+    <a class="group block rounded border p-4 bg-emerald-600 hover:bg-emerald-400 hover:border-emerald-600 text-lg text-white hover:text-black hover:shadow-md pointer" href="{{ link.url }}">
         <div class="text-center">{{ link.label }}</div>
     </a>
 {% endfor %}
-
-{% include "mailingListForm.njk" %}
