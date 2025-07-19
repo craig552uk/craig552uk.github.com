@@ -5,12 +5,13 @@ description: Links to top posts and other content
 ---
 
 {% set links = [
-    {label: "Buy NEVER EVEN", url:'https://amzn.eu/d/bf8ojRa'},
-    {label: "Follow me on Threads", url:'https://www.threads.net/@cmrussell.writes'},
-    {label: "Also me, but on BlueSky", url:'https://bsky.app/profile/cmrussell.uk'},
+    {label: "Buy NEVER EVEN (USA)", url:'https://www.amazon.com/dp/B0F223S91J'},
+    {label: "Buy NEVER EVEN (UK)", url:'https://www.amazon.co.uk/dp/B0F223S91J'},
+    {label: "Connect with me on Threads", url:'https://www.threads.net/@cmrussell.writes'},
+    {label: "Connect with me on BlueSky", url:'https://bsky.app/profile/cmrussell.uk'},
     {label: "Amazon Author Page", url:'https://www.amazon.co.uk/stores/C.M.-Russell/author/B0FHBMY944?ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true'},
     {label: "The AGELESS Series", url:'/ageless'},
-    {label: "Never Even", url:'/never-even'},
+    {label: "NEVER EVEN", url:'/never-even'},
     {label: "News, Announcements & Ramblings", url:'/blog'},
     {label: "What I've been Reading Lately", url:'/books-read'}
 ]
@@ -21,7 +22,7 @@ description: Links to top posts and other content
 {% include "mailingListForm.njk" %}
 
 {% for link in links %}
-    <a class="group block rounded border p-4 bg-emerald-600 hover:bg-emerald-400 hover:border-emerald-600 text-lg text-white hover:text-black hover:shadow-md pointer" href="{{ link.url }}">
+    <a class="group block rounded border p-4 bg-emerald-600 hover:bg-emerald-400 hover:border-emerald-600 text-lg text-white hover:text-black hover:shadow-md pointer" href="{{ link.url }}" target="_blank">
         <div class="text-center">{{ link.label }}</div>
     </a>
 {% endfor %}
