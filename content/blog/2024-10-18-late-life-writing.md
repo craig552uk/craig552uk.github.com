@@ -9,7 +9,7 @@ I came to writing late in life. It had to wait until I was happy.
 
 There's a common archetype of the tortured artist, the writer who writes driven by daemons and trauma. I am not that writer, as least not directly. I could not write while I was unhappy. While I was unhappy I struggled to create anything at all.
 
-My childhood was a happy one. I was blessed with a loving home, full of fun and creativity. My imagination found outlets in painting, drawing, arts and craft - all encouraged by my parents. But as I grew older, I lost this. I no longer found joy in creating.
+My childhood was happy. I was blessed with a loving home, full of fun and creativity. My imagination found outlets in painting, drawing, arts and craft - all encouraged by my parents. But as I grew older, I lost this. I no longer found joy in creating.
 
 It was gone. I did not know why.
 

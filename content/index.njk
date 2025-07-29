@@ -39,4 +39,8 @@ const numberOfLatestPostsToShow = 3;
 	{% for post in collections.posts | head(-5) | reverse %}
 		{% include "postcard.njk" %}
 	{% endfor %}
+
+	<a class="group block rounded border hover:bg-gray-50 p-2 text-lg hover:shadow-md pointer" href="/blog/">
+        <div class="text-center">All Posts</div>
+    </a>
 </div>
