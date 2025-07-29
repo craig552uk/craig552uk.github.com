@@ -43,7 +43,7 @@ This may sound startling, but it could mean that in the future more people enjoy
 
 Through the rest of the century life expectancy will continue to rise. Most people can expect to live longer, but this does not mean that the population as a whole will be older. 
 
-Right now there are relatively few people of working age compared to those who are not (the so-called "ageing population" crisis). But due to shifts in the demographic make-up, the working age share of the population is expected to begin rising by 2040, and continue to rise through the end of the century. 
+Right now there are relatively few people of working age compared to those who are not (the so-called "ageing population" crisis). <s>But due to shifts in the demographic make-up, the working age share of the population is expected to begin rising by 2040, and continue to rise through the end of the century.</s> EDIT: This is incorrect. I'd mis-read the chart. In truth the exact opposite is true and non-working people will increase relative to the working population from the present onwards.
 
 <img src="./chart-population-pyramid-1950-2100.png" alt="Population pyramid, 1950-2100"/>
 
