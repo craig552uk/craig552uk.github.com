@@ -4,11 +4,52 @@ title: Books I've Read
 description: Books I've read, with a little review
 ---
 
+## July 2025
+
+
+### Capitalist Realism - Mark Fisher
+
+Published in 2009, this short book succinctly articulates the sense of despondency that was prevalent following the financial crisis. Credited with popularising the expression “it is easier to imagine the end of the world than the end of capitalism”, the book explains how capitalism benefits from the absence of competing ideas and why this belief came about. It is interesting to contrast this with contemporary opinions. Some ideas persist, while others have since evolved. 
+
+
+### Revolutionary Spring - Christopher Clark
+
+An enigmatic investigation into the causes and context of the 1848/9 revolutions which affected most of Europe. Clarke puts us in the lives of people driven by a hunger for change, but cautious about the consequences of action. This is a time when many of our modern institutions (capitalism, democracy, nation states) were in early genesis and people often lacked the language to express and understand these ideas - a lot of relevance for today. This is a big book (870 pages) which demands to be read slowly. I’m only a quarter through, I expect this will keep me busy for some time. 
+
+
+
+## June 2025
+
+### Moral Ambition - Rutger Bregman 
+
+A much shorter book than the page count suggests. Calling upon us to act, not deliberate. It’s a fine book, with plenty of examples of heroic personalities, but not as good as his others. 
+
+
+### Say Hello to Metamodernism - Greg Dember 
+
+This book is useful as an up-to-date reference of Metamodernism in media (film, music, TV, literature). While Greg adopts a more limited definition of Metamodernism than Dempsey, his introduction to the subject is more accessible. 
+
+
+### Metamodernism - Brendan Graham Dempsey
+
+Dempsey provides a thorough overview of Metamodernism today. Acknowledging the field is still in its early days, he looks for common features across the major publications and build upon this with his own analysis. This book stands as a comprehensive introduction to the subject as it stands today. 
+
+
+### The Left Hand of Darkness - Ursula K. Le Guin
+
+Le Guin is rightly recognised as a talented writer, her prose is delightful, but I found this story a little dull.  There’s something about reading a “classic” which set a high expectation the book may struggle to meet. I felt like I was waiting for some big revelation to come all the way through, which by the end left me underwhelmed. 
+
+
 ## May 2025
 
-### Consider Phlebas - Iain M. Banks
+### Vulture Capitalism - Grace Blakeley
 
-Ongoing...
+Moving the debate on from capitalism vs socialism, grace argues that the struggles of modern life are not capitalism malfunctioning, but it working as planned. The state vs markets debate is redundant, as both are systems of capitalist planned economy. The book ends with well evidenced call for  grassroots community action, and an invitation to imagine a new society. 
+
+
+### Consider Phlebas- Iain M Banks
+
+Hard work, but eventually worth it. I find space operas a bit exhausting, preferring my sci-fi to connect more closely with reality. I really loved the post-scarcity Culture, but most of this story is spent  far away from this permitting us just a few glimpses. I will continue with the series, from what I understand others explore this more deeply. 
 
 ## April 2025
 
