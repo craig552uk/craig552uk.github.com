@@ -4,7 +4,20 @@ title: Books I've Read
 description: Books I've read, with a little review
 ---
 
+## August 2025
+
+
+### Goliath’s Curse - Luke Kemp
+
+Very timely. Kemp argues that the collapse of past civilisations is preceded by inequality rising to the point of instability. What he calls “Goliaths” (social hierarchies of control) are distinct from “civilisations”, a term which is incorrectly bias towards states. In later chapters he highlights several tipping points in our society (climate change, nuclear weapons etc). He concludes that, like past societies, strong social bonds and community ties are our best insurance against the collapse of our “Goliath”.
+
+
 ## July 2025
+
+
+### The Mushroom at the End of the World - Anna Lowenhaupt Tsing
+
+Part 1 is slow but picks up in part 2. I found this book a bit of a struggle. Tsing tells a parable of global capitalism through the trade in rare mushrooms. I think she’s saying that while capitalism is a system for converting natural resources and human labour into capital assets, it also leaves space for non-capitalist livelihoods on the fringes. I think there’s more to her argument than I appreciate. Perhaps I need to come back to this in the future.
 
 
 ### Capitalist Realism - Mark Fisher
