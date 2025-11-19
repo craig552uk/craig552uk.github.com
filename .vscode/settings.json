@@ -1,10 +1,24 @@
 {
-	"markdown.styles": [".vscode/markdown-styles.css"],
-	"editor.fontSize": 13,
+	"editor.fontSize": 15,
+	// iA Fonts from https://github.com/iaolo/iA-Fonts/
+	"editor.fontFamily": "'iA Writer Mono S', 'Courier New', monospace",
+	"editor.lineHeight": 1.8,
+	"terminal.integrated.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+	"terminal.integrated.fontSize": 12,
+	"markdown.styles": [
+		".vscode/markdown-styles.css"
+	],
+	"zenMode.hideLineNumbers": false,
+	"zenMode.showTabs": "none",
+	"breadcrumbs.enabled": false,
 	"[markdown]": {
-		// https://github.com/iaolo/iA-Fonts
-		"editor.fontFamily": "\"iA Writer Duo S\", monospace",
+		"editor.wordWrapColumn": 80,
 		"editor.wordWrap": "bounded",
-		"editor.wordWrapColumn": 80
-	  }
+		"github.copilot.nextEditSuggestions.enabled": false,
+	},
+	"[plaintext]": {
+		"editor.wordWrapColumn": 80,
+		"editor.wordWrap": "bounded",
+		"github.copilot.nextEditSuggestions.enabled": false,
+	},
 }
