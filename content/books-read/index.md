@@ -4,7 +4,60 @@ title: Books I've Read
 description: Books I've read, with a little review
 ---
 
+## November 2025
+
+### Four Futures: Life after Capitalism - Peter Frase
+
+Cracking little book. Explores four possible directions society might take on an Abundance/Scarcity x Equality/Hierarchy matrix. Published in 2016 and a lot has happened in the intervening years, so it does read a little dated in part, but the headline message from Frase is to imagine possible futures and fight for the one we want - which is something I wholly support.
+
+### Vita Contemplativa - Byung-Chul Han
+
+Han argues that the current crisis in society could be solved if we were to make more space for inactivity. Stillness, contemplation, even boredom, are essential for a full life and these are denied to us by the business of modern life, and the capitalist compulsion to consume and produce. A short, but challenging book. More abstract than Burnout Society, which I took more from.
+
+
+### Lost in the Taiga - Vasily Peskov
+
+The amazing true story of a family living alone in the Siberian mountains for 50 years. After fleeing religious persecution in 1930s Russia, the Lycov family flee into the mountains where they remain totally alone until a team of geologists discover them in the 1970s. Written by a journalist who visited them regularly, the book tells the story of their isolation, survival and cautious introduction to the modern world. 
+
+
+## October 2025
+
+### The Horse The Wheel And Language - David W. Anthony
+
+Anthony provides thorough and comprehensive evidence for the easter European steppe being the homeland of proto-indo-european (the root of most languages spoken today). In the first section he lays out the tools and techniques of linguists who reconstruct lost languages. In the second, lengthier, section he takes us slowly through several millennia of social change in the region, showing how language evolved alongside culture and technology. For an archaeology nerd like me this is a real joy to read. Anthony brings alive these lost communities wonderfully.
+
+### No Country for Old Men - Cormac McCarthy
+
+Read on a whim after watching the movie. Totally engrossing. Read it in a day. 
+
+
+### The Martian - Andy Weir
+
+A book that had been on my to read pile for a while. Very fast paced, the plot never seems to draw a breath, which is technically impressive. Thoroughly enjoyable. Read it in a day.
+
+
+## September 2025
+
+### The Lord of the Rings: Part 1 - J.R.R Tolkien 
+
+I last attempted to read this in my teens, after having read The Hobbit, back then it defeated me. Now, I found it beautiful. 
+
+
+### End Times - Peter Turchin 
+
+Societal collapse is almost always preceded by an over production of elites. This is the central thesis of cliodynamics, which models social stability. In this accessible book Turchin explains this thesis and it’s implications for our world today. 
+
+
 ## August 2025
+
+### The Long Earth - Terry Pratchett & Stephen Baxter
+
+Humanity learns how to “step” into parallel Earths, unoccupied by fellow people. We follow a man, woman and AI airship on their journey between the infinite worlds. This is a brilliantly entertaining story. An easygoing quick read – I got through it in a day. 
+
+
+### Contact - Carl Sagan
+
+Loved it. I regret not reading this sooner. I’m aware of Sagan’s reputation as a writer and broadcaster, but I’m not especially familiar with his work. Having read Contact I can see why he’s so highly regarded a science communicator. He expertly blends science fact with fiction to evoke a sense of magic and wonderment that is truly delightful.
 
 
 ### Goliath’s Curse - Luke Kemp
