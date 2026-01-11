@@ -4,6 +4,42 @@ title: Books I've Read
 description: Books I've read, with a little review
 ---
 
+## January
+
+### The Glutton - A.K. Blakemore
+
+Tarrare, a Wikipedia article of the day, led me to this book. A fictionalised story of the true-life Tarare - a compulsive eater in revolutionary France. Imaginative, colourful, disgusting - I’m really glad I found this book.
+
+### The Girl with the Dragon Tattoo - Stieg Larsson 
+
+Charity shop find. Very engrossing. 
+
+### How the Dog Became the Dog - Mark Derr
+
+The origin of the dog is a little researched field. In this book Derr pulls together the limited sources in an effort to tell the story of how dogs were domesticated from wild wolves. There are a lot of gaps in the science which he plugs speculatively and emphatically. Published in 2012 the book is already a little out of date, but still a valuable resource on the topic. 
+
+## December 
+
+### Abundance - Ezra Klein & Derek Thompson 
+
+A book written by Americans to Americans about American problems and American solutions. Not a lot here for non-Americans. 
+
+### The Lord of the Rings: The Two Towers - J R R Tolkien 
+
+Continuing re-reading this classic. Found the first half, with Aragorn, Gillis & Legolas more engaging than the second, with Frodo and Sam. 
+
+### The Deficit Myth - Stephanie Kelton
+
+Lots to think about here. Worthy of a longer review
+
+### Not the End of the World - Hannah Ritchie
+
+Powerfully optimistic. Ritchie counters prevalent attitudes of environmental doomerism with a relentless force of data driven rationality. 
+
+### Exhalation- Ted Chiang
+
+A collection of short sci-fi stories from the past 20 years. Some read a little dated now but nevertheless still enjoyable. Favourites are: The Merchant and the Alchemist’s Gate, and The Truth of Fact, The Truth of Feeling. 
+
 ## November 2025
 
 ### Four Futures: Life after Capitalism - Peter Frase
@@ -246,6 +282,8 @@ If all us humans disappeared in an instant, what would we leave behind? And what
 ### Einstein: His Life and Universe - Walter Isaacson
 
 ### High Fidelity - Nick Hornby
+
+### Blindsight - Peter Watts
 
 ### How Migration Really Works - Hein de Haas
 
