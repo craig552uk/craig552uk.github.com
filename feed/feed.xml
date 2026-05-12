@@ -5,11 +5,47 @@
   <subtitle>This is a longer description about your blog.</subtitle>
   <link href="https://example.com/feed/feed.xml" rel="self" />
   <link href="https://example.com/" />
-  <updated>2025-02-28T00:00:00Z</updated>
+  <updated>2026-05-12T00:00:00Z</updated>
   <id>https://example.com/</id>
   <author>
     <name>Your Name</name>
   </author>
+  <entry>
+    <title>Fiction Writers Deserve Better Tools</title>
+    <link href="https://example.com/blog/2026-05-12-better-writing-tool/" />
+    <updated>2026-05-12T00:00:00Z</updated>
+    <id>https://example.com/blog/2026-05-12-better-writing-tool/</id>
+    <content type="html">&lt;p&gt;I write software for money and fiction for fun. Tools for writing fiction are not as good as tools for writing software.&lt;/p&gt;
+&lt;p&gt;When I began writing fiction I started with Google Docs, but this became unwieldy as my book grew beyond a few thousand words. Scrivener, a popular choice, was a big step up in chapter management, but I found it clunky and cumbersome.&lt;/p&gt;
+&lt;p&gt;Eventually, I switched to using software development tools.&lt;/p&gt;
+&lt;p&gt;Large software projects and fiction projects have a lot in common. Both involve months (or years) of reading, writing, and organising many files. Good tools should make that complexity easier to manage.&lt;/p&gt;
+&lt;p&gt;When I switched to VS Code, writing felt far more reliable and intuitive. I write in Markdown, plain text with simple formatting, which helps me stay focused on words instead of styling. For example:&lt;/p&gt;
+&lt;pre class=&quot;language-markdown&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-markdown&quot;&gt;&lt;span class=&quot;token title important&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;#&lt;/span&gt; Chapter 1&lt;/span&gt;
+
+This is a paragraph of text, with &lt;span class=&quot;token italic&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;token content&quot;&gt;italics&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;_&lt;/span&gt;&lt;/span&gt; and &lt;span class=&quot;token bold&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;token content&quot;&gt;bold&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;**&lt;/span&gt;&lt;/span&gt;.
+
+&lt;span class=&quot;token blockquote punctuation&quot;&gt;&gt;&lt;/span&gt; This is a quote
+
+&quot;Dialogue goes in quotes&quot;, said Sam.&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;VS Code also gave me things I cared about: configurable layouts, themes, focus mode, and powerful find and replace. I wrote about that &lt;a href=&quot;https://craig-russell.co.uk/blog/2024-11-28-vscode-for-writers/vscode-for-writers/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;But it didn&#39;t do everything I needed.&lt;/p&gt;
+&lt;p&gt;Markdown is great while drafting but I need to export my manuscript to share and publish. I began with &lt;a href=&quot;https://pandoc.org/&quot;&gt;Pandoc&lt;/a&gt;, but never got exactly the output I wanted.&lt;/p&gt;
+&lt;p&gt;I wrote my own scripts to compile Markdown to DOCX and to track word count and progress (&lt;a href=&quot;https://github.com/craig552uk/vscode-novel/tree/main&quot;&gt;You can find those here&lt;/a&gt;). These worked, but stitching my workflow together with scripts was never ideal. I needed something better.&lt;/p&gt;
+&lt;p&gt;I wanted the best parts of software-writing tools plus the essential functionality of fiction-writing tools, all in one app. I wanted to keep my files in folders, not inside a proprietary document format. I wanted flexible tab layouts, focus mode, light and dark themes, progress tracking, keyboard shortcuts, English spellcheck, and built-in DOCX export for manuscript submission.&lt;/p&gt;
+&lt;p&gt;I wanted a writer-first experience with the workflow quality of software development.&lt;/p&gt;
+&lt;p&gt;This didn&#39;t exist. So I built it.&lt;/p&gt;
+&lt;p&gt;I called it Mała (after my dog). It’s pronounced &lt;em&gt;MAH-wah&lt;/em&gt;, not &lt;em&gt;MAH-la&lt;/em&gt;. The name means &amp;quot;small&amp;quot; in Polish, because this is intentionally a small tool focused on getting from idea to manuscript.&lt;/p&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/blog/2026-05-12-better-writing-tool/3QA5vXW1Ta-2624.avif 2624w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/blog/2026-05-12-better-writing-tool/3QA5vXW1Ta-2624.webp 2624w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/blog/2026-05-12-better-writing-tool/3QA5vXW1Ta-2624.png&quot; alt=&quot;Mała&quot; width=&quot;2624&quot; height=&quot;2024&quot;&gt;&lt;/picture&gt;
+&lt;p&gt;Mała is for writers who write in Markdown. It includes flexible tab layouts (drag tabs where you want them), focus mode to limit distractions, light and dark themes for day/night time writing, progress tracking across daily/chapter/manuscript goals, and Word DOCX export in standard manuscript format.&lt;/p&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/blog/2026-05-12-better-writing-tool/parmPUMvoO-3098.avif 3098w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/blog/2026-05-12-better-writing-tool/parmPUMvoO-3098.webp 3098w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/blog/2026-05-12-better-writing-tool/parmPUMvoO-3098.png&quot; alt=&quot;Mała&quot; width=&quot;3098&quot; height=&quot;2244&quot;&gt;&lt;/picture&gt;
+&lt;p&gt;By design, Mała does not include backup or publishing functionality. It works well with cloud backup tools like iCloud, Dropbox, and Google Drive, and exported DOCX files can be imported into publishing tools like Vellum or KDP.&lt;/p&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/blog/2026-05-12-better-writing-tool/8Es6pMlZMJ-3098.avif 3098w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/blog/2026-05-12-better-writing-tool/8Es6pMlZMJ-3098.webp 3098w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/blog/2026-05-12-better-writing-tool/8Es6pMlZMJ-3098.png&quot; alt=&quot;Mała&quot; width=&quot;3098&quot; height=&quot;2244&quot;&gt;&lt;/picture&gt;
+&lt;p&gt;Mała is currently free. If adoption grows, I may introduce a small one-time fee to support development, but I won’t charge a subscription - We all have enough subscriptions to pay...&lt;/p&gt;
+&lt;p&gt;I&#39;d love you to try it and let me know what you think (social links below). How does Mała fit into your workflow? What works (or doesn&#39;t) for you?&lt;/p&gt;
+&lt;p&gt;Mała is available for macOS and Windows.&lt;/p&gt;
+&lt;p&gt;Download at &lt;a href=&quot;https://malawriter.com&quot;&gt;malawriter.com&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Naming Things is Hard</title>
     <link href="https://example.com/blog/2025-02-28-naming-things/" />
