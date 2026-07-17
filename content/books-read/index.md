@@ -4,7 +4,107 @@ title: Books I've Read
 description: Books I've read, with a little review
 ---
 
+## July
+
+### Lokāyata / Cārvāka: A Philosophical Inquiry - Pradeep P. Gokhale
+
+A fascinating exploration of the Carvaka philosophy, a secular, rationalist, atheist belief system practiced in India around 600 BCE.
+
+### Contingency, Irony and Solidarity - Richard Rorty
+
+Rorty’s philosophy, like mine, advocates groundlessness, but unlike mine holds personal and social outlooks separately. Worth a longer write up. 
+
+### In Praise of Idleness - Bertrand Russell
+
+Russell is always a joy to read and this collection of essays on social issues is no exception. 
+
+### The Open Society and its Enemies - Karl Popper
+
+A highly influential defence of liberal democracy against totalitarianism and marxism. Written during WWI the book is, in some regards, of its time. Popper makes plain the three way ideological divide and offers powerful arguments for his position. But to a modern reader this focus hits different. While he acknowledges the risks in liberal democracy and capitalism (e.g. capital power becoming greater than political power) they are breezed past as secondary concerns, though given the time he was writing in this is certainly justified. A worthwhile read.
+
+## June
+
+### The Dhammapada - Translated by Valerie J. Roebuck
+
+Allegedly the words of the Buddha himself, passed down through oral tradition and written down in 1st century CE. Short and pleasant to read, the verses accessibility express Buddhist principles on life. The notes and glossary, which make up half of the book, provide essential supplementary material.
+
+### The History of Philosophy - A.C. Grayling
+
+After reading Russell’s history I needed an overview of post-wars philosophy, which Grayling here provides. Unlike Russel, Grayling spends few pages on the theology of the Middle Ages and picks up where Russell left off at around the half-way point. Following a similar format to Russell, focussing on both individuals and movements within their historical context, the two books make excellent companions to one another. Unlike Russell, Grayling extends his history beyond western philosophy, with welcome, if comparatively sparse, overviews of Chinese, Indian, Arabic-Persian and African philosophies.
+
+### The Nicomachean Ethics - Aristotle
+
+For a 2500 year old book this is surprisingly readable, and relatable. The ideas about being a good person don’t feel as revolutionary as I expected, but then western philosophy has them baked in from the start - it’s the water we already swim in. The sections on phronesis, practical knowledge, were especially interesting. 
+
+## May
+
+### We Need To Tax Billionaires- Gabriel Zucman
+
+Concisely sets out the case for a minimum 2% tax on wealth. It’s a short book, only 65 pages. I’m a big fan of essay length books. There’s an honesty that’s often lost extending an argument to 300 pages to fit publisher’s requirements. Buy it.
+
+### History of Western Philosophy - Bertrand Russell
+
+Ana amazing book. One of had for a long time but never made it through before. He is a master, sharing the history of his discipline with passion, and making the reader feel like a cherished student. We don’t just get the history but also Russell’s commentary, we learn how to think about the great ideas that shaped the western world. Written in 1943, in the final years of WWII, it’s striking how many of his observations still hold today. 
+
+### The Fundamental Wisdom of the Middle Way - Nāgārjuna (Translation and Commentary by Jay L. Garfield)
+
+An English language translation of the 2nd century philosopher’s most influential work. The extensive  were-by-verse commentary walks us through the ideas and arguments that have become a cornerstone of Buddhist thought. A worldview that, to me, feels highly relevant for our unsettled world. 
+
+### There Are Places in the World Where Rules Are Less Important Than Kindness - Carlo Rovelli
+
+A really enjoyable collection of short essays on physics, politics and history. I didn’t know of Rovelli before now but will definitely read more of him. 
+
+## April
+
+### Project Hail Mary - Andy Weir
+
+A fast fun space bromance. An easy read. Enjoyable but not as strong as The Martian. 
+
+### Fully Automated Luxury Communism - Aaron Bastini
+
+Speculates about a post-scarcity future and what it may take for us to get there. For me, this is the central topic of the coming age and Bastini does an excellent job sketching out the key drivers. Published in 2019 and, like most books that forecast technological advances, it reads a little out of date. But none of this distracts from the central argument that we will need a political revolution to realise the social opportunities in our future. 
+
+### Saga Volume 12 - Fiona Staples & Brian K Vaughn
+
+Always fantastic. I look forward to this every year. 
+
+## March
+
+### The Story of China - Michael Wood
+
+Referenced in After Nations, which left me wanting to learn more about this significant world power. It’s a long book and, for me, a slow read. But the joy in this book is to both linger in the lives of ordinary people in Chinese history while feeling the winds of monumental change blowing around them. A joy and an education.
+
+### After Nations - Rana Dasgupta 
+
+Brilliant. Expansive and detailed exploration of the nation state. Highly timely, Dasgupta calls for fresh ideas to move on the failing systems around us. Its weakness is the concluding chapter, which was far too light touch compared to the earlier sections. I hope he produces a follow up. 
+
+## February
+
+### Stories of Your Life and Others - Ted Chiang
+
+A wonderful earlier collection of short stories from this master of sci-fi. Favourites: Tower of Babylon, Story of your Life & Hell is the Absence of God
+
+### How to do Nothing - Jenny Odell
+
+Explores how we can escape from tech and the attention economy and find balance for ourselves in the modern world. Some pleasant touch points with community and nature though I found it a shade too Silicon-Valley-centric. 
+
+### The Invaders - Pat Shipman
+
+Posits the thesis that Neanderthal were made extinct by modern humans because of their relationship with hunting dogs. In this fast moving field this book is a little dated, but still offers some fresh ideas. 
+
+### Sir Gawain and the Green Knight
+
+A classic 14th century poem of the Arthurian legend. Translated into modern English, it is a surprisingly compelling little story. 
+
+### The Ultimate Hidden Truth of the World- David Graeber
+
+A collection of essays and interviews by the late author. Some I’ve read before, others are new to me. A concise guide to Graber’s greatest intellectual contributions. 
+
 ## January
+
+### Ice - Jacek Dukaj 
+
+A formidable tale. Utterly enchanting but such a challenge to read. Regrettably I did not finish on this attempt, but this is most definitely a book I will come back to. 
 
 ### The Glutton - A.K. Blakemore
 
