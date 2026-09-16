@@ -42,7 +42,7 @@
 	}
 
 	.post-content a {
-		@apply font-bold hover:underline;
+		@apply underline hover:decoration-double;
 	}
 
 	.post-content pre {
