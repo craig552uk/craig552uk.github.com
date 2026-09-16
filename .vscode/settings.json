@@ -1,6 +1,4 @@
 {
-	"editor.fontSize": 15,
-	// iA Fonts from https://github.com/iaolo/iA-Fonts/
 	"editor.fontFamily": "'iA Writer Mono S', 'Courier New', monospace",
 	"editor.lineHeight": 1.8,
 	"terminal.integrated.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
