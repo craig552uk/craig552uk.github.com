@@ -1,6 +1,6 @@
 ---
 title: Fiction Writers Deserve Better Tools
-description: I write software for money and fiction for fun. Tools for writing fiction are not as good as tools for writing software.
+description: I write software for money and fiction for fun. Tools for writing fiction are not as good as tools for writing software – so I made my own.
 image: /img/banners/banner13.png
 date: 2026-05-12
 tags: projects

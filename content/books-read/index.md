@@ -4,7 +4,53 @@ title: Books I've Read
 description: Books I've read, with a little review
 ---
 
+## August
+
+### What We Can Know - Ian McEwan
+
+Thrilling. Part post-apocalyptic, part mystery, part thriller. After so much heavy reading it was a joy to be swept away on such a beautiful tale. 
+
+### The Anti-Christ, Twilight of the Idols & On The Genealogy of Morality - Frederich Nietzsche 
+
+Nietzsche challenges directly the ethic of pity. This is the most direct charge against my value _suffering matters_ in No Fixed Ground. Researching his claims I found that his argument is rhetorical, unargued, and even contradictory. He doesn’t offer a position stable enough to argue against, nor does he offer a coherent alternative. [Full write up here](/blog/2026-11-03-nietzsche/).
+
+### The Presocratic Philosophers - Kirk, Raven, Schofield
+
+The standard text on the subject. More involved than I need, but skipping over the greek and the citations, I found an enjoyable exploration of philosophy before Plato. In some ways this a historical frontier of human knowledge, as before this time there are no records of how people thought about the world and their place in it. This is the edge, and beyond this point is silence.
+
+### Political Philosophy: A Very Short Introduction - David Miller
+
+The best VSI book I’ve read so far. It didn’t introduce me to anything new, but this confirmed my own understanding, which is one of the reasons I’m reading these VSI books. The other is that they’re perfect travel reads, short and pocket-sized. I’d recommend this to anyone who wants a broad overview of political philosophy.
+
+### Nietzsche: A Very Short Introduction - Michael Tanner
+
+I’m left with the feeling that Nietzsche is both provocative and elusive, I’m interested in learning more, but no more knowledgeable about where to begin than before I read this book. Nietzsche and I share a view on groundlessness, but he challenges pity directly - something I need to understand more clearly. 
+
+### The Enlightenment: A Very Short Introduction - John Robertson 
+
+This book surprised me. I know the scientific history of the enlightenment well, but this is not a “history” book in that sense, instead it explores changing contemporary attitudes to the events we call “The Enlightenment” and contrasts this with the events as seen through the concerns of the time. Reflective and interesting. Also: these VSI books are great for airport reading. 
+
+### Copernicus: A Very Short Introduction - Owen Gingerich
+
+Reading ahead of a trip to Krakow. Short, informative and (unexpectedly!) thrilling book covering the man, the science and the controversy that followed.
+
 ## July
+
+### After Virtue - Alasdair MacIntyre
+
+Fascinating. Deserves a fuller write-up.
+
+### An Enquiry Concerning Human Understanding - David Hume
+
+Hume’s exploration of rational thought and the limits of human knowledge. A foundational text of modern philosophy. 
+
+### Hegel: A Very Short Introduction - Peter Singer
+
+Hegel work is notoriously difficult to comprehend, and Singer provides a short and dense tour of the most consequential ideas in this philosophy. Hegel’s beliefs are fantastical, comprehensive, sometimes bizarre, but nevertheless impressive. I look forward to leaning on other books in the series for their accessible guides.
+
+### Ethics and the Limits of Philosophy - Bernard Williams
+
+A thorough attack on the belief that philosophy should produce universal ethical theories. Williams systematically undermines an all major pillars that uphold this belief, and instead advances his view that ethics should be a tool for personal reflection, not widespread instruction. The arguments are many and not always direct, the commentary by A.W. Moore helps enormously when understanding these most important ideas.
 
 ### Lokāyata / Cārvāka: A Philosophical Inquiry - Pradeep P. Gokhale
 
