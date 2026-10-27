@@ -5,11 +5,43 @@
   <subtitle>This is a longer description about your blog.</subtitle>
   <link href="https://example.com/feed/feed.xml" rel="self" />
   <link href="https://example.com/" />
-  <updated>2026-10-20T00:00:00Z</updated>
+  <updated>2026-10-27T00:00:00Z</updated>
   <id>https://example.com/</id>
   <author>
     <name>Your Name</name>
   </author>
+  <entry>
+    <title>Living in Uncertainty</title>
+    <link href="https://example.com/blog/2026-10-27-living-in-uncertainty/" />
+    <updated>2026-10-27T00:00:00Z</updated>
+    <id>https://example.com/blog/2026-10-27-living-in-uncertainty/</id>
+    <content type="html">&lt;p&gt;In January this year, Edelman published its annual &lt;a href=&quot;https://www.edelman.com/news-awards/2026-edelman-trust-barometer-society-slides-into-insularity&quot;&gt;Trust Barometer&lt;/a&gt;. The report shows trust in institutions is declining, but more alarmingly, people are becoming more insular and less willing to trust one another.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Seven in 10 respondents report unwillingness or hesitance to trust someone with different values, approaches to social issues, backgrounds, or information sources.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Insularity has emerged as the next crisis of trust, [...] our mentality has shifted from &#39;we&#39; to &#39;me&#39;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The institutions we depend upon are failing. Our politics is being actively dismantled. Great powers are becoming opportunistic. Climate change brings ever greater weather extremes. Countries across the world face ageing, and declining, populations. Wealth and power are concentrating. AI threatens our livelihoods. The world feels more dangerous, and we feel more vulnerable.&lt;/p&gt;
+&lt;p&gt;Fear and anxiety are rational responses to the present moment. Our institutions were built for a different time, and the world is changing faster than they can adapt to. If current crises continue, or new crises arrive, we fear that society will fail.&lt;/p&gt;
+&lt;p&gt;But what&#39;s breaking is not just institutional performance, it&#39;s the belief that those institutions were ever solid to begin with. Right now, people across the world are having the same realisation, that the foundations our institutions are built upon, which we had believed to be solid, were in fact never solid at all. We are afraid of the future.&lt;/p&gt;
+&lt;p&gt;The Edelman findings are close to a direct description of what that looks like: not just disagreement (people have always disagreed) but a retreat into isolated worldviews, distinct groups without enough common ground to argue productively.&lt;/p&gt;
+&lt;p&gt;But why were these foundations never solid? Because none of it was ever discovered, it was constructed.&lt;/p&gt;
+&lt;p&gt;Most of the things that matter to us in life are socially constructed. Laws, money, rights, institutions, these were built by people, for reasons, at some point in time. They may &lt;em&gt;feel&lt;/em&gt; solid, but that&#39;s only because we&#39;ve never had cause to question them – before now.&lt;/p&gt;
+&lt;p&gt;Constructed does not mean fake. You can be imprisoned for crossing the wrong border, or lose your money to a shift in market confidence, these are real consequences caused by real things. Socially constructed reality is &lt;em&gt;still&lt;/em&gt; reality.&lt;/p&gt;
+&lt;p&gt;Being exposed to the groundlessness of society can be frightening, like staring into an abyss, but it can be liberating too. Because if these things were built then they can be rebuilt. The ground below us was never solid. Reality is something we make and can, in principle, be made differently.&lt;/p&gt;
+&lt;p&gt;How we do this is the subject of my new book, &lt;strong&gt;&lt;a href=&quot;https://example.com/no-fixed-ground/&quot;&gt;No Fixed Ground: On Living in Uncertainty&lt;/a&gt;&lt;/strong&gt;, in it I approach the problem through two questions &lt;em&gt;what is a good life?&lt;/em&gt; and &lt;em&gt;what is a good society?&lt;/em&gt;. Understanding the first leads on to answering the second, because a society can only be good if it offers a good life to all who live in it.&lt;/p&gt;
+&lt;p&gt;A good life does not come from following a rule book. No formula can tell you what to do in every moment of your life. What we have instead is a way of living. We act, guided by what we value. We reflect honestly on whether our behaviour upheld our values. And, if not, we commit to do better. This is the habit of a good life.&lt;/p&gt;
+&lt;p&gt;A good society demands the same commitments, turned outwards. It processes failure honestly, nurtures sources of corrective innovation, and distributes the cost of adjustment fairly. It provides genuine stability, not the brittle kind that suppresses change until it shatters, but the kind that comes from seeing crises coming and steering away from them. A good society is a society we can all thrive in.&lt;/p&gt;
+&lt;p&gt;In the book, one of the correction mechanisms I argue for is pluralism – different ways of life coexisting. The Edelman &amp;quot;insularity&amp;quot; finding describes fragmentation into isolated groups, but this is not the pluralism a good society needs. For pluralism to work, there must be open channels of communication from people living different lives into the centres of power. People living far from the middle, in the margins, most directly experience crisis as it occurs. Their testimony is evidence that the system has, in some way, failed. Testimony the system needs to correct. Insularity, on this reading, is what it looks like when those channels close, and pluralism ossifies into isolated groups that cannot reach each other.&lt;/p&gt;
+&lt;p&gt;So, how do we fix this? How do we bridge the gap?&lt;/p&gt;
+&lt;p&gt;We can&#39;t find a new foundation for everyone to stand on, because no such foundation exists. And even if there were, forcing compliance will not make a good society. A good life cannot be lived under coercion. We need to recognise the groundlessness of reality and create solidarity, across divisions, on that basis.&lt;/p&gt;
+&lt;p&gt;Groundless solidarity recognises that absolute value alignment among all its members is impossible. Instead, it seeks only to find sufficient common ground to face the challenges of the moment. It does not shrink towards some irreducible core of &amp;quot;true believers&amp;quot;, it is expansive, redefining its terms of inclusion to reach out to others &lt;em&gt;where they stand&lt;/em&gt;. It is provisional, adaptive and responsive to the challenges before it. It rejects the rhetoric of &amp;quot;us versus them&amp;quot; and instead defines itself as &amp;quot;us versus the problem&amp;quot;. It provides a basis for unity and a platform for action.&lt;/p&gt;
+&lt;p&gt;We&#39;ve lost the foundations we believed held firm and no amount of searching will find them again. Instead we need to build new foundations, together. Because a good society, the best society, is one that works for all of us.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://example.com/no-fixed-ground/&quot;&gt;No Fixed Ground: On Living in Uncertainty&lt;/a&gt;&lt;/strong&gt; is available now on &lt;strong&gt;&lt;a href=&quot;https://www.amazon.com/No-Fixed-Ground-Living-Uncertainty/dp/B0HMM1C75W/&quot;&gt;Amazon US&lt;/a&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;a href=&quot;https://www.amazon.co.uk/No-Fixed-Ground-Living-Uncertainty/dp/B0HMM1C75W/&quot;&gt;Amazon UK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>No Fixed Ground</title>
     <link href="https://example.com/blog/2026-10-20-no-fixed-ground/" />
