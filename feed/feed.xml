@@ -5,11 +5,52 @@
   <subtitle>This is a longer description about your blog.</subtitle>
   <link href="https://example.com/feed/feed.xml" rel="self" />
   <link href="https://example.com/" />
-  <updated>2026-10-27T00:00:00Z</updated>
+  <updated>2026-11-24T00:00:00Z</updated>
   <id>https://example.com/</id>
   <author>
     <name>Your Name</name>
   </author>
+  <entry>
+    <title>Stability is not Resilience</title>
+    <link href="https://example.com/blog/2026-11-24-collapse/" />
+    <updated>2026-11-24T00:00:00Z</updated>
+    <id>https://example.com/blog/2026-11-24-collapse/</id>
+    <content type="html">&lt;p&gt;The fear of social collapse is real. Governments, when they recognise this, attempt to reassure us that society is stable. But stability is not the same as resilience, and the more stable a society may appear to be, the more it may have already spent the slack that would let it absorb real shock. Understanding these mechanisms can help us to recognise when claims of stability are genuine versus when these claims merely mask deeper structural failures that may actually accelerate collapse in denial.&lt;/p&gt;
+&lt;p&gt;Social institutions are complex systems, and all complex systems meet failure. Some systems treat failure as information to act upon, others treat it as a threat to be explained away and suppressed.&lt;/p&gt;
+&lt;p&gt;The instinct to deny failure is understandable. Institutions are built on commitments to people and social norms, admitting failure put all of that at risk. It&#39;s not ignorance, it&#39;s self protection. Recognising failure is difficult personally, and it&#39;s difficult institutionally too.&lt;/p&gt;
+&lt;p&gt;Apart from the instinct to deny, suppressing failure can be rational too. Admitting failure demands a response to it, and responding calls upon resources that are needed elsewhere. Denial may be cheaper in the short term, but in the long run suppressing failure can accumulate into crisis.&lt;/p&gt;
+&lt;p&gt;In ecology, C.S. Holling studied how natural systems respond to disruption, and he identified a pattern that runs across ecosystems, economies, and social structures. Systems in a growth phase are adaptive and responsive. As they mature, they become increasingly optimised; efficient, interconnected, and apparently stable. But optimisation and resilience trade off against each other. A maximally optimised system has eliminated the slack and redundancy that would allow it to absorb a shock. It has become, in Holling&#39;s terms, &lt;em&gt;rigid&lt;/em&gt;. The appearance of stability is real – right up until it isn&#39;t. When disruption finally arrives, the accumulated brittleness releases all at once. Holling called this the &lt;em&gt;rigidity trap&lt;/em&gt;: the very success of a system in excluding disturbance makes its eventual failure more catastrophic.&lt;/p&gt;
+&lt;p&gt;This is what denial produces at scale. Failure doesn&#39;t disappear when it&#39;s suppressed, it accumulates. The longer the suppression, the larger the eventual release.&lt;/p&gt;
+&lt;p&gt;Managed processing of failure is better than unmanaged failure and denial, but not all managed processing is the same. When failure occurs who bears the cost?&lt;/p&gt;
+&lt;p&gt;Some systems distribute it fairly, across the whole. Others concentrate it on a section of the population. At worst it is the most vulnerable, those with the least power to object, who suffer the most. Both may be described as processing failure honestly, but only one actually is.&lt;/p&gt;
+&lt;p&gt;N.N. Taleb argues that some systems improve in response to stress, that controlled exposure to volatility, shocks, and small failures makes them stronger, while over-protection leaves them brittle. This property is called &lt;em&gt;anti-fragility&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;To be clear, the concept as used here is not a faithful expression of Taleb&#39;s theory. Taleb himself insists that those who take the gains of success must most bear the cost of failure. My use of anti-fragility is an abuse of the idea, pushed to the extreme.&lt;/p&gt;
+&lt;p&gt;In society, the stressors that strengthen the system are never free, those costs land on people. And the same reasoning that prizes systemic strength can be used to justify their suffering as an acceptable cost of improvement. Processing failure honestly requires protecting people from harm, harm caused by failure and harm caused by responding to that failure.&lt;/p&gt;
+&lt;h2 id=&quot;the-failure-map&quot;&gt;The Failure Map&lt;/h2&gt;
+&lt;p&gt;These observations give us two dimensions that we can use to understand social collapse: whether failure is managed or unmanaged; and whether people are protected or unprotected through crisis. Putting those together we can create a map to set out different types of societies and understand the relationships between them.&lt;/p&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/blog/2026-11-24-collapse/WlcPyUrQYq-2298.avif 2298w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/blog/2026-11-24-collapse/WlcPyUrQYq-2298.webp 2298w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/blog/2026-11-24-collapse/WlcPyUrQYq-2298.png&quot; alt=&quot;Failure Map&quot; width=&quot;2298&quot; height=&quot;2080&quot;&gt;&lt;/picture&gt;
+&lt;p&gt;Anti-fragility sits in the bottom right, where failure is managed, but people are unprotected.&lt;/p&gt;
+&lt;p&gt;The top left quadrant, where failure is unmanaged but people are protected, I call &lt;em&gt;brittle stagnation&lt;/em&gt;. This is the one that looks most like a responsible, caring society, and is the hardest to see as failing from the inside. A society that is unable (or unwilling) to acknowledge its failure, while maintaining support for those who suffer as consequence of this failure, looks like it is protecting people. Which it is, but it&#39;s doing so by borrowing against a future reckoning.&lt;/p&gt;
+&lt;p&gt;The protection is real, but so is the brittleness that accrues. Eventually the accumulated pressure releases, and the system is no longer able to protect its people, collapsing into the lower left quadrant: &lt;em&gt;catastrophic collapse&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Holling gives us one description of this mechanism, but there are others. Joseph Tainter found that societies grow in complexity in response to problems, but the cost of maintaining that complexity eventually becomes too much to bear. Peter Turchin explained collapse in terms of elite overproduction, that when elites multiply faster than positions available to them competition turns inwards, tearing society apart. Luke Kemp investigated over 300 cases of societal collapse finding that collapse is driven by inequality and the cost of sustaining social hierarchy. Four accounts of collapse, each suggestive not conclusive, but all converging on the same catastrophic outcome.&lt;/p&gt;
+&lt;p&gt;The pattern these accounts describe looks, to me, like the preset moment. Declining institutional trust. Degrading capacity for political compromise. Elites competing in a shrinking space. The sense that the existing order is no longer able to process its own failures honestly.&lt;/p&gt;
+&lt;p&gt;This is a reading not a conclusion. If trust in institutions recovers, if political polarisation reverses, if elite competition diminishes, then this reading would be wrong, or at least premature. But if I am wrong the failure map still stands as a tool, a diagnostic instrument. It holds regardless of what it finds.&lt;/p&gt;
+&lt;p&gt;The final quadrant, where failure is managed and people are protected through crisis, is the society we all hope to live in. A good society, one that grants the opportunity for a good life to all its people. I call this &lt;em&gt;practical wisdom&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;a-good-society&quot;&gt;A Good Society&lt;/h2&gt;
+&lt;p&gt;Practical wisdom isn&#39;t an arbitrary label to fill a gap in the map, it&#39;s a borrowed term and it well describes a good society.&lt;/p&gt;
+&lt;p&gt;We want to understand what a good society looks like, but let&#39;s ask a narrower question first: what does a good life look like? How should one live?&lt;/p&gt;
+&lt;p&gt;The answer cannot be a rule book, no one can tell you exactly what you should do in every moment of your life. There&#39;s no formula to follow that dictates good behaviour, what we have instead is a way of living. We act, guided by what we value. We reflect honestly on whether our behaviour upheld our values. And, if not, we repair harm caused and commit to do better. And the values we choose to hold, they give weight to human suffering, both ours and others. This is the habit of a good life, and I call it practical wisdom.&lt;/p&gt;
+&lt;p&gt;The term is borrowed from translations of &lt;em&gt;phronesis&lt;/em&gt;, a concept discussed by Aristotle. It&#39;s a simple account of one person striving to live well, built from the ground up, with no outside authority to appeal to.&lt;/p&gt;
+&lt;p&gt;So, why does this apply to a good society?&lt;/p&gt;
+&lt;p&gt;Society is not a person, it cannot hold a practice in the same way we can. At the social scale, the practice is carried not by a self but by structures – institutions built to recognise failure, cultures that permit honest accounting of mistakes, and political arrangements that incentivise correction before collapse. The core movements are the same, so we can recognise a good society in the same terms that we recognise our own good lives.&lt;/p&gt;
+&lt;p&gt;A good society must process failure honestly, just like we do. It must reflect on its actions, repair its harm and commit to do better. And a good society must be guided by values, values that recognise that suffering has moral weight and should be addressed where it&#39;s felt. The same practice that applies to our good lives also applies to society too.&lt;/p&gt;
+&lt;p&gt;This means that we can hold society to account using the same toolkit we apply to ourselves. We can ask if mistakes are faced honestly or explained away, if repair is meaningful or superficial, and if values are upheld or undermined. Is failure being processed or denied? How is the cost of correction shared? Do policies make a good life more attainable? Do institutions recognise and reduce suffering? You do not need permission to ask these questions of society any more than you need permission to ask them of yourself. Society is answerable to you, where you stand.&lt;/p&gt;
+&lt;p&gt;This is the subject of my new book, &lt;strong&gt;&lt;a href=&quot;https://example.com/no-fixed-ground/&quot;&gt;No Fixed Ground: On Living in Uncertainty&lt;/a&gt;&lt;/strong&gt;. In it I make the case that if a society’s survival conflicts with its members’ good lives, then that society cannot be good. So, a good life is only possible when the interests of society are aligned with the interests of the people living in it. A good life and a good society demand the same things.&lt;/p&gt;
+&lt;p&gt;The failure map helps us to see where we&#39;re going wrong, and what the costs are if we continue. But it also shows us what we need to do to put it right, honest reflection of mistakes and attention to suffering wherever it is found. Collapse is not inevitable, we have a choice, and that choice begins with us.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://example.com/no-fixed-ground/&quot;&gt;No Fixed Ground: On Living in Uncertainty&lt;/a&gt;&lt;/strong&gt; is available now on &lt;strong&gt;&lt;a href=&quot;https://www.amazon.com/No-Fixed-Ground-Living-Uncertainty/dp/B0HMM1C75W/&quot;&gt;Amazon US&lt;/a&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;a href=&quot;https://www.amazon.co.uk/No-Fixed-Ground-Living-Uncertainty/dp/B0HMM1C75W/&quot;&gt;Amazon UK&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Living in Uncertainty</title>
     <link href="https://example.com/blog/2026-10-27-living-in-uncertainty/" />
@@ -384,30 +425,6 @@ This is a paragraph of text, with _italics_ and **bold**.
 &lt;p&gt;I hope that you find these resources useful in your world-building, but also I hope that you find them interesting in their own right. It is easy for us to feel despondent about the world, but there are many reasons to feel good about our future.&lt;/p&gt;
 &lt;p&gt;If you&#39;re interested in this topic, I&#39;d recommend the excellent book &lt;a href=&quot;https://www.gapminder.org/factfulness-book/&quot;&gt;Factfulness by the late Hans Rosling&lt;/a&gt; which makes a strong case for optimism.&lt;/p&gt;
 &lt;p&gt;Take care and happy writing!&lt;/p&gt;
-&lt;p&gt;❤️&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Why I Started Writing Late in My Life</title>
-    <link href="https://example.com/blog/2024-10-18-late-life-writing/" />
-    <updated>2024-10-18T00:00:00Z</updated>
-    <id>https://example.com/blog/2024-10-18-late-life-writing/</id>
-    <content type="html">&lt;p&gt;I came to writing late in life. It had to wait until I was happy.&lt;/p&gt;
-&lt;p&gt;There&#39;s a common archetype of the tortured artist, the writer who writes driven by daemons and trauma. I am not that writer, as least not directly. I could not write while I was unhappy. While I was unhappy I struggled to create anything at all.&lt;/p&gt;
-&lt;p&gt;My childhood was happy. I was blessed with a loving home, full of fun and creativity. My imagination found outlets in painting, drawing, arts and craft - all encouraged by my parents. But as I grew older, I lost this. I no longer found joy in creating.&lt;/p&gt;
-&lt;p&gt;It was gone. I did not know why.&lt;/p&gt;
-&lt;p&gt;Back then people didn&#39;t really talk about mental health, especially not men. Depression was just &amp;quot;feeling sad&amp;quot;, and anxiety &amp;quot;being afraid&amp;quot;. These were not illnesses to be treated, they were just feelings to be dealt with. Keep calm and carry on.&lt;/p&gt;
-&lt;p&gt;I didn&#39;t know I was sad. I didn&#39;t know I was depressed. It was just the way I was. Every day.&lt;/p&gt;
-&lt;p&gt;In my mid-thirties, something in my mind began to change. Perhaps it was parenthood, perhaps not, but I began to recognise that I was not happy. So I made some changes.&lt;/p&gt;
-&lt;p&gt;In a very short space of time my life changed a lot. By my late-thirties, I was in a new relationship, a new home, I was working for myself. I&#39;d had counselling, which was transformative. My life before... that was someone else&#39;s. I felt very good.&lt;/p&gt;
-&lt;p&gt;Then at some point, I&#39;m not exactly sure when, my imagination came back to me.&lt;/p&gt;
-&lt;p&gt;Inexplicably creativity flowed, unstoppable and relentless. Sculpture, painting, music, craft, all came back to me in an insatiable torrent. Having spent most of my adult life trying to wring out ideas from my mind, I was now struggling to keep up with the flood. I could not produce work fast enough to satisfy the pressure in my mind.&lt;/p&gt;
-&lt;p&gt;Then I began writing.&lt;/p&gt;
-&lt;p&gt;I didn&#39;t plan on starting to write, I just somehow did. I had a story and it demanded words. I can&#39;t explain it any other way.&lt;/p&gt;
-&lt;p&gt;This surprised me. I&#39;ve never been a writer. Though I&#39;ve always read a lot, I had never considered writing for myself. But then I did, and I found something new, something good.&lt;/p&gt;
-&lt;p&gt;As much as I enjoyed my other creative outlets, writing gave me something else. It is so immediate. Straight from my brain into words. No waiting for the paint to dry.&lt;/p&gt;
-&lt;p&gt;My mind can breathe.&lt;/p&gt;
-&lt;p&gt;So now, I suppose, I am a writer. This blog is for me to write. If you read my words, I do hope you enjoy them, but if you don&#39;t, that&#39;s ok too. I am writing for me.&lt;/p&gt;
 &lt;p&gt;❤️&lt;/p&gt;
 </content>
   </entry>
