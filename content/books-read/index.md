@@ -4,6 +4,72 @@ title: Books I've Read
 description: Books I've read, with a little review
 ---
 
+## November 
+
+### Utilitarianism - J. S. Mill
+
+I don’t subscribe to utilitarianism, and Mill fails to anticipate later criticisms, but his defensive of subjectivism is reasonable. What comes through most strongly is his hope and optimism for the future, we are (in some regards) living in the utopia he imagined. 
+
+### Meno and Phado - Plato
+
+More enjoyable and more moving than I expected it to be. 
+
+### Groundwork on the Metaphysics of Morals - Emmanuel Kant
+
+I don’t share Kants view that morality is universal, nor that it can be derived from reason alone, but many still do and I can see why. The book is a masterwork in reasoned argument – it’s short, readable and the carefully constructed. A fulcrum of the enlightenment. 
+
+### Metaethics an Introduction - Andrew Fisher
+
+Very good. A gentler introduction to this most complex of subjects. The puzzles in meta ethics are fascinating, frustrating and beguiling. Lots to keep reflecting on here. Whit this warm up, I’ll return to Millers book next. 
+
+## October 
+
+### Contemporary Metaethics - Alexander Miller
+
+Good but challenging, stopped half way to swap to a gentler introduction to the subject. 
+
+### Industrial Society and its Future - Ted Kaczynski
+
+Read after watching a unabomber drama on Netflix. We can recognise with Kaczynskis environmentalism while outright rejecting his violent revolutionary beliefs. 
+
+### Ethics: VSI - Simon Blackburn
+
+Another great VSI. Every one is a gem. 
+
+### Reds - Paul Mason
+
+I like Masons books, but I found this a little dry. It’s detailed but fairly colourless (pun not intended) account of communism from its origins to the present day. This is more observation than reflection, and I prefer Masons reflections. 
+
+### Selected Writings - José Martí
+
+A pleasure to meander through this collection of the Cuban revolutionaries writings, in particular his journalism of 18th century American society.
+
+## September
+
+### A Theory of Justice - John Rawls
+
+One to return to as I didn’t get through it all. What makes a just society?
+
+### Radical Hope - Jonathan Lear
+
+From an account by Plenty Coups, the last leader of the Crow nation, Lear develops his theory of radical hope – hope held through the collapse of one’s civilisation and into an unknown future. Profound and worthy of reflection. 
+
+### Beyond Good and Evil - Frederich Nietzsche
+
+Nietszche, unlike most philosophers, is fun to read. If he were alive today I’m sure he’d be a podcaster. Shouty, ranty and provocative, but not always easy to understand.
+
+### How We Hope - Adrienne M. Martin
+
+Hope in an under-invstigated topic in philosophy, and this is probably the most thorough investigation into it.
+
+### Post-Foundational Political Thought – Oliver Marchart
+
+A theory that social foundations are never fixed but always provisional, contestable and subject to revision. Similar to my own thoughts, but far more rigorous.
+
+### Philosophical Method: VSI - Timothy Williamson
+
+I’ve taken to keeping a VSI book in my bag for ad-hoc reading while I’m out and about. This one is ideal to dip into and explains well what is distinctive about philosophical thinking. 
+
 ## August
 
 ### What We Can Know - Ian McEwan
@@ -382,7 +448,7 @@ An enticing mystery that deliberately fails to answer all the questions it poses
 
 ## Older Reads
 
-These are books I've read at some point before I began keeping this list. I've included them here because when people ask me for book recommendations these are usually the ones I'd suggest, as they've had the greatest influence on my own thinking. I'll add notes to this list as-and-when I get around to it.
+These are books I've read at some point before I began keeping this list. I've included them here because when people ask me for book recommendations these are usually the ones I'd suggest. I'll add notes to this list as-and-when I get around to it.
 
 ### 1984 - George Orwell
 
